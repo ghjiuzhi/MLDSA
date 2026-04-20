@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 15 17:46:19 2026
+# Process ID: 41424
+# Current directory: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1
+# Command line: vivado.exe -log RO_TRNG_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RO_TRNG_top.tcl -notrace
+# Log file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top.vdi
+# Journal file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1\vivado.jou
+# Running On: gxy, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 14, Host memory: 33752 MB
+#-----------------------------------------------------------
+source RO_TRNG_top.tcl -notrace

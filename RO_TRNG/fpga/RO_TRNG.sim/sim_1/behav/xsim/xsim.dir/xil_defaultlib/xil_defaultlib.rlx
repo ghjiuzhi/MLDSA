@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/Project/RO_TRNG/fpga/RO_TRNG.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1745222866,verilog,,E:/Project/RO_TRNG/rtl/LUT6_and2_1.v,,clk_wiz_0,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/fpga/RO_TRNG.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1745222866,verilog,,E:/Project/RO_TRNG/fpga/RO_TRNG.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/fpga/RO_TRNG.gen/sources_1/ip/proc_sys_reset_0/sim/proc_sys_reset_0.vhd,1737015097,vhdl,,,,proc_sys_reset_0,,,,,,,,
+E:/Project/RO_TRNG/fpga/RO_TRNG.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+E:/Project/RO_TRNG/rtl/LUT6_and2_1.v,1735043163,verilog,,E:/Project/RO_TRNG/rtl/LUT6_nand2_1.v,,LUT6_and2_1,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/LUT6_nand2_1.v,1735043179,verilog,,E:/Project/RO_TRNG/rtl/LUT6_not1.v,,LUT6_nand2_1,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/LUT6_not1.v,1735043169,verilog,,E:/Project/RO_TRNG/rtl/RO.v,,LUT6_not1,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/RO.v,1745223647,verilog,,E:/Project/RO_TRNG/rtl/counter.v,,RO,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/counter.v,1745224100,verilog,,E:/Project/RO_TRNG/rtl/jitter_measure.v,,counter,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/entropy_source.v,1739370644,verilog,,E:/Project/RO_TRNG/sim/entropy_source_tb.v,,entropy_source,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/rtl/jitter_measure.v,1745226299,verilog,,E:/Project/RO_TRNG/sim/jitter_measure_tb.v,,jitter_measure,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/sim/entropy_source_tb.v,1739330009,verilog,,,,entropy_source_tb,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,
+E:/Project/RO_TRNG/sim/jitter_measure_tb.v,1745225966,verilog,,,,jitter_measure_tb,,,../../../../RO_TRNG.ip_user_files/ipstatic,,,,,

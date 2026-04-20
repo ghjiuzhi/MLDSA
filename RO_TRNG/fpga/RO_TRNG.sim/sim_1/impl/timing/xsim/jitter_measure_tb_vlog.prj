@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../RO_TRNG.ip_user_files/ipstatic" \
+"jitter_measure_tb_time_impl.v" \
+"../../../../../../sim/jitter_measure_tb.v" \
+
+# Do not sort compile order
+nosort

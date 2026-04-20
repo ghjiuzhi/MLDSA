@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr 14 16:54:49 2026
+# Process ID: 37164
+# Current directory: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/proc_sys_reset_0_synth_1
+# Command line: vivado.exe -log proc_sys_reset_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source proc_sys_reset_0.tcl
+# Log file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/proc_sys_reset_0_synth_1/proc_sys_reset_0.vds
+# Journal file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/proc_sys_reset_0_synth_1\vivado.jou
+# Running On: gxy, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 14, Host memory: 33752 MB
+#-----------------------------------------------------------
+source proc_sys_reset_0.tcl -notrace

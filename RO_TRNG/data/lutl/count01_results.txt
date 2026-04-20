@@ -1,0 +1,8 @@
+RO2.DAT: bytes=108873, bits=870984, zeros=245997, ones=624987, p=0.717564
+RO3.DAT: bytes=106953, bits=855624, zeros=343514, ones=512110, p=0.598522
+RO4.DAT: bytes=111465, bits=891720, zeros=347812, ones=543908, p=0.609954
+RO5.DAT: bytes=101513, bits=812104, zeros=364378, ones=447726, p=0.551316
+RO6.DAT: bytes=108265, bits=866120, zeros=238609, ones=627511, p=0.724508
+RO7.DAT: bytes=120265, bits=962120, zeros=242728, ones=719392, p=0.747715
+RO8.DAT: bytes=103721, bits=829768, zeros=371477, ones=458291, p=0.552312
+RO9.DAT: bytes=100361, bits=802888, zeros=303949, ones=498939, p=0.621430

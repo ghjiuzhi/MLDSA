@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 15 22:02:33 2026
+# Process ID: 29084
+# Current directory: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22376 E:\Project\MLDSA\RO_TRNG\fpga1\xc7z020clg400\xc7z020clg400.xpr
+# Log file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/vivado.log
+# Journal file: E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400\vivado.jou
+# Running On: gxy, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 14, Host memory: 33752 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+mark_objects -color red [get_cells -hierarchical -filter {NAME =~ *u_entropy_source/RO_NUM_LOOP[*].RO_AND.u_LUT6_and2_1/u_LUT6}]
+mark_objects -color yellow [get_cells -hierarchical -filter {NAME =~ *u_entropy_source/RO_NUM_LOOP[*].RO_STAGE_LOOP[*].u_LUT6_not1/u_LUT6}]
+mark_objects -color blue [get_cells -hierarchical -filter {NAME =~ *sampled_data_reg[*]}]
+foreach c [get_cells -hierarchical -filter {NAME =~ *u_entropy_source/RO_NUM_LOOP[*].RO_AND.u_LUT6_and2_1/u_LUT6}] {
+    puts "[get_property NAME $c]  LOC=[get_property LOC $c]  BEL=[get_property BEL $c]"
+}
+foreach c [get_cells -hierarchical -filter {NAME =~ *u_entropy_source/RO_NUM_LOOP[*].RO_STAGE_LOOP[*].u_LUT6_not1/u_LUT6}] {
+    puts "[get_property NAME $c]  LOC=[get_property LOC $c]  BEL=[get_property BEL $c]"
+}
+foreach c [get_cells -hierarchical -filter {NAME =~ *u_entropy_source/RO_NUM_LOOP[*].RO_STAGE_LOOP[*].u_LUT6_not1/u_LUT6}] {
+    puts "[get_property NAME $c]  LOC=[get_property LOC $c]  BEL=[get_property BEL $c]"
+}

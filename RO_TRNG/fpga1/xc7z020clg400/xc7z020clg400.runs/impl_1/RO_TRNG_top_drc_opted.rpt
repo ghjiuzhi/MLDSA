@@ -1,0 +1,220 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Apr 15 17:47:23 2026
+| Host         : gxy running 64-bit major release  (build 9200)
+| Command      : report_drc -file RO_TRNG_top_drc_opted.rpt -pb RO_TRNG_top_drc_opted.pb -rpx RO_TRNG_top_drc_opted.rpx
+| Design       : RO_TRNG_top
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 20
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| LUTLP-2     | Warning  | Combinatorial Loop Allowed                                  | 9          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 9          |
+| REQP-1840   | Warning  | RAMB18 async control check                                  | 1          |
+| ZPS7-1      | Warning  | PS7 block required                                          | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-2#1 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[0].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[0].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#2 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[1].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[1].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#3 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[2].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[2].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#4 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[3].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[3].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#5 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[4].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[4].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#6 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[5].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[5].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#7 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[6].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[6].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#8 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[7].RO_AND.u_LUT6_and2_1/u_LUT6
+u_entropy_source/RO_NUM_LOOP[7].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+Related violations: <none>
+
+LUTLP-2#9 Warning
+Combinatorial Loop Allowed  
+9 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6,
+u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6
+u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[8],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[9],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[10],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[11],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[12],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[13],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[14]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[15]
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[16],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[17],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[18],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[19],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[20],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[21],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[22]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[23]
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[24],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[25],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[26],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[27],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[28],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[29],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[30]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[31]
+Related violations: <none>
+
+PLHOLDVIO-2#4 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[32],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[33],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[34],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[35],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[36],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[37],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[38]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[39]
+Related violations: <none>
+
+PLHOLDVIO-2#5 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[40],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[41],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[42],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[43],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[44],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[45],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[46]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[47]
+Related violations: <none>
+
+PLHOLDVIO-2#6 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[48],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[49],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[50],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[51],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[52],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[53],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[54]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[55]
+Related violations: <none>
+
+PLHOLDVIO-2#7 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[56],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[57],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[58],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[59],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[60],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[61],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[62]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[63]
+Related violations: <none>
+
+PLHOLDVIO-2#8 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6 is driving clock pin of 1 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/rand_bit_reg
+Related violations: <none>
+
+PLHOLDVIO-2#9 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[0],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[1],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[2],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[3],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[4],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[5],
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[6]
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[7]
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18_sp.ram has an input control pin u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18_sp.ram/ENARDEN (net: u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ram_rd_en_i) which is driven by a register (u_uart_tx/tx_data_ready_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

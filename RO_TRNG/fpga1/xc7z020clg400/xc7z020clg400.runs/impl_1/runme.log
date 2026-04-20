@@ -1,0 +1,861 @@
+
+*** Running vivado
+    with args -log RO_TRNG_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source RO_TRNG_top.tcl -notrace
+
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Programs/Xilinx2023/Vivado/2023.2/scripts/Vivado_init.tcl'
+139 Beta devices matching pattern found, 0 enabled.
+enable_beta_device: Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 541.832 ; gain = 166.531
+source RO_TRNG_top.tcl -notrace
+Command: link_design -top RO_TRNG_top -part xc7z020clg400-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-454] Reading design checkpoint 'e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'u_clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'u_fifo_generator_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0.dcp' for cell 'u_proc_sys_reset_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1025.875 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_clk_wiz_0/inst'
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_clk_wiz_0/inst'
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+INFO: [Timing 38-2] Deriving generated clocks [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1713.949 ; gain = 572.676
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_clk_wiz_0/inst'
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'u_fifo_generator_0/U0'
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'u_fifo_generator_0/U0'
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0_board.xdc] for cell 'u_proc_sys_reset_0/U0'
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0_board.xdc] for cell 'u_proc_sys_reset_0/U0'
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0.xdc] for cell 'u_proc_sys_reset_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0.xdc:50]
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0.xdc] for cell 'u_proc_sys_reset_0/U0'
+Parsing XDC File [E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.srcs/constrs_1/imports/new/timing.xdc]
+Finished Parsing XDC File [E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.srcs/constrs_1/imports/new/timing.xdc]
+Parsing XDC File [E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.srcs/constrs_1/new/pin.xdc]
+Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'u_fifo_generator_0/U0'
+Finished Parsing XDC File [e:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'u_fifo_generator_0/U0'
+INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 1 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1713.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+系统找不到指定的路径。
+14 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1713.949 ; gain = 1136.039
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1713.949 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1713.949 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Phase 1 Initialization | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.052 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 12fda5d25
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.052 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: f6a107e9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.084 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Retarget | Checksum: f6a107e9
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 4 cells
+INFO: [Opt 31-1021] In phase Retarget, 29 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: f6a107e9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.091 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Constant propagation | Checksum: f6a107e9
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 27 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 10bcc2359
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Sweep | Checksum: 10bcc2359
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 30 cells
+INFO: [Opt 31-1021] In phase Sweep, 202 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 10bcc2359
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.168 . Memory (MB): peak = 2061.789 ; gain = 0.000
+BUFG optimization | Checksum: 10bcc2359
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 10bcc2359
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.173 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Shift Register Optimization | Checksum: 10bcc2359
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 10bcc2359
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.179 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Post Processing Netlist | Checksum: 10bcc2359
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 4 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: aee51d40
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.195 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: aee51d40
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.198 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Phase 9 Finalization | Checksum: aee51d40
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.198 . Memory (MB): peak = 2061.789 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               2  |               4  |                                             29  |
+|  Constant propagation         |               0  |               0  |                                             27  |
+|  Sweep                        |               0  |              30  |                                            202  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              4  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: aee51d40
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.201 . Memory (MB): peak = 2061.789 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2061.789 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: aee51d40
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Ending Power Optimization Task | Checksum: aee51d40
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.867 . Memory (MB): peak = 2174.230 ; gain = 112.441
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: aee51d40
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: aee51d40
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2174.230 ; gain = 460.281
+INFO: [runtcl-4] Executing : report_drc -file RO_TRNG_top_drc_opted.rpt -pb RO_TRNG_top_drc_opted.pb -rpx RO_TRNG_top_drc_opted.rpx
+Command: report_drc -file RO_TRNG_top_drc_opted.rpt -pb RO_TRNG_top_drc_opted.pb -rpx RO_TRNG_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 10 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 981163ab
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[3] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[7] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[0] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[4] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[5] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[8] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[13] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[15] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[9] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[10] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[56] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[62] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[57] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[58] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[63] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[22] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[21] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[23] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[18] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[19] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[51] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[52] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[50] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[54] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[55] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[26] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[31] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[25] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[24] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[28] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[47] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[41] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[43] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[46] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[42] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6' is driving clock pin of 8 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[34] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[39] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[32] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[33] {FDRE}
+	u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[38] {FDRE}
+WARNING: [Place 30-568] A LUT 'u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	u_entropy_source/rand_bit_reg {FDRE}
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 134555e8c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.230 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: d652bbba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.448 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: d652bbba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.452 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: d652bbba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.464 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 156acef27
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.541 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1a145e091
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.592 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1a145e091
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.594 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 1d9378f77
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 7 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 3 nets or LUTs. Breaked 0 LUT, combined 3 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |              3  |                     3  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |              3  |                     3  |           0  |           4  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 21589d26f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 23a4b7d38
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 23a4b7d38
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1bd90b6aa
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 195222aa7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1fe00a46f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 16174eaf8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 20ef6dd47
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1f66721cd
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 278edff44
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 278edff44
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1efcc93fb
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=2.008 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 12bcc2d7e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 12bcc2d7e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1efcc93fb
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=2.008. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 11b79b277
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 11b79b277
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 11b79b277
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 11b79b277
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 11b79b277
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12fa3aa2c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Ending Placer Task | Checksum: 129226b9e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2174.230 ; gain = 0.000
+76 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [runtcl-4] Executing : report_io -file RO_TRNG_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file RO_TRNG_top_utilization_placed.rpt -pb RO_TRNG_top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file RO_TRNG_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+85 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2174.230 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 2174.230 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 9 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: d366a129 ConstDB: 0 ShapeSum: 55bbca75 RouteDB: 0
+Post Restoration Checksum: NetGraph: 3ad40a9b | NumContArr: 4d2a94cc | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 20d5094a1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2256.469 ; gain = 82.238
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 20d5094a1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2256.469 ; gain = 82.238
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 20d5094a1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2256.469 ; gain = 82.238
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1b53b2596
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2324.438 ; gain = 150.207
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.912  | TNS=0.000  | WHS=-0.149 | THS=-6.086 |
+
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 19bd91091
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2324.438 ; gain = 150.207
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.912  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.4 Update Timing for Bus Skew | Checksum: 1ea149aa3
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2324.438 ; gain = 150.207
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00144973 %
+  Global Horizontal Routing Utilization  = 0.00109872 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 343
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 343
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 7
+
+Phase 2 Router Initialization | Checksum: 1ca4835dd
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1ca4835dd
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 3.2 Initial Net Routing
+Phase 3.2 Initial Net Routing | Checksum: 177ae2dd7
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+Phase 3 Initial Routing | Checksum: 177ae2dd7
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 18
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.738  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 18e090fa1
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+Phase 4 Rip-up And Reroute | Checksum: 18e090fa1
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 18e090fa1
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 18e090fa1
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+Phase 5 Delay and Skew Optimization | Checksum: 18e090fa1
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 17359be18
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.866  | TNS=0.000  | WHS=0.105  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 17359be18
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+Phase 6 Post Hold Fix | Checksum: 17359be18
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.031428 %
+  Global Horizontal Routing Utilization  = 0.0457235 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 17359be18
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 17359be18
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 19be91a6f
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.866  | TNS=0.000  | WHS=0.105  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 19be91a6f
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+INFO: [Route 35-16] Router Completed Successfully
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: 1a6c4409e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+Ending Routing Task | Checksum: 1a6c4409e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 2336.004 ; gain = 161.773
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+100 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:29 . Memory (MB): peak = 2336.004 ; gain = 161.773
+INFO: [runtcl-4] Executing : report_drc -file RO_TRNG_top_drc_routed.rpt -pb RO_TRNG_top_drc_routed.pb -rpx RO_TRNG_top_drc_routed.rpx
+Command: report_drc -file RO_TRNG_top_drc_routed.rpt -pb RO_TRNG_top_drc_routed.pb -rpx RO_TRNG_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file RO_TRNG_top_methodology_drc_routed.rpt -pb RO_TRNG_top_methodology_drc_routed.pb -rpx RO_TRNG_top_methodology_drc_routed.rpx
+Command: report_methodology -file RO_TRNG_top_methodology_drc_routed.rpt -pb RO_TRNG_top_methodology_drc_routed.pb -rpx RO_TRNG_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file RO_TRNG_top_power_routed.rpt -pb RO_TRNG_top_power_summary_routed.pb -rpx RO_TRNG_top_power_routed.rpx
+Command: report_power -file RO_TRNG_top_power_routed.rpt -pb RO_TRNG_top_power_summary_routed.pb -rpx RO_TRNG_top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+110 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file RO_TRNG_top_route_status.rpt -pb RO_TRNG_top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file RO_TRNG_top_timing_summary_routed.rpt -pb RO_TRNG_top_timing_summary_routed.pb -rpx RO_TRNG_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file RO_TRNG_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file RO_TRNG_top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file RO_TRNG_top_bus_skew_routed.rpt -pb RO_TRNG_top_bus_skew_routed.pb -rpx RO_TRNG_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2336.004 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 2336.004 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Project/MLDSA/RO_TRNG/fpga1/xc7z020clg400/xc7z020clg400.runs/impl_1/RO_TRNG_top_routed.dcp' has been generated.
+Command: write_bitstream -force RO_TRNG_top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[0].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[0].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[1].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[1].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[2].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[2].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[3].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[3].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[4].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[4].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[5].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[5].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[6].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[6].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_NUM_LOOP[7].RO_AND.u_LUT6_and2_1/u_LUT6, and u_entropy_source/RO_NUM_LOOP[7].RO_STAGE_LOOP[0].u_LUT6_not1/u_LUT6.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 9 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6, u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6, and u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A2)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/in0[0] is a gated clock net sourced by a combinational pin u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6/O, cell u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[0].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[8], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[9], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[10], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[11], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[12], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[13], u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[14], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[1].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[15]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[1].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[16], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[17], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[18], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[19], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[20], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[21], u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[22], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[2].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[23]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[2].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[24], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[25], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[26], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[27], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[28], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[29], u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[30], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[3].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[31]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[3].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[32], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[33], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[34], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[35], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[36], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[37], u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[38], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[4].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[39]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[4].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[40], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[41], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[42], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[43], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[44], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[45], u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[46], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[5].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[47]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[5].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[48], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[49], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[50], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[51], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[52], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[53], u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[54], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[6].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[55]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[6].u_LUT6_not1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[56], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[57], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[58], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[59], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[60], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[61], u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[62], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[7].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[63]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_LOOP[7].u_LUT6_not1/u_LUT6 is driving clock pin of 1 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/rand_bit_reg
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT u_entropy_source/RO_SAMPLE_NAND.u_LUT6_nand2_1/u_LUT6 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[0].sampled_data_reg[0], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[1].sampled_data_reg[1], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[2].sampled_data_reg[2], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[3].sampled_data_reg[3], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[4].sampled_data_reg[4], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[5].sampled_data_reg[5], u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[6].sampled_data_reg[6], and u_entropy_source/SAMPLE_DATA_LINE_LOOP[0].SAMPLE_DATA_BIT_LOOP[7].sampled_data_reg[7]
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18_sp.ram has an input control pin u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18_sp.ram/ENARDEN (net: u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ram_rd_en_i) which is driven by a register (u_uart_tx/tx_data_ready_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RTSTAT-10] No routable loads: 4 net(s) have no routable loads. The problem bus(es) and/or net(s) are u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, and u_fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid.
+WARNING: [DRC ZPS7-1] PS7 block required: The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 31 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./RO_TRNG_top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2713.305 ; gain = 377.301
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 17:48:17 2026...
