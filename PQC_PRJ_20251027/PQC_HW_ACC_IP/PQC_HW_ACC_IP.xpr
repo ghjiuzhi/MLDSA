@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2023.2 (64-bit)                              -->
+<!--                                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
+<!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+
+<Project Product="Vivado" Version="7" Minor="65" Path="E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="2c57b7f5d9fc45259adff8d7a01f5d17"/>
+    <Option Name="Part" Val="xc7z100ffg900-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2023.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2023.2"/>
+    <Option Name="SimulatorVersionQuesta" Val="2023.2"/>
+    <Option Name="SimulatorVersionXcelium" Val="21.09.009"/>
+    <Option Name="SimulatorVersionVCS" Val="S-2021.09"/>
+    <Option Name="SimulatorVersionRiviera" Val="2022.10"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="14.1"/>
+    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="SourceMgmtMode" Val="DisplayOnly"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/ip_repo"/>
+    <Option Name="IPRepoPath" Val="c:/Users/10261/AppData/Roaming/Xilinx/ip_repo"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableResourceEstimation" Val="FALSE"/>
+    <Option Name="SimCompileState" Val="TRUE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="FeatureSet" Val="FeatureSet_Classic"/>
+    <Option Name="WTXSimLaunchSim" Val="315"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="70"/>
+    <Option Name="WTModelSimExportSim" Val="70"/>
+    <Option Name="WTQuestaExportSim" Val="70"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="70"/>
+    <Option Name="WTRivieraExportSim" Val="70"/>
+    <Option Name="WTActivehdlExportSim" Val="70"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="ClassicSocBoot" Val="FALSE"/>
+    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
+  </Configuration>
+  <FileSets Version="1" Minor="32">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/AXI_Data_FIFO/AXI_Data_FIFO.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/ip/AXI_Data_FIFO.xci"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mult_gen_0/mult_gen_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/ip/mult_gen_0.xci"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/coefficient_mem/coefficient_mem.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/ip/coefficient_mem.xci"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/ALU.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/ALU_PE.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_Q_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Addr_Gen.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/CSA_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Top_control_source/Control_Reg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_HW_ACC_IP_20250606/Kyber_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/Control_Reg.v"/>
+          <Attr Name="ImportTime" Val="1749278167"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/KAD_NTT_mem_read.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/KAD_NTT_mem_write.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Kyber_PWM_zetas_v.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/new/Kyber_PWM_zetas_v.v"/>
+          <Attr Name="ImportTime" Val="1750739325"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Kyber_mul_and_reduce.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/new/Kyber_mul_and_reduce.v"/>
+          <Attr Name="ImportTime" Val="1749699705"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/Mont_Mult_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/Mont_Reduction_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/PWA_PWS_Ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/Top_control_source/PWM_Ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/Top_control_source/PWM_Ctrl.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_Hash.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_Hash.v"/>
+          <Attr Name="ImportTime" Val="1751012556"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/SHA3_Sample_Ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_padder.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_padder.v"/>
+          <Attr Name="ImportTime" Val="1750946136"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_permutation.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_permutation.v"/>
+          <Attr Name="ImportTime" Val="1750955239"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/Sample.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Top_control_source/Top_HW_ACC_Ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_HW_ACC_IP_20250606/Kyber_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/Top_HW_ACC_Ctrl.v"/>
+          <Attr Name="ImportTime" Val="1749277935"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/Top_control_source/compute_switch_add.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/Top_control_source/compute_switch_add.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/Top_control_source/compute_write_add.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/Top_control_source/compute_write_add.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/Mont_Mult_KAD/full_adder_KAD.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/keccak_FIFO_read.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/keccak_constants.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/keccak_round.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/keccak_sha3.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/keccak_sample/keccak_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/PWM_source/mul_and_reduce_pipe.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/PWM_source/mul_and_reduce_pipe.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/padder1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/padder1.v"/>
+          <Attr Name="ImportTime" Val="1750946241"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/PWM_source/pwm_compute.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/PWM_source/pwm_compute.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/PWM_source/pwm_mem_read.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/PWM_source/pwm_mem_read.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/rconst3in1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/rconst3in1.v"/>
+          <Attr Name="ImportTime" Val="1750946239"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources/Top_control_source/read_mem_add.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../SW-HW-Co-design-of-Dilithium-main/Code/HW/sources/Top_control_source/read_mem_add.v"/>
+          <Attr Name="ImportTime" Val="1696928567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/rom_tw.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/round3in1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/10261/Desktop/SHA3_gj+sample_wjr_6.27/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/round3in1.v"/>
+          <Attr Name="ImportTime" Val="1750952777"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/rtl/top_NTT.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/coe/DSA/DSA_mont_row.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/KAD_HW_ACC_IP.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/rtl/KAD_NTT/coe/DSA/DSA_Bank_group_0.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="c:/Users/10261/AppData/Roaming/Xilinx/ip_repo/KAD_HW_ACC_IP/component.xml">
+        <FileInfo SFType="IPXACT"/>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="KAD_HW_ACC_IP"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/Kyber_HW_ACC_IP.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/constrs_1/new/Kyber_HW_ACC_IP.xdc"/>
+          <Attr Name="ImportTime" Val="1750786220"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/tb_SHA_Ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sim_1/new/tb_SHA_Ctrl.v"/>
+          <Attr Name="ImportTime" Val="1751012407"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/tb_Top_HW_ACC_Ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sim_1/new/tb_Top_HW_ACC_Ctrl.v"/>
+          <Attr Name="ImportTime" Val="1750824866"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/tb_mul_and_reduce.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sim_1/new/tb_mul_and_reduce.v"/>
+          <Attr Name="ImportTime" Val="1749700759"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/tb_Top_HW_ACC_Ctrl_test_tse.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sim_1/new/tb_Top_HW_ACC_Ctrl_test_tse.v"/>
+          <Attr Name="ImportTime" Val="1750247895"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/sim/tb_KAD_NTT_Ctrl_compare.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rtl/KAD_NTT/sim/tb_KAD_NTT_Ctrl_compare.v"/>
+          <Attr Name="ImportTime" Val="1776828462"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/tb_KAD_NTT_Ctrl_compare_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_KAD_NTT_Ctrl_compare"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/tb_KAD_NTT_Ctrl_compare_behav.wcfg"/>
+        <Option Name="NLNetlistMode" Val="funcsim"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+      <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/HW_ACC_IP.dcp">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../PhD/Competition/2025fwb/code/A-PQC-DILITHIUM-FPGA-OT-6-Source-Code-Mao/HW_ACC_IP/Dilithium.srcs/utils_1/imports/synth_1/HW_ACC_IP.dcp"/>
+          <Attr Name="ImportTime" Val="1741182436"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Kyber_mult_gen_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Kyber_mult_gen_0" RelGenDir="$PGENDIR/Kyber_mult_gen_0">
+      <File Path="$PSRCDIR/sources_1/ip/Kyber_mult_gen_0/Kyber_mult_gen_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/ip/Kyber_mult_gen_0/Kyber_mult_gen_0.xci"/>
+          <Attr Name="ImportTime" Val="1749699588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Kyber_mult_gen_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Kyber_mult_gen_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Kyber_mult_gen_1" RelGenDir="$PGENDIR/Kyber_mult_gen_1">
+      <File Path="$PSRCDIR/sources_1/ip/Kyber_mult_gen_1/Kyber_mult_gen_1.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/ip/Kyber_mult_gen_1/Kyber_mult_gen_1.xci"/>
+          <Attr Name="ImportTime" Val="1749698696"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Kyber_mult_gen_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Kyber_mult_gen_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Kyber_mult_gen_2" RelGenDir="$PGENDIR/Kyber_mult_gen_2">
+      <File Path="$PSRCDIR/sources_1/ip/Kyber_mult_gen_2/Kyber_mult_gen_2.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/ip/Kyber_mult_gen_2/Kyber_mult_gen_2.xci"/>
+          <Attr Name="ImportTime" Val="1749698725"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Kyber_mult_gen_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PE_add_23bit" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PE_add_23bit" RelGenDir="$PGENDIR/PE_add_23bit">
+      <File Path="$PSRCDIR/sources_1/ip/PE_add_23bit/PE_add_23bit.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="PE_add_23bit"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PE_add_halfp" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PE_add_halfp" RelGenDir="$PGENDIR/PE_add_halfp">
+      <File Path="$PSRCDIR/sources_1/ip/PE_add_halfp/PE_add_halfp.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="PE_add_halfp"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PE_sub_23bit" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PE_sub_23bit" RelGenDir="$PGENDIR/PE_sub_23bit">
+      <File Path="$PSRCDIR/sources_1/ip/PE_sub_23bit/PE_sub_23bit.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="PE_sub_23bit"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PE_sub_24bit" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PE_sub_24bit" RelGenDir="$PGENDIR/PE_sub_24bit">
+      <File Path="$PSRCDIR/sources_1/ip/PE_sub_24bit/PE_sub_24bit.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="PE_sub_24bit"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bank64_KAD_NTT" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bank64_KAD_NTT" RelGenDir="$PGENDIR/bank64_KAD_NTT">
+      <File Path="$PSRCDIR/sources_1/ip/bank64_KAD_NTT/bank64_KAD_NTT.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bank64_KAD_NTT"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="c_addsub_3329" Type="BlockSrcs" RelSrcDir="$PSRCDIR/c_addsub_3329" RelGenDir="$PGENDIR/c_addsub_3329">
+      <File Path="$PSRCDIR/sources_1/ip/c_addsub_3329/c_addsub_3329.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="F:/fwb/Kyber_SW_HW_20250627/Kyber_HW_ACC_IP_20250611/Kyber_HW_ACC_IP.srcs/sources_1/ip/c_addsub_3329/c_addsub_3329.xci"/>
+          <Attr Name="ImportTime" Val="1750066325"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="c_addsub_3329"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ila_SHA3_Sample_Ctrl" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_SHA3_Sample_Ctrl" RelGenDir="$PGENDIR/ila_SHA3_Sample_Ctrl">
+      <File Path="$PSRCDIR/sources_1/ip/ila_SHA3_Sample_Ctrl/ila_SHA3_Sample_Ctrl.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ila_SHA3_Sample_Ctrl"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="rom_tw_INTT_NTT" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rom_tw_INTT_NTT" RelGenDir="$PGENDIR/rom_tw_INTT_NTT">
+      <File Path="$PSRCDIR/sources_1/ip/rom_tw_INTT_NTT/rom_tw_INTT_NTT.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="rom_tw_INTT_NTT"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="21">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z100ffg900-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_0_synth_1" Type="Ft3:Synth" SrcSet="Kyber_mult_gen_0" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Kyber_mult_gen_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_1_synth_1" Type="Ft3:Synth" SrcSet="Kyber_mult_gen_1" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Kyber_mult_gen_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_2_synth_1" Type="Ft3:Synth" SrcSet="Kyber_mult_gen_2" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Kyber_mult_gen_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_add_23bit_synth_1" Type="Ft3:Synth" SrcSet="PE_add_23bit" Part="xc7z100ffg900-2" ConstrsSet="PE_add_23bit" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PE_add_23bit_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_add_23bit_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_add_23bit_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_add_halfp_synth_1" Type="Ft3:Synth" SrcSet="PE_add_halfp" Part="xc7z100ffg900-2" ConstrsSet="PE_add_halfp" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PE_add_halfp_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_add_halfp_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_add_halfp_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_sub_23bit_synth_1" Type="Ft3:Synth" SrcSet="PE_sub_23bit" Part="xc7z100ffg900-2" ConstrsSet="PE_sub_23bit" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PE_sub_23bit_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_sub_23bit_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_sub_23bit_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_sub_24bit_synth_1" Type="Ft3:Synth" SrcSet="PE_sub_24bit" Part="xc7z100ffg900-2" ConstrsSet="PE_sub_24bit" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PE_sub_24bit_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_sub_24bit_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_sub_24bit_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="bank64_KAD_NTT_synth_1" Type="Ft3:Synth" SrcSet="bank64_KAD_NTT" Part="xc7z100ffg900-2" ConstrsSet="bank64_KAD_NTT" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bank64_KAD_NTT_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/bank64_KAD_NTT_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/bank64_KAD_NTT_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="c_addsub_3329_synth_1" Type="Ft3:Synth" SrcSet="c_addsub_3329" Part="xc7z100ffg900-2" ConstrsSet="c_addsub_3329" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/c_addsub_3329_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/c_addsub_3329_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/c_addsub_3329_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ila_SHA3_Sample_Ctrl_synth_1" Type="Ft3:Synth" SrcSet="ila_SHA3_Sample_Ctrl" Part="xc7z100ffg900-2" ConstrsSet="ila_SHA3_Sample_Ctrl" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ila_SHA3_Sample_Ctrl_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ila_SHA3_Sample_Ctrl_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ila_SHA3_Sample_Ctrl_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="rom_tw_INTT_NTT_synth_1" Type="Ft3:Synth" SrcSet="rom_tw_INTT_NTT" Part="xc7z100ffg900-2" ConstrsSet="rom_tw_INTT_NTT" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/rom_tw_INTT_NTT_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/rom_tw_INTT_NTT_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/rom_tw_INTT_NTT_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 16 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Kyber_mult_gen_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Kyber_mult_gen_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_1_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Kyber_mult_gen_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="Kyber_mult_gen_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Kyber_mult_gen_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Kyber_mult_gen_2_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_add_23bit_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="PE_add_23bit" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PE_add_23bit_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_add_23bit_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_add_23bit_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_add_halfp_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="PE_add_halfp" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PE_add_halfp_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_add_halfp_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_add_halfp_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_sub_23bit_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="PE_sub_23bit" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PE_sub_23bit_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_sub_23bit_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_sub_23bit_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PE_sub_24bit_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="PE_sub_24bit" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PE_sub_24bit_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PE_sub_24bit_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PE_sub_24bit_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="bank64_KAD_NTT_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="bank64_KAD_NTT" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="bank64_KAD_NTT_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/bank64_KAD_NTT_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/bank64_KAD_NTT_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="c_addsub_3329_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="c_addsub_3329" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="c_addsub_3329_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/c_addsub_3329_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/c_addsub_3329_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ila_SHA3_Sample_Ctrl_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="ila_SHA3_Sample_Ctrl" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ila_SHA3_Sample_Ctrl_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ila_SHA3_Sample_Ctrl_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ila_SHA3_Sample_Ctrl_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="rom_tw_INTT_NTT_impl_1" Type="Ft2:EntireDesign" Part="xc7z100ffg900-2" ConstrsSet="rom_tw_INTT_NTT" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="rom_tw_INTT_NTT_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/rom_tw_INTT_NTT_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/rom_tw_INTT_NTT_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board/>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>
