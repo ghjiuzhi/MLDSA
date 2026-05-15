@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May  5 23:59:28 2026
+# Process ID: 25504
+# Current directory: E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/manual_xsim_iter1
+# Command line: xsim.exe -log simulate_manual_iter10_select_d2.log -mode tcl -source {xsim.dir/tb_KAD_NTT_Ctrl_compare_behav/xsim_script.tcl}
+# Log file: E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/manual_xsim_iter1/simulate_manual_iter10_select_d2.log
+# Journal file: E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/manual_xsim_iter1\xsim.jou
+# Running On: gxy, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 14, Host memory: 33752 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_KAD_NTT_Ctrl_compare_behav/xsim_script.tcl
+# xsim {tb_KAD_NTT_Ctrl_compare_behav} -autoloadwcfg -tclbatch {run_all.tcl}
+Time resolution is 1 ps
+source run_all.tcl
+## run all
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_KAD_NTT_Ctrl_compare.dut.u_top_NTT.inst_ALU.inst_rom_tw.inst_tw_ntt_intt.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_KAD_NTT_Ctrl_compare.dut.inst_bank0.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_KAD_NTT_Ctrl_compare.dut.inst_bank1.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_KAD_NTT_Ctrl_compare.dut.inst_bank2.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_KAD_NTT_Ctrl_compare.dut.inst_bank3.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: file golden_1003_ntt_1_256.txt could not be opened
+WARNING: file ../../../../../../PQC_PRJ_20251003/PQC_HW_ACC_IP/PQC_HW_ACC_IP.sim/sim_1/behav/xsim/golden_1003_ntt_1_256.txt could not be opened
+WARNING: file golden_pqclean_ntt_1_256.txt could not be opened
+WARNING: file ../../../../../../tools/golden_pqclean_ntt_1_256.txt could not be opened
+Read-bank snapshot written to dut_ntt_1027_read_banks.txt
+S4-entry bank snapshot written to dut_ntt_1027_s4_entry_banks.txt
+Compute-bank snapshot written to dut_ntt_1027_compute_banks.txt
+DUT output written to dut_ntt_1027_out.txt
+1003 golden file not loaded, skip compare
+PQClean golden file not loaded, skip compare
+Simulation finished
+$finish called at time : 5695 ns : File "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/imports/sim/tb_KAD_NTT_Ctrl_compare.v" Line 841
+xsim% INFO: [Common 17-206] Exiting xsim at Tue May  5 23:59:30 2026...

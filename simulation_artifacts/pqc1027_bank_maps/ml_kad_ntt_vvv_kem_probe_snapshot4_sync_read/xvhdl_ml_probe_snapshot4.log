@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/PE_add_halfp/sim/PE_add_halfp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PE_add_halfp'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/PE_add_23bit/sim/PE_add_23bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PE_add_23bit'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/PE_sub_23bit/sim/PE_sub_23bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PE_sub_23bit'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/PE_sub_24bit/sim/PE_sub_24bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PE_sub_24bit'

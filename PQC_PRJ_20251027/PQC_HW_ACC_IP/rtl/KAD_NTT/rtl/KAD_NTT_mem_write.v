@@ -72,18 +72,24 @@ module KAD_NTT_mem_write(
 	wire	[2:0]	iter;
 	wire			bram_group_sel;
 	wire	[4:0]	base;
+	wire	[7:0]	ntt_out_issue;
 	reg				NTT_working;
 	reg				INTT_working;
 	       
 	reg		[7:0]	counter;
 	wire			count_done;
 	reg				counter_working;
+	assign ntt_out_issue = cnt_128_ntt + 8'd1;
+
 	
 	reg				module_start_d1;
 	reg				module_start_d2;
 	
 	reg		[22:0]	data1;
 	reg		[22:0]	data2;
+	reg		[1:0]	ntt_out_bank_d1;
+	reg		[1:0]	ntt_out_bank_d2;
+	reg		[1:0]	ntt_out_bank_d3;
 	reg				working_1;
 	reg				working_2;
 	reg				working_3;
@@ -267,6 +273,42 @@ module KAD_NTT_mem_write(
 			module_done_ntt	<= 1'b0 ;
  		end
  		else if (Multi_Mode) begin
+ 			if (KAD_Mode) begin
+ 				coef_ena_bram0   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_enb_bram0   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_ena_bram1   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_enb_bram1   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_ena_bram2   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_enb_bram2   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_ena_bram3   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_enb_bram3   <= (cnt_128_ntt < 8'd131) ;
+ 				coef_wea_bram0   <= 1'b0 ;
+ 				coef_web_bram0   <= 1'b0 ;
+ 				coef_wea_bram1   <= 1'b0 ;
+ 				coef_web_bram1   <= 1'b0 ;
+ 				coef_wea_bram2   <= 1'b0 ;
+ 				coef_web_bram2   <= 1'b0 ;
+ 				coef_wea_bram3   <= 1'b0 ;
+ 				coef_web_bram3   <= 1'b0 ;
+ 				coef_addra_bram0 <= cnt_128_ntt[6:2] ;
+ 				coef_addrb_bram0 <= cnt_128_ntt[6:2] + 6'd32 ;
+ 				coef_addra_bram1 <= cnt_128_ntt[6:2] ;
+ 				coef_addrb_bram1 <= cnt_128_ntt[6:2] + 6'd32 ;
+ 				coef_addra_bram2 <= cnt_128_ntt[6:2] ;
+ 				coef_addrb_bram2 <= cnt_128_ntt[6:2] + 6'd32 ;
+ 				coef_addra_bram3 <= cnt_128_ntt[6:2] ;
+ 				coef_addrb_bram3 <= cnt_128_ntt[6:2] + 6'd32 ;
+ 				ntt_out_bank_d1  <= cnt_128_ntt[1:0] ;
+ 				ntt_out_bank_d2  <= ntt_out_bank_d1 ;
+ 				ntt_out_bank_d3  <= ntt_out_bank_d2 ;
+ 				case (ntt_out_bank_d2)
+ 					2'd0: begin data1 <= coef_douta_bram0; data2 <= coef_doutb_bram0; end
+ 					2'd1: begin data1 <= coef_douta_bram1; data2 <= coef_doutb_bram1; end
+ 					2'd2: begin data1 <= coef_douta_bram2; data2 <= coef_doutb_bram2; end
+ 					2'd3: begin data1 <= coef_douta_bram3; data2 <= coef_doutb_bram3; end
+ 				endcase
+ 			end
+ 			else begin
  			case (CS)                                            
  				IDLE: begin
  				 	coef_ena_bram0 <= 'b0 ;
@@ -363,7 +405,8 @@ module KAD_NTT_mem_write(
  				    coef_enb_bram3   <= 'b0 ;
  				    module_done_ntt      <= 'b1 ;        
  				end        
- 			endcase      
+ 			endcase
+ 			end      
  		end
  		else if (!Multi_Mode) begin
  		    if (!INTT_working) begin

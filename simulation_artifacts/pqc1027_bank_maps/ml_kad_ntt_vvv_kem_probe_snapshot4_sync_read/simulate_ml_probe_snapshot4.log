@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May  5 23:02:21 2026
+# Process ID: 59784
+# Current directory: E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/manual_xsim_ml_probe
+# Command line: xsim.exe -log simulate_ml_probe_snapshot4.log -mode tcl -source {xsim.dir/tb_top_NTT_behav/xsim_script.tcl}
+# Log file: E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/manual_xsim_ml_probe/simulate_ml_probe_snapshot4.log
+# Journal file: E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/manual_xsim_ml_probe\xsim.jou
+# Running On: gxy, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 14, Host memory: 33752 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_top_NTT_behav/xsim_script.tcl
+# xsim {tb_top_NTT_behav} -autoloadwcfg -tclbatch {run_all.tcl}
+Time resolution is 1 ps
+source run_all.tcl
+## run all
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top_NTT.inst_top_NTT.inst_bank1.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top_NTT.inst_top_NTT.inst_bank2.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top_NTT.inst_top_NTT.inst_bank3.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top_NTT.inst_top_NTT.inst_ALU.inst_rom_tw.inst_tw_ntt_intt.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+$finish called at time : 5396 ns : File "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/sim/tb_top_NTT.v" Line 151
+xsim% INFO: [Common 17-206] Exiting xsim at Tue May  5 23:02:26 2026...

@@ -1,0 +1,1679 @@
+TB handshake  t=105000 in_idx=2 data_hi=2 data_lo=1 start=0 read_working=1 read_start=0
+MEM accept    t=105000 counter=0 data1=2 data2=1 module_start=0 read_working=1
+TB handshake  t=115000 in_idx=4 data_hi=4 data_lo=3 start=0 read_working=1 read_start=0
+MEM accept    t=115000 counter=2 data1=4 data2=3 module_start=0 read_working=1
+TB handshake  t=125000 in_idx=6 data_hi=6 data_lo=5 start=0 read_working=1 read_start=0
+MEM accept    t=125000 counter=4 data1=6 data2=5 module_start=0 read_working=1
+TB handshake  t=135000 in_idx=8 data_hi=8 data_lo=7 start=0 read_working=1 read_start=0
+MEM accept    t=135000 counter=6 data1=8 data2=7 module_start=0 read_working=1
+TB handshake  t=145000 in_idx=10 data_hi=10 data_lo=9 start=0 read_working=1 read_start=0
+MEM accept    t=145000 counter=8 data1=10 data2=9 module_start=0 read_working=1
+TB handshake  t=155000 in_idx=12 data_hi=12 data_lo=11 start=0 read_working=1 read_start=0
+TB handshake  t=165000 in_idx=14 data_hi=14 data_lo=13 start=0 read_working=1 read_start=0
+TB handshake  t=175000 in_idx=16 data_hi=16 data_lo=15 start=0 read_working=1 read_start=0
+TOPNTT step=0 t=1425000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=0/0/0 ain=0/0/0/0 bin=x/x/x/x alu=x/x/x/x rd_addr=0
+TOPNTT step=1 t=1435000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=0/0/0 ain=0/0/0/0 bin=x/x/x/x alu=x/x/x/x rd_addr=0
+TOPNTT step=2 t=1445000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=1/65/129/193 bin=x/x/x/x alu=x/x/x/x rd_addr=1
+TOPNTT step=3 t=1455000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=33/97/161/225 bin=x/x/x/x alu=x/x/x/x rd_addr=2
+TOPNTT step=4 t=1465000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=17/81/145/209 bin=x/x/x/x alu=x/x/x/x rd_addr=3
+TOPNTT step=5 t=1475000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=49/113/177/241 bin=x/x/x/x alu=x/x/x/x rd_addr=4
+TOPNTT step=6 t=1485000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=9/73/137/201 bin=x/x/x/x alu=x/x/x/x rd_addr=5
+TOPNTT step=7 t=1495000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=41/105/169/233 bin=x/x/x/x alu=x/x/x/x rd_addr=6
+TOPNTT step=8 t=1505000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=25/89/153/217 bin=x/x/x/x alu=x/x/x/x rd_addr=7
+TOPNTT step=9 t=1515000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=57/121/185/249 bin=x/x/x/x alu=x/x/x/x rd_addr=8
+TOPNTT step=10 t=1525000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=5/69/133/197 bin=x/x/x/x alu=x/x/x/x rd_addr=9
+TOPNTT step=11 t=1535000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=37/101/165/229 bin=x/x/x/x alu=x/x/x/x rd_addr=10
+TOPNTT step=12 t=1545000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=21/85/149/213 bin=x/x/x/x alu=0/x/x/x rd_addr=11
+TOPNTT step=13 t=1555000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=53/117/181/245 bin=0/0/0/0 alu=0/0/x/x rd_addr=12
+TOPNTT step=14 t=1565000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/0/0/0 sw=0000 tw=2868/2402/1891 ain=13/77/141/205 bin=0/0/0/0 alu=187/0/0/x rd_addr=13
+COMPUTE wr bank0 t=1575000 addr=0 data=187 raw=zzz0bb
+TOPNTT step=15 t=1575000 wr_en=1000 wr_addr=0/0/0/0 cnt4=1/0/0/0 sw=0000 tw=2868/2402/1891 ain=45/109/173/237 bin=187/187/187/187 alu=338/2651/0/0 rd_addr=14
+COMPUTE wr bank0 t=1585000 addr=1 data=2651 raw=zzza5b
+COMPUTE wr bank1 t=1585000 addr=0 data=338 raw=zzz152
+TOPNTT step=16 t=1585000 wr_en=1100 wr_addr=1/0/0/0 cnt4=2/1/0/0 sw=0000 tw=2868/2402/1891 ain=29/93/157/221 bin=2651/338/338/338 alu=1927/2003/3140/0 rd_addr=15
+COMPUTE wr bank0 t=1595000 addr=2 data=3140 raw=zzzc44
+COMPUTE wr bank1 t=1595000 addr=1 data=2003 raw=zzz7d3
+COMPUTE wr bank2 t=1595000 addr=0 data=1927 raw=zzz787
+TOPNTT step=17 t=1595000 wr_en=1110 wr_addr=2/1/0/0 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=61/125/189/253 bin=3140/2003/1927/1927 alu=2078/2327/523/684 rd_addr=16
+COMPUTE wr bank0 t=1605000 addr=3 data=684 raw=zzz2ac
+COMPUTE wr bank1 t=1605000 addr=2 data=523 raw=zzz20b
+COMPUTE wr bank2 t=1605000 addr=1 data=2327 raw=zzz917
+COMPUTE wr bank3 t=1605000 addr=0 data=2078 raw=zzz81e
+TOPNTT step=18 t=1605000 wr_en=1111 wr_addr=3/2/1/0 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=3/67/131/195 bin=684/523/2327/2078 alu=1057/1679/167/597 rd_addr=17
+COMPUTE wr bank0 t=1615000 addr=4 data=1057 raw=zzz421
+COMPUTE wr bank1 t=1615000 addr=3 data=597 raw=zzz255
+COMPUTE wr bank2 t=1615000 addr=2 data=167 raw=zzz0a7
+COMPUTE wr bank3 t=1615000 addr=1 data=1679 raw=zzz68f
+TOPNTT step=19 t=1615000 wr_en=1111 wr_addr=4/3/2/1 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=35/99/163/227 bin=1057/597/167/1679 alu=1208/2489/879/2305 rd_addr=18
+COMPUTE wr bank0 t=1625000 addr=5 data=2489 raw=zzz9b9
+COMPUTE wr bank1 t=1625000 addr=4 data=1208 raw=zzz4b8
+COMPUTE wr bank2 t=1625000 addr=3 data=2305 raw=zzz901
+COMPUTE wr bank3 t=1625000 addr=2 data=879 raw=zzz36f
+TOPNTT step=20 t=1625000 wr_en=1111 wr_addr=5/4/3/2 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=19/83/147/211 bin=2489/1208/2305/879 alu=2797/1841/3318/2218 rd_addr=19
+COMPUTE wr bank0 t=1635000 addr=6 data=3318 raw=zzzcf6
+COMPUTE wr bank1 t=1635000 addr=5 data=1841 raw=zzz731
+COMPUTE wr bank2 t=1635000 addr=4 data=2797 raw=zzzaed
+COMPUTE wr bank3 t=1635000 addr=3 data=2218 raw=zzz8aa
+TOPNTT step=21 t=1635000 wr_en=1111 wr_addr=6/5/4/3 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=51/115/179/243 bin=3318/1841/2797/2218 alu=2948/2165/701/3159 rd_addr=20
+COMPUTE wr bank0 t=1645000 addr=7 data=3159 raw=zzzc57
+COMPUTE wr bank1 t=1645000 addr=6 data=701 raw=zzz2bd
+COMPUTE wr bank2 t=1645000 addr=5 data=2165 raw=zzz875
+COMPUTE wr bank3 t=1645000 addr=4 data=2948 raw=zzzb84
+TOPNTT step=22 t=1645000 wr_en=1111 wr_addr=7/6/5/4 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=11/75/139/203 bin=3159/701/2165/2948 alu=622/1517/345/3072 rd_addr=21
+COMPUTE wr bank0 t=1655000 addr=8 data=622 raw=zzz26e
+COMPUTE wr bank1 t=1655000 addr=7 data=3072 raw=zzzc00
+COMPUTE wr bank2 t=1655000 addr=6 data=345 raw=zzz159
+COMPUTE wr bank3 t=1655000 addr=5 data=1517 raw=zzz5ed
+TOPNTT step=23 t=1655000 wr_en=1111 wr_addr=8/7/6/5 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=43/107/171/235 bin=622/3072/345/1517 alu=773/2570/1057/1451 rd_addr=22
+COMPUTE wr bank0 t=1665000 addr=9 data=2570 raw=zzza0a
+COMPUTE wr bank1 t=1665000 addr=8 data=773 raw=zzz305
+COMPUTE wr bank2 t=1665000 addr=7 data=1451 raw=zzz5ab
+COMPUTE wr bank3 t=1665000 addr=6 data=1057 raw=zzz421
+TOPNTT step=24 t=1665000 wr_en=1111 wr_addr=9/8/7/6 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=27/91/155/219 bin=2570/773/1451/1057 alu=2362/1922/3229/1364 rd_addr=23
+COMPUTE wr bank0 t=1675000 addr=10 data=3229 raw=zzzc9d
+COMPUTE wr bank1 t=1675000 addr=9 data=1922 raw=zzz782
+COMPUTE wr bank2 t=1675000 addr=8 data=2362 raw=zzz93a
+COMPUTE wr bank3 t=1675000 addr=7 data=1364 raw=zzz554
+TOPNTT step=25 t=1675000 wr_en=1111 wr_addr=10/9/8/7 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=59/123/187/251 bin=3229/1922/2362/1364 alu=2513/2246/612/257 rd_addr=24
+COMPUTE wr bank0 t=1685000 addr=11 data=257 raw=zzz101
+COMPUTE wr bank1 t=1685000 addr=10 data=612 raw=zzz264
+COMPUTE wr bank2 t=1685000 addr=9 data=2246 raw=zzz8c6
+COMPUTE wr bank3 t=1685000 addr=8 data=2513 raw=zzz9d1
+TOPNTT step=26 t=1685000 wr_en=1111 wr_addr=11/10/9/8 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=7/71/135/199 bin=257/612/2246/2513 alu=1492/1598/256/170 rd_addr=25
+COMPUTE wr bank0 t=1695000 addr=12 data=1492 raw=zzz5d4
+COMPUTE wr bank1 t=1695000 addr=11 data=170 raw=zzz0aa
+COMPUTE wr bank2 t=1695000 addr=10 data=256 raw=zzz100
+COMPUTE wr bank3 t=1695000 addr=9 data=1598 raw=zzz63e
+TOPNTT step=27 t=1695000 wr_en=1111 wr_addr=12/11/10/9 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=39/103/167/231 bin=1492/170/256/1598 alu=1643/2408/968/1878 rd_addr=26
+COMPUTE wr bank0 t=1705000 addr=13 data=2408 raw=zzz968
+COMPUTE wr bank1 t=1705000 addr=12 data=1643 raw=zzz66b
+COMPUTE wr bank2 t=1705000 addr=11 data=1878 raw=zzz756
+COMPUTE wr bank3 t=1705000 addr=10 data=968 raw=zzz3c8
+TOPNTT step=28 t=1705000 wr_en=1111 wr_addr=13/12/11/10 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=23/87/151/215 bin=2408/1643/1878/968 alu=3232/1760/78/1791 rd_addr=27
+COMPUTE wr bank0 t=1715000 addr=14 data=78 raw=zzz04e
+COMPUTE wr bank1 t=1715000 addr=13 data=1760 raw=zzz6e0
+COMPUTE wr bank2 t=1715000 addr=12 data=3232 raw=zzzca0
+COMPUTE wr bank3 t=1715000 addr=11 data=1791 raw=zzz6ff
+TOPNTT step=29 t=1715000 wr_en=1111 wr_addr=14/13/12/11 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=55/119/183/247 bin=78/1760/3232/1791 alu=54/2084/790/2732 rd_addr=28
+COMPUTE wr bank0 t=1725000 addr=15 data=2732 raw=zzzaac
+COMPUTE wr bank1 t=1725000 addr=14 data=790 raw=zzz316
+COMPUTE wr bank2 t=1725000 addr=13 data=2084 raw=zzz824
+COMPUTE wr bank3 t=1725000 addr=12 data=54 raw=zzz036
+TOPNTT step=30 t=1725000 wr_en=1111 wr_addr=15/14/13/12 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=15/79/143/207 bin=2732/790/2084/54 alu=2069/1436/434/2645 rd_addr=29
+COMPUTE wr bank0 t=1735000 addr=16 data=2069 raw=zzz815
+COMPUTE wr bank1 t=1735000 addr=15 data=2645 raw=zzza55
+COMPUTE wr bank2 t=1735000 addr=14 data=434 raw=zzz1b2
+COMPUTE wr bank3 t=1735000 addr=13 data=1436 raw=zzz59c
+TOPNTT step=31 t=1735000 wr_en=1111 wr_addr=16/15/14/13 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=47/111/175/239 bin=2069/2645/434/1436 alu=2220/946/1146/1024 rd_addr=30
+COMPUTE wr bank0 t=1745000 addr=17 data=946 raw=zzz3b2
+COMPUTE wr bank1 t=1745000 addr=16 data=2220 raw=zzz8ac
+COMPUTE wr bank2 t=1745000 addr=15 data=1024 raw=zzz400
+COMPUTE wr bank3 t=1745000 addr=14 data=1146 raw=zzz47a
+TOPNTT step=32 t=1745000 wr_en=1111 wr_addr=17/16/15/14 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=31/95/159/223 bin=946/2220/1024/1146 alu=480/298/1520/937 rd_addr=31
+COMPUTE wr bank0 t=1755000 addr=18 data=1520 raw=zzz5f0
+COMPUTE wr bank1 t=1755000 addr=17 data=298 raw=zzz12a
+COMPUTE wr bank2 t=1755000 addr=16 data=480 raw=zzz1e0
+COMPUTE wr bank3 t=1755000 addr=15 data=937 raw=zzz3a9
+TOPNTT step=33 t=1755000 wr_en=1111 wr_addr=18/17/16/15 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=63/127/191/255 bin=1520/298/480/937 alu=631/622/2232/2135 rd_addr=32
+COMPUTE wr bank0 t=1765000 addr=19 data=2135 raw=zzz857
+COMPUTE wr bank1 t=1765000 addr=18 data=2232 raw=zzz8b8
+COMPUTE wr bank2 t=1765000 addr=17 data=622 raw=zzz26e
+COMPUTE wr bank3 t=1765000 addr=16 data=631 raw=zzz277
+TOPNTT step=34 t=1765000 wr_en=1111 wr_addr=19/18/17/16 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=2/66/130/194 bin=2135/2232/622/631 alu=2939/3303/1876/2048 rd_addr=33
+COMPUTE wr bank0 t=1775000 addr=20 data=2939 raw=zzzb7b
+COMPUTE wr bank1 t=1775000 addr=19 data=2048 raw=zzz800
+COMPUTE wr bank2 t=1775000 addr=18 data=1876 raw=zzz754
+COMPUTE wr bank3 t=1775000 addr=17 data=3303 raw=zzzce7
+TOPNTT step=35 t=1775000 wr_en=1111 wr_addr=20/19/18/17 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=34/98/162/226 bin=2939/2048/1876/3303 alu=3090/784/2588/427 rd_addr=34
+COMPUTE wr bank0 t=1785000 addr=21 data=784 raw=zzz310
+COMPUTE wr bank1 t=1785000 addr=20 data=3090 raw=zzzc12
+COMPUTE wr bank2 t=1785000 addr=19 data=427 raw=zzz1ab
+COMPUTE wr bank3 t=1785000 addr=18 data=2588 raw=zzza1c
+TOPNTT step=36 t=1785000 wr_en=1111 wr_addr=21/20/19/18 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=18/82/146/210 bin=784/3090/427/2588 alu=1350/136/1698/340 rd_addr=35
+COMPUTE wr bank0 t=1795000 addr=22 data=1698 raw=zzz6a2
+COMPUTE wr bank1 t=1795000 addr=21 data=136 raw=zzz088
+COMPUTE wr bank2 t=1795000 addr=20 data=1350 raw=zzz546
+COMPUTE wr bank3 t=1795000 addr=19 data=340 raw=zzz154
+TOPNTT step=37 t=1795000 wr_en=1111 wr_addr=22/21/20/19 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=50/114/178/242 bin=1698/136/1350/340 alu=1501/460/2410/1281 rd_addr=36
+COMPUTE wr bank0 t=1805000 addr=23 data=1281 raw=zzz501
+COMPUTE wr bank1 t=1805000 addr=22 data=2410 raw=zzz96a
+COMPUTE wr bank2 t=1805000 addr=21 data=460 raw=zzz1cc
+COMPUTE wr bank3 t=1805000 addr=20 data=1501 raw=zzz5dd
+TOPNTT step=38 t=1805000 wr_en=1111 wr_addr=23/22/21/20 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=10/74/138/202 bin=1281/2410/460/1501 alu=2504/3141/2054/1194 rd_addr=37
+COMPUTE wr bank0 t=1815000 addr=24 data=2504 raw=zzz9c8
+COMPUTE wr bank1 t=1815000 addr=23 data=1194 raw=zzz4aa
+COMPUTE wr bank2 t=1815000 addr=22 data=2054 raw=zzz806
+COMPUTE wr bank3 t=1815000 addr=21 data=3141 raw=zzzc45
+TOPNTT step=39 t=1815000 wr_en=1111 wr_addr=24/23/22/21 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=42/106/170/234 bin=2504/1194/2054/3141 alu=2655/865/2766/2902 rd_addr=38
+COMPUTE wr bank0 t=1825000 addr=25 data=865 raw=zzz361
+COMPUTE wr bank1 t=1825000 addr=24 data=2655 raw=zzza5f
+COMPUTE wr bank2 t=1825000 addr=23 data=2902 raw=zzzb56
+COMPUTE wr bank3 t=1825000 addr=22 data=2766 raw=zzzace
+TOPNTT step=40 t=1825000 wr_en=1111 wr_addr=25/24/23/22 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=26/90/154/218 bin=865/2655/2902/2766 alu=915/217/1609/2815 rd_addr=39
+COMPUTE wr bank0 t=1835000 addr=26 data=1609 raw=zzz649
+COMPUTE wr bank1 t=1835000 addr=25 data=217 raw=zzz0d9
+COMPUTE wr bank2 t=1835000 addr=24 data=915 raw=zzz393
+COMPUTE wr bank3 t=1835000 addr=23 data=2815 raw=zzzaff
+TOPNTT step=41 t=1835000 wr_en=1111 wr_addr=26/25/24/23 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=58/122/186/250 bin=1609/217/915/2815 alu=1066/541/2321/1708 rd_addr=40
+COMPUTE wr bank0 t=1845000 addr=27 data=1708 raw=zzz6ac
+COMPUTE wr bank1 t=1845000 addr=26 data=2321 raw=zzz911
+COMPUTE wr bank2 t=1845000 addr=25 data=541 raw=zzz21d
+COMPUTE wr bank3 t=1845000 addr=24 data=1066 raw=zzz42a
+TOPNTT step=42 t=1845000 wr_en=1111 wr_addr=27/26/25/24 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=6/70/134/198 bin=1708/2321/541/1066 alu=45/3222/1965/1621 rd_addr=41
+COMPUTE wr bank0 t=1855000 addr=28 data=45 raw=zzz02d
+COMPUTE wr bank1 t=1855000 addr=27 data=1621 raw=zzz655
+COMPUTE wr bank2 t=1855000 addr=26 data=1965 raw=zzz7ad
+COMPUTE wr bank3 t=1855000 addr=25 data=3222 raw=zzzc96
+TOPNTT step=43 t=1855000 wr_en=1111 wr_addr=28/27/26/25 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=38/102/166/230 bin=45/1621/1965/3222 alu=196/703/2677/0 rd_addr=42
+COMPUTE wr bank0 t=1865000 addr=29 data=703 raw=zzz2bf
+COMPUTE wr bank1 t=1865000 addr=28 data=196 raw=zzz0c4
+COMPUTE wr bank2 t=1865000 addr=27 data=0 raw=zzz000
+COMPUTE wr bank3 t=1865000 addr=26 data=2677 raw=zzza75
+TOPNTT step=44 t=1865000 wr_en=1111 wr_addr=29/28/27/26 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=22/86/150/214 bin=703/196/0/2677 alu=1785/55/1787/3242 rd_addr=43
+COMPUTE wr bank0 t=1875000 addr=30 data=1787 raw=zzz6fb
+COMPUTE wr bank1 t=1875000 addr=29 data=55 raw=zzz037
+COMPUTE wr bank2 t=1875000 addr=28 data=1785 raw=zzz6f9
+COMPUTE wr bank3 t=1875000 addr=27 data=3242 raw=zzzcaa
+TOPNTT step=45 t=1875000 wr_en=1111 wr_addr=30/29/28/27 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=54/118/182/246 bin=1787/55/1785/3242 alu=1936/379/2499/854 rd_addr=44
+COMPUTE wr bank0 t=1885000 addr=31 data=854 raw=zzz356
+COMPUTE wr bank1 t=1885000 addr=30 data=2499 raw=zzz9c3
+COMPUTE wr bank2 t=1885000 addr=29 data=379 raw=zzz17b
+COMPUTE wr bank3 t=1885000 addr=28 data=1936 raw=zzz790
+TOPNTT step=46 t=1885000 wr_en=1111 wr_addr=31/30/29/28 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=14/78/142/206 bin=854/2499/379/1936 alu=1128/3060/2143/767 rd_addr=45
+COMPUTE wr bank0 t=1895000 addr=32 data=1128 raw=zzz468
+COMPUTE wr bank1 t=1895000 addr=31 data=767 raw=zzz2ff
+COMPUTE wr bank2 t=1895000 addr=30 data=2143 raw=zzz85f
+COMPUTE wr bank3 t=1895000 addr=29 data=3060 raw=zzzbf4
+TOPNTT step=47 t=1895000 wr_en=1111 wr_addr=32/31/30/29 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=46/110/174/238 bin=1128/767/2143/3060 alu=1279/134/2855/2475 rd_addr=46
+COMPUTE wr bank0 t=1905000 addr=33 data=134 raw=zzz086
+COMPUTE wr bank1 t=1905000 addr=32 data=1279 raw=zzz4ff
+COMPUTE wr bank2 t=1905000 addr=31 data=2475 raw=zzz9ab
+COMPUTE wr bank3 t=1905000 addr=30 data=2855 raw=zzzb27
+TOPNTT step=48 t=1905000 wr_en=1111 wr_addr=33/32/31/30 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=30/94/158/222 bin=134/1279/2475/2855 alu=2868/2815/2330/2388 rd_addr=47
+COMPUTE wr bank0 t=1915000 addr=34 data=2330 raw=zzz91a
+COMPUTE wr bank1 t=1915000 addr=33 data=2815 raw=zzzaff
+COMPUTE wr bank2 t=1915000 addr=32 data=2868 raw=zzzb34
+COMPUTE wr bank3 t=1915000 addr=31 data=2388 raw=zzz954
+TOPNTT step=49 t=1915000 wr_en=1111 wr_addr=34/33/32/31 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=62/126/190/254 bin=2330/2815/2868/2388 alu=3019/3139/3042/3074 rd_addr=48
+COMPUTE wr bank0 t=1925000 addr=35 data=3074 raw=zzzc02
+COMPUTE wr bank1 t=1925000 addr=34 data=3042 raw=zzzbe2
+COMPUTE wr bank2 t=1925000 addr=33 data=3139 raw=zzzc43
+COMPUTE wr bank3 t=1925000 addr=32 data=3019 raw=zzzbcb
+TOPNTT step=50 t=1925000 wr_en=1111 wr_addr=35/34/33/32 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=4/68/132/196 bin=3074/3042/3139/3019 alu=1998/2491/2686/2987 rd_addr=49
+COMPUTE wr bank0 t=1935000 addr=36 data=1998 raw=zzz7ce
+COMPUTE wr bank1 t=1935000 addr=35 data=2987 raw=zzzbab
+COMPUTE wr bank2 t=1935000 addr=34 data=2686 raw=zzza7e
+COMPUTE wr bank3 t=1935000 addr=33 data=2491 raw=zzz9bb
+TOPNTT step=51 t=1935000 wr_en=1111 wr_addr=36/35/34/33 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=36/100/164/228 bin=1998/2987/2686/2491 alu=2149/3301/69/1366 rd_addr=50
+COMPUTE wr bank0 t=1945000 addr=37 data=3301 raw=zzzce5
+COMPUTE wr bank1 t=1945000 addr=36 data=2149 raw=zzz865
+COMPUTE wr bank2 t=1945000 addr=35 data=1366 raw=zzz556
+COMPUTE wr bank3 t=1945000 addr=34 data=69 raw=zzz045
+TOPNTT step=52 t=1945000 wr_en=1111 wr_addr=37/36/35/34 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=20/84/148/212 bin=3301/2149/1366/69 alu=409/2653/2508/1279 rd_addr=51
+COMPUTE wr bank0 t=1955000 addr=38 data=2508 raw=zzz9cc
+COMPUTE wr bank1 t=1955000 addr=37 data=2653 raw=zzza5d
+COMPUTE wr bank2 t=1955000 addr=36 data=409 raw=zzz199
+COMPUTE wr bank3 t=1955000 addr=35 data=1279 raw=zzz4ff
+TOPNTT step=53 t=1955000 wr_en=1111 wr_addr=38/37/36/35 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=52/116/180/244 bin=2508/2653/409/1279 alu=560/2977/3220/2220 rd_addr=52
+COMPUTE wr bank0 t=1965000 addr=39 data=2220 raw=zzz8ac
+COMPUTE wr bank1 t=1965000 addr=38 data=3220 raw=zzzc94
+COMPUTE wr bank2 t=1965000 addr=37 data=2977 raw=zzzba1
+COMPUTE wr bank3 t=1965000 addr=36 data=560 raw=zzz230
+TOPNTT step=54 t=1965000 wr_en=1111 wr_addr=39/38/37/36 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=12/76/140/204 bin=2220/3220/2977/560 alu=1563/2329/2864/2133 rd_addr=53
+COMPUTE wr bank0 t=1975000 addr=40 data=1563 raw=zzz61b
+COMPUTE wr bank1 t=1975000 addr=39 data=2133 raw=zzz855
+COMPUTE wr bank2 t=1975000 addr=38 data=2864 raw=zzzb30
+COMPUTE wr bank3 t=1975000 addr=37 data=2329 raw=zzz919
+TOPNTT step=55 t=1975000 wr_en=1111 wr_addr=40/39/38/37 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=44/108/172/236 bin=1563/2133/2864/2329 alu=1714/53/247/512 rd_addr=54
+COMPUTE wr bank0 t=1985000 addr=41 data=53 raw=zzz035
+COMPUTE wr bank1 t=1985000 addr=40 data=1714 raw=zzz6b2
+COMPUTE wr bank2 t=1985000 addr=39 data=512 raw=zzz200
+COMPUTE wr bank3 t=1985000 addr=38 data=247 raw=zzz0f7
+TOPNTT step=56 t=1985000 wr_en=1111 wr_addr=41/40/39/38 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=28/92/156/220 bin=53/1714/512/247 alu=3303/2734/2419/425 rd_addr=55
+COMPUTE wr bank0 t=1995000 addr=42 data=2419 raw=zzz973
+COMPUTE wr bank1 t=1995000 addr=41 data=2734 raw=zzzaae
+COMPUTE wr bank2 t=1995000 addr=40 data=3303 raw=zzzce7
+COMPUTE wr bank3 t=1995000 addr=39 data=425 raw=zzz1a9
+TOPNTT step=57 t=1995000 wr_en=1111 wr_addr=42/41/40/39 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=60/124/188/252 bin=2419/2734/3303/425 alu=125/3058/3131/2647 rd_addr=56
+COMPUTE wr bank0 t=2005000 addr=43 data=2647 raw=zzza57
+COMPUTE wr bank1 t=2005000 addr=42 data=3131 raw=zzzc3b
+COMPUTE wr bank2 t=2005000 addr=41 data=3058 raw=zzzbf2
+COMPUTE wr bank3 t=2005000 addr=40 data=125 raw=zzz07d
+TOPNTT step=58 t=2005000 wr_en=1111 wr_addr=43/42/41/40 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=8/72/136/200 bin=2647/3131/3058/125 alu=2433/2410/2775/2560 rd_addr=57
+COMPUTE wr bank0 t=2015000 addr=44 data=2433 raw=zzz981
+COMPUTE wr bank1 t=2015000 addr=43 data=2560 raw=zzza00
+COMPUTE wr bank2 t=2015000 addr=42 data=2775 raw=zzzad7
+COMPUTE wr bank3 t=2015000 addr=41 data=2410 raw=zzz96a
+TOPNTT step=59 t=2015000 wr_en=1111 wr_addr=44/43/42/41 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=40/104/168/232 bin=2433/2560/2775/2410 alu=2584/3220/158/939 rd_addr=58
+COMPUTE wr bank0 t=2025000 addr=45 data=3220 raw=zzzc94
+COMPUTE wr bank1 t=2025000 addr=44 data=2584 raw=zzza18
+COMPUTE wr bank2 t=2025000 addr=43 data=939 raw=zzz3ab
+COMPUTE wr bank3 t=2025000 addr=42 data=158 raw=zzz09e
+TOPNTT step=60 t=2025000 wr_en=1111 wr_addr=45/44/43/42 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=24/88/152/216 bin=3220/2584/939/158 alu=844/2572/2597/852 rd_addr=59
+COMPUTE wr bank0 t=2035000 addr=46 data=2597 raw=zzza25
+COMPUTE wr bank1 t=2035000 addr=45 data=2572 raw=zzza0c
+COMPUTE wr bank2 t=2035000 addr=44 data=844 raw=zzz34c
+COMPUTE wr bank3 t=2035000 addr=43 data=852 raw=zzz354
+TOPNTT step=61 t=2035000 wr_en=1111 wr_addr=46/45/44/43 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=56/120/184/248 bin=2597/2572/844/852 alu=995/2896/3309/1793 rd_addr=60
+TAIL ctrl t=2035000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=60 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2045000 addr=47 data=1793 raw=zzz701
+COMPUTE wr bank1 t=2045000 addr=46 data=3309 raw=zzzced
+COMPUTE wr bank2 t=2045000 addr=45 data=2896 raw=zzzb50
+COMPUTE wr bank3 t=2045000 addr=44 data=995 raw=zzz3e3
+TOPNTT step=62 t=2045000 wr_en=1111 wr_addr=47/46/45/44 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=16/80/144/208 bin=1793/3309/2896/995 alu=3010/2248/2953/1706 rd_addr=61
+TAIL ctrl t=2045000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=61 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2055000 addr=48 data=3010 raw=zzzbc2
+COMPUTE wr bank1 t=2055000 addr=47 data=1706 raw=zzz6aa
+COMPUTE wr bank2 t=2055000 addr=46 data=2953 raw=zzzb89
+COMPUTE wr bank3 t=2055000 addr=45 data=2248 raw=zzz8c8
+TOPNTT step=63 t=2055000 wr_en=1111 wr_addr=48/47/46/45 cnt4=1/0/3/2 sw=0000 tw=2868/2402/1891 ain=48/112/176/240 bin=3010/1706/2953/2248 alu=3161/1758/336/85 rd_addr=62
+TAIL ctrl t=2055000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=62 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2065000 addr=49 data=1758 raw=zzz6de
+COMPUTE wr bank1 t=2065000 addr=48 data=3161 raw=zzzc59
+COMPUTE wr bank2 t=2065000 addr=47 data=85 raw=zzz055
+COMPUTE wr bank3 t=2065000 addr=46 data=336 raw=zzz150
+TOPNTT step=64 t=2065000 wr_en=1111 wr_addr=49/48/47/46 cnt4=2/1/0/3 sw=0000 tw=2868/2402/1891 ain=32/96/160/224 bin=1758/3161/85/336 alu=1421/1110/710/3327 rd_addr=63
+TAIL ctrl t=2065000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=63 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2075000 addr=50 data=710 raw=zzz2c6
+COMPUTE wr bank1 t=2075000 addr=49 data=1110 raw=zzz456
+COMPUTE wr bank2 t=2075000 addr=48 data=1421 raw=zzz58d
+COMPUTE wr bank3 t=2075000 addr=47 data=3327 raw=zzzcff
+TOPNTT step=65 t=2075000 wr_en=1111 wr_addr=50/49/48/47 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=64/128/192/256 bin=710/1110/1421/3327 alu=1572/1434/1422/1196 rd_addr=0
+TAIL ctrl t=2075000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2085000 addr=51 data=1196 raw=zzz4ac
+COMPUTE wr bank1 t=2085000 addr=50 data=1422 raw=zzz58e
+COMPUTE wr bank2 t=2085000 addr=49 data=1434 raw=zzz59a
+COMPUTE wr bank3 t=2085000 addr=48 data=1572 raw=zzz624
+TOPNTT step=66 t=2085000 wr_en=1111 wr_addr=51/50/49/48 cnt4=0/3/2/1 sw=0000 tw=1227/1435/2617 ain=187/1927/338/2078 bin=1196/1422/1434/1572 alu=551/786/1066/1109 rd_addr=4
+COMPUTE wr bank0 t=2095000 addr=52 data=551 raw=zzz227
+COMPUTE wr bank1 t=2095000 addr=51 data=1109 raw=zzz455
+COMPUTE wr bank2 t=2095000 addr=50 data=1066 raw=zzz42a
+COMPUTE wr bank3 t=2095000 addr=49 data=786 raw=zzz312
+TOPNTT step=67 t=2095000 wr_en=1111 wr_addr=52/51/50/49 cnt4=1/0/3/2 sw=0000 tw=1227/1435/2617 ain=1057/2797/1208/2948 bin=551/1109/1066/786 alu=702/1596/1778/2817 rd_addr=8
+COMPUTE wr bank0 t=2105000 addr=53 data=1596 raw=zzz63c
+COMPUTE wr bank1 t=2105000 addr=52 data=702 raw=zzz2be
+COMPUTE wr bank2 t=2105000 addr=51 data=2817 raw=zzzb01
+COMPUTE wr bank3 t=2105000 addr=50 data=1778 raw=zzz6f2
+TOPNTT step=68 t=2105000 wr_en=1111 wr_addr=53/52/51/50 cnt4=2/1/0/3 sw=0000 tw=1227/1435/2617 ain=622/2362/773/2513 bin=1596/702/2817/1778 alu=2291/948/888/2730 rd_addr=12
+COMPUTE wr bank0 t=2115000 addr=54 data=888 raw=zzz378
+COMPUTE wr bank1 t=2115000 addr=53 data=948 raw=zzz3b4
+COMPUTE wr bank2 t=2115000 addr=52 data=2291 raw=zzz8f3
+COMPUTE wr bank3 t=2115000 addr=51 data=2730 raw=zzzaaa
+TOPNTT step=69 t=2115000 wr_en=1111 wr_addr=54/53/52/51 cnt4=3/2/1/0 sw=0000 tw=1227/1435/2617 ain=1492/3232/1643/54 bin=888/948/2291/2730 alu=2442/1272/1600/342 rd_addr=16
+COMPUTE wr bank0 t=2125000 addr=55 data=342 raw=zzz156
+COMPUTE wr bank1 t=2125000 addr=54 data=1600 raw=zzz640
+COMPUTE wr bank2 t=2125000 addr=53 data=1272 raw=zzz4f8
+COMPUTE wr bank3 t=2125000 addr=52 data=2442 raw=zzz98a
+TOPNTT step=70 t=2125000 wr_en=1111 wr_addr=55/54/53/52 cnt4=0/3/2/1 sw=0000 tw=1227/1435/2617 ain=2069/480/2220/631 bin=342/1600/1272/2442 alu=116/624/1244/255 rd_addr=20
+COMPUTE wr bank0 t=2135000 addr=56 data=116 raw=zzz074
+COMPUTE wr bank1 t=2135000 addr=55 data=255 raw=zzz0ff
+COMPUTE wr bank2 t=2135000 addr=54 data=1244 raw=zzz4dc
+COMPUTE wr bank3 t=2135000 addr=53 data=624 raw=zzz270
+TOPNTT step=71 t=2135000 wr_en=1111 wr_addr=56/55/54/53 cnt4=1/0/3/2 sw=0000 tw=1227/1435/2617 ain=2939/1350/3090/1501 bin=116/255/1244/624 alu=267/1677/1956/1963 rd_addr=24
+COMPUTE wr bank0 t=2145000 addr=57 data=1677 raw=zzz68d
+COMPUTE wr bank1 t=2145000 addr=56 data=267 raw=zzz10b
+COMPUTE wr bank2 t=2145000 addr=55 data=1963 raw=zzz7ab
+COMPUTE wr bank3 t=2145000 addr=54 data=1956 raw=zzz7a4
+TOPNTT step=72 t=2145000 wr_en=1111 wr_addr=57/56/55/54 cnt4=2/1/0/3 sw=0000 tw=1227/1435/2617 ain=2504/915/2655/1066 bin=1677/267/1963/1956 alu=1856/1029/799/1876 rd_addr=28
+COMPUTE wr bank0 t=2155000 addr=58 data=799 raw=zzz31f
+COMPUTE wr bank1 t=2155000 addr=57 data=1029 raw=zzz405
+COMPUTE wr bank2 t=2155000 addr=56 data=1856 raw=zzz740
+COMPUTE wr bank3 t=2155000 addr=55 data=1876 raw=zzz754
+TOPNTT step=73 t=2155000 wr_en=1111 wr_addr=58/57/56/55 cnt4=3/2/1/0 sw=0000 tw=1227/1435/2617 ain=45/1785/196/1936 bin=799/1029/1856/1876 alu=2007/1353/1511/769 rd_addr=1
+COMPUTE wr bank0 t=2165000 addr=59 data=769 raw=zzz301
+COMPUTE wr bank1 t=2165000 addr=58 data=1511 raw=zzz5e7
+COMPUTE wr bank2 t=2165000 addr=57 data=1353 raw=zzz549
+COMPUTE wr bank3 t=2165000 addr=56 data=2007 raw=zzz7d7
+TOPNTT step=74 t=2165000 wr_en=1111 wr_addr=59/58/57/56 cnt4=0/3/2/1 sw=0000 tw=2617/452/910 ain=2651/2327/2003/1679 bin=769/1511/1353/2007 alu=986/705/1155/682 rd_addr=5
+COMPUTE wr bank0 t=2175000 addr=60 data=986 raw=zzz3da
+COMPUTE wr bank1 t=2175000 addr=59 data=682 raw=zzz2aa
+COMPUTE wr bank2 t=2175000 addr=58 data=1155 raw=zzz483
+COMPUTE wr bank3 t=2175000 addr=57 data=705 raw=zzz2c1
+TOPNTT step=75 t=2175000 wr_en=1111 wr_addr=60/59/58/57 cnt4=1/0/3/2 sw=0000 tw=2617/452/910 ain=2489/2165/1841/1517 bin=986/682/1155/705 alu=1137/1515/1867/2390 rd_addr=9
+COMPUTE wr bank0 t=2185000 addr=61 data=1515 raw=zzz5eb
+COMPUTE wr bank1 t=2185000 addr=60 data=1137 raw=zzz471
+COMPUTE wr bank2 t=2185000 addr=59 data=2390 raw=zzz956
+COMPUTE wr bank3 t=2185000 addr=58 data=1867 raw=zzz74b
+TOPNTT step=76 t=2185000 wr_en=1111 wr_addr=61/60/59/58 cnt4=2/1/0/3 sw=0000 tw=2617/452/910 ain=2570/2246/1922/1598 bin=1515/1137/2390/1867 alu=2726/867/977/2303 rd_addr=13
+COMPUTE wr bank0 t=2195000 addr=62 data=977 raw=zzz3d1
+COMPUTE wr bank1 t=2195000 addr=61 data=867 raw=zzz363
+COMPUTE wr bank2 t=2195000 addr=60 data=2726 raw=zzzaa6
+COMPUTE wr bank3 t=2195000 addr=59 data=2303 raw=zzz8ff
+TOPNTT step=77 t=2195000 wr_en=1111 wr_addr=62/61/60/59 cnt4=3/2/1/0 sw=0000 tw=2617/452/910 ain=2408/2084/1760/1436 bin=977/867/2726/2303 alu=2877/1191/1689/3244 rd_addr=17
+COMPUTE wr bank0 t=2205000 addr=63 data=3244 raw=zzzcac
+COMPUTE wr bank1 t=2205000 addr=62 data=1689 raw=zzz699
+COMPUTE wr bank2 t=2205000 addr=61 data=1191 raw=zzz4a7
+COMPUTE wr bank3 t=2205000 addr=60 data=2877 raw=zzzb3d
+TOPNTT step=78 t=2205000 wr_en=1111 wr_addr=63/62/61/60 cnt4=0/3/2/1 sw=0000 tw=2617/452/910 ain=946/622/298/3303 bin=3244/1689/1191/2877 alu=327/543/1333/3157 rd_addr=21
+COMPUTE wr bank0 t=2215000 addr=0 data=327 raw=zzz147
+COMPUTE wr bank1 t=2215000 addr=63 data=3157 raw=zzzc55
+COMPUTE wr bank2 t=2215000 addr=62 data=1333 raw=zzz535
+COMPUTE wr bank3 t=2215000 addr=61 data=543 raw=zzz21f
+TOPNTT step=79 t=2215000 wr_en=1111 wr_addr=0/63/62/61 cnt4=1/0/3/2 sw=0000 tw=2617/452/910 ain=784/460/136/3141 bin=327/3157/1333/543 alu=1513/2321/2045/1536 rd_addr=25
+COMPUTE wr bank0 t=2225000 addr=4 data=2321 raw=zzz911
+COMPUTE wr bank1 t=2225000 addr=0 data=1513 raw=zzz5e9
+COMPUTE wr bank2 t=2225000 addr=63 data=1536 raw=zzz600
+COMPUTE wr bank3 t=2225000 addr=62 data=2045 raw=zzz7fd
+TOPNTT step=80 t=2225000 wr_en=1111 wr_addr=4/0/63/62 cnt4=2/1/0/3 sw=0000 tw=2617/452/910 ain=865/541/217/3222 bin=2321/1513/1536/2045 alu=920/141/1695/1449 rd_addr=29
+COMPUTE wr bank0 t=2235000 addr=8 data=1695 raw=zzz69f
+COMPUTE wr bank1 t=2235000 addr=4 data=141 raw=zzz08d
+COMPUTE wr bank2 t=2235000 addr=0 data=920 raw=zzz398
+COMPUTE wr bank3 t=2235000 addr=63 data=1449 raw=zzz5a9
+TOPNTT step=81 t=2235000 wr_en=1111 wr_addr=8/4/0/63 cnt4=3/2/1/0 sw=0000 tw=2617/452/910 ain=703/379/55/3060 bin=1695/141/920/1449 alu=2106/1231/1980/3063 rd_addr=2
+COMPUTE wr bank0 t=2245000 addr=12 data=3063 raw=zzzbf7
+COMPUTE wr bank1 t=2245000 addr=8 data=1980 raw=zzz7bc
+COMPUTE wr bank2 t=2245000 addr=4 data=1231 raw=zzz4cf
+COMPUTE wr bank3 t=2245000 addr=0 data=2106 raw=zzz83a
+TOPNTT step=82 t=2245000 wr_en=1111 wr_addr=12/8/4/0 cnt4=0/3/2/1 sw=0000 tw=3110/1010/1848 ain=3140/167/523/879 bin=3063/1980/1231/2106 alu=2288/2380/173/594 rd_addr=6
+COMPUTE wr bank0 t=2255000 addr=16 data=2288 raw=zzz8f0
+COMPUTE wr bank1 t=2255000 addr=12 data=594 raw=zzz252
+COMPUTE wr bank2 t=2255000 addr=8 data=173 raw=zzz0ad
+COMPUTE wr bank3 t=2255000 addr=4 data=2380 raw=zzz94c
+TOPNTT step=83 t=2255000 wr_en=1111 wr_addr=16/12/8/4 cnt4=1/0/3/2 sw=0000 tw=3110/1010/1848 ain=3318/345/701/1057 bin=2288/594/173/2380 alu=145/1776/458/164 rd_addr=10
+COMPUTE wr bank0 t=2265000 addr=20 data=1776 raw=zzz6f0
+COMPUTE wr bank1 t=2265000 addr=16 data=145 raw=zzz091
+COMPUTE wr bank2 t=2265000 addr=12 data=164 raw=zzz0a4
+COMPUTE wr bank3 t=2265000 addr=8 data=458 raw=zzz1ca
+TOPNTT step=84 t=2265000 wr_en=1111 wr_addr=20/16/12/8 cnt4=2/1/0/3 sw=0000 tw=3110/1010/1848 ain=3229/256/612/968 bin=1776/145/164/458 alu=2881/2925/934/1024 rd_addr=14
+COMPUTE wr bank0 t=2275000 addr=24 data=934 raw=zzz3a6
+COMPUTE wr bank1 t=2275000 addr=20 data=2925 raw=zzzb6d
+COMPUTE wr bank2 t=2275000 addr=16 data=2881 raw=zzzb41
+COMPUTE wr bank3 t=2275000 addr=12 data=1024 raw=zzz400
+TOPNTT step=85 t=2275000 wr_en=1111 wr_addr=24/20/16/12 cnt4=3/2/1/0 sw=0000 tw=3110/1010/1848 ain=78/434/790/1146 bin=934/2925/2881/1024 alu=738/686/1219/3278 rd_addr=18
+COMPUTE wr bank0 t=2285000 addr=28 data=3278 raw=zzzcce
+COMPUTE wr bank1 t=2285000 addr=24 data=1219 raw=zzz4c3
+COMPUTE wr bank2 t=2285000 addr=20 data=686 raw=zzz2ae
+COMPUTE wr bank3 t=2285000 addr=16 data=738 raw=zzz2e2
+TOPNTT step=86 t=2285000 wr_en=1111 wr_addr=28/24/20/16 cnt4=0/3/2/1 sw=0000 tw=3110/1010/1848 ain=1520/1876/2232/2588 bin=3278/1219/686/738 alu=1612/1835/2741/809 rd_addr=22
+COMPUTE wr bank0 t=2295000 addr=1 data=1612 raw=zzz64c
+COMPUTE wr bank1 t=2295000 addr=28 data=809 raw=zzz329
+COMPUTE wr bank2 t=2295000 addr=24 data=2741 raw=zzzab5
+COMPUTE wr bank3 t=2295000 addr=20 data=1835 raw=zzz72b
+TOPNTT step=87 t=2295000 wr_en=1111 wr_addr=1/28/24/20 cnt4=1/0/3/2 sw=0000 tw=3110/1010/1848 ain=1698/2054/2410/2766 bin=1612/809/2741/1835 alu=535/2661/3026/379 rd_addr=26
+COMPUTE wr bank0 t=2305000 addr=5 data=2661 raw=zzza65
+COMPUTE wr bank1 t=2305000 addr=1 data=535 raw=zzz217
+COMPUTE wr bank2 t=2305000 addr=28 data=379 raw=zzz17b
+COMPUTE wr bank3 t=2305000 addr=24 data=3026 raw=zzzbd2
+TOPNTT step=88 t=2305000 wr_en=1111 wr_addr=5/1/28/24 cnt4=2/1/0/3 sw=0000 tw=3110/1010/1848 ain=1609/1965/2321/2677 bin=2661/535/379/3026 alu=2738/2471/2965/1239 rd_addr=30
+COMPUTE wr bank0 t=2315000 addr=9 data=2965 raw=zzzb95
+COMPUTE wr bank1 t=2315000 addr=5 data=2471 raw=zzz9a7
+COMPUTE wr bank2 t=2315000 addr=1 data=2738 raw=zzzab2
+COMPUTE wr bank3 t=2315000 addr=28 data=1239 raw=zzz4d7
+TOPNTT step=89 t=2315000 wr_en=1111 wr_addr=9/5/1/28 cnt4=3/2/1/0 sw=0000 tw=3110/1010/1848 ain=1787/2143/2499/2855 bin=2965/2471/2738/1239 alu=1661/2566/1626/37 rd_addr=3
+COMPUTE wr bank0 t=2325000 addr=13 data=37 raw=zzz025
+COMPUTE wr bank1 t=2325000 addr=9 data=1626 raw=zzz65a
+COMPUTE wr bank2 t=2325000 addr=5 data=2566 raw=zzza06
+COMPUTE wr bank3 t=2325000 addr=1 data=1661 raw=zzz67d
+TOPNTT step=90 t=2325000 wr_en=1111 wr_addr=13/9/5/1 cnt4=0/3/2/1 sw=0000 tw=648/2522/219 ain=684/2305/597/2218 bin=37/1626/2566/1661 alu=2175/2376/631/1995 rd_addr=7
+COMPUTE wr bank0 t=2335000 addr=17 data=2175 raw=zzz87f
+COMPUTE wr bank1 t=2335000 addr=13 data=1995 raw=zzz7cb
+COMPUTE wr bank2 t=2335000 addr=9 data=631 raw=zzz277
+COMPUTE wr bank3 t=2335000 addr=5 data=2376 raw=zzz948
+TOPNTT step=91 t=2335000 wr_en=1111 wr_addr=17/13/9/5 cnt4=1/0/3/2 sw=0000 tw=648/2522/219 ain=3159/1451/3072/1364 bin=2175/1995/631/2376 alu=1098/949/2621/1016 rd_addr=11
+COMPUTE wr bank0 t=2345000 addr=21 data=949 raw=zzz3b5
+COMPUTE wr bank1 t=2345000 addr=17 data=1098 raw=zzz44a
+COMPUTE wr bank2 t=2345000 addr=13 data=1016 raw=zzz3f8
+COMPUTE wr bank3 t=2345000 addr=9 data=2621 raw=zzza3d
+TOPNTT step=92 t=2345000 wr_en=1111 wr_addr=21/17/13/9 cnt4=2/1/0/3 sw=0000 tw=648/2522/219 ain=257/1878/170/1791 bin=949/1098/1016/2621 alu=3301/759/1798/2974 rd_addr=15
+COMPUTE wr bank0 t=2355000 addr=25 data=1798 raw=zzz706
+COMPUTE wr bank1 t=2355000 addr=21 data=759 raw=zzz2f7
+COMPUTE wr bank2 t=2355000 addr=17 data=3301 raw=zzzce5
+COMPUTE wr bank3 t=2355000 addr=13 data=2974 raw=zzzb9e
+TOPNTT step=93 t=2355000 wr_en=1111 wr_addr=25/21/17/13 cnt4=3/2/1/0 sw=0000 tw=648/2522/219 ain=2732/1024/2645/937 bin=1798/759/3301/2974 alu=2224/854/459/2191 rd_addr=19
+COMPUTE wr bank0 t=2365000 addr=29 data=2191 raw=zzz88f
+COMPUTE wr bank1 t=2365000 addr=25 data=459 raw=zzz1cb
+COMPUTE wr bank2 t=2365000 addr=21 data=854 raw=zzz356
+COMPUTE wr bank3 t=2365000 addr=17 data=2224 raw=zzz8b0
+TOPNTT step=94 t=2365000 wr_en=1111 wr_addr=29/25/21/17 cnt4=0/3/2/1 sw=0000 tw=648/2522/219 ain=2135/427/2048/340 bin=2191/459/854/2224 alu=2065/664/2793/820 rd_addr=23
+COMPUTE wr bank0 t=2375000 addr=2 data=2065 raw=zzz811
+COMPUTE wr bank1 t=2375000 addr=29 data=820 raw=zzz334
+COMPUTE wr bank2 t=2375000 addr=25 data=2793 raw=zzzae9
+COMPUTE wr bank3 t=2375000 addr=21 data=664 raw=zzz298
+TOPNTT step=95 t=2375000 wr_en=1111 wr_addr=2/29/25/21 cnt4=1/0/3/2 sw=0000 tw=648/2522/219 ain=1281/2902/1194/2815 bin=2065/820/2793/664 alu=123/632/1454/3170 rd_addr=27
+COMPUTE wr bank0 t=2385000 addr=6 data=632 raw=zzz278
+COMPUTE wr bank1 t=2385000 addr=2 data=123 raw=zzz07b
+COMPUTE wr bank2 t=2385000 addr=29 data=3170 raw=zzzc62
+COMPUTE wr bank3 t=2385000 addr=25 data=1454 raw=zzz5ae
+TOPNTT step=96 t=2385000 wr_en=1111 wr_addr=6/2/29/25 cnt4=2/1/0/3 sw=0000 tw=648/2522/219 ain=1708/0/1621/3242 bin=632/123/3170/1454 alu=1094/1987/724/1799 rd_addr=31
+COMPUTE wr bank0 t=2395000 addr=10 data=724 raw=zzz2d4
+COMPUTE wr bank1 t=2395000 addr=6 data=1987 raw=zzz7c3
+COMPUTE wr bank2 t=2395000 addr=2 data=1094 raw=zzz446
+COMPUTE wr bank3 t=2395000 addr=29 data=1799 raw=zzz707
+TOPNTT step=97 t=2395000 wr_en=1111 wr_addr=10/6/2/29 cnt4=3/2/1/0 sw=0000 tw=648/2522/219 ain=854/2475/767/2388 bin=724/1987/1094/1799 alu=2481/2974/930/2481 rd_addr=32
+COMPUTE wr bank0 t=2405000 addr=14 data=2481 raw=zzz9b1
+COMPUTE wr bank1 t=2405000 addr=10 data=930 raw=zzz3a2
+COMPUTE wr bank2 t=2405000 addr=6 data=2974 raw=zzzb9e
+COMPUTE wr bank3 t=2405000 addr=2 data=2481 raw=zzz9b1
+TOPNTT step=98 t=2405000 wr_en=1111 wr_addr=14/10/6/2 cnt4=0/3/2/1 sw=0000 tw=1227/1435/2617 ain=1128/2868/1279/3019 bin=2481/930/2974/2481 alu=3244/1000/827/245 rd_addr=36
+COMPUTE wr bank0 t=2415000 addr=18 data=3244 raw=zzzcac
+COMPUTE wr bank1 t=2415000 addr=14 data=245 raw=zzz0f5
+COMPUTE wr bank2 t=2415000 addr=10 data=827 raw=zzz33b
+COMPUTE wr bank3 t=2415000 addr=6 data=1000 raw=zzz3e8
+TOPNTT step=99 t=2415000 wr_en=1111 wr_addr=18/14/10/6 cnt4=1/0/3/2 sw=0000 tw=1227/1435/2617 ain=1998/409/2149/560 bin=3244/245/827/1000 alu=1302/1803/1033/1363 rd_addr=40
+COMPUTE wr bank0 t=2425000 addr=22 data=1803 raw=zzz70b
+COMPUTE wr bank1 t=2425000 addr=18 data=1302 raw=zzz516
+COMPUTE wr bank2 t=2425000 addr=14 data=1363 raw=zzz553
+COMPUTE wr bank3 t=2425000 addr=10 data=1033 raw=zzz409
+TOPNTT step=100 t=2425000 wr_en=1111 wr_addr=22/18/14/10 cnt4=2/1/0/3 sw=0000 tw=1227/1435/2617 ain=1563/3303/1714/125 bin=1803/1302/1363/1033 alu=2273/3158/2440/2456 rd_addr=44
+COMPUTE wr bank0 t=2435000 addr=26 data=2440 raw=zzz988
+COMPUTE wr bank1 t=2435000 addr=22 data=3158 raw=zzzc56
+COMPUTE wr bank2 t=2435000 addr=18 data=2273 raw=zzz8e1
+COMPUTE wr bank3 t=2435000 addr=14 data=2456 raw=zzz998
+TOPNTT step=101 t=2435000 wr_en=1111 wr_addr=26/22/18/14 cnt4=3/2/1/0 sw=0000 tw=1227/1435/2617 ain=2433/844/2584/995 bin=2440/3158/2273/2456 alu=331/816/2646/1922 rd_addr=48
+COMPUTE wr bank0 t=2445000 addr=30 data=1922 raw=zzz782
+COMPUTE wr bank1 t=2445000 addr=26 data=2646 raw=zzza56
+COMPUTE wr bank2 t=2445000 addr=22 data=816 raw=zzz330
+COMPUTE wr bank3 t=2445000 addr=18 data=331 raw=zzz14b
+TOPNTT step=102 t=2445000 wr_en=1111 wr_addr=30/26/22/18 cnt4=0/3/2/1 sw=0000 tw=1227/1435/2617 ain=3010/1421/3161/1572 bin=1922/2646/816/331 alu=2218/2171/2543/3015 rd_addr=52
+COMPUTE wr bank0 t=2455000 addr=3 data=2218 raw=zzz8aa
+COMPUTE wr bank1 t=2455000 addr=30 data=3015 raw=zzzbc7
+COMPUTE wr bank2 t=2455000 addr=26 data=2543 raw=zzz9ef
+COMPUTE wr bank3 t=2455000 addr=22 data=2171 raw=zzz87b
+TOPNTT step=103 t=2455000 wr_en=1111 wr_addr=3/30/26/22 cnt4=1/0/3/2 sw=0000 tw=1227/1435/2617 ain=551/2291/702/2442 bin=2218/3015/2543/2171 alu=1374/252/2749/804 rd_addr=56
+COMPUTE wr bank0 t=2465000 addr=7 data=252 raw=zzz0fc
+COMPUTE wr bank1 t=2465000 addr=3 data=1374 raw=zzz55e
+COMPUTE wr bank2 t=2465000 addr=30 data=804 raw=zzz324
+COMPUTE wr bank3 t=2465000 addr=26 data=2749 raw=zzzabd
+TOPNTT step=104 t=2465000 wr_en=1111 wr_addr=7/3/30/26 cnt4=2/1/0/3 sw=0000 tw=1227/1435/2617 ain=116/1856/267/2007 bin=252/1374/804/2749 alu=1796/3312/2975/1897 rd_addr=60
+TAIL ctrl t=2465000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=60 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2475000 addr=11 data=2975 raw=zzzb9f
+COMPUTE wr bank1 t=2475000 addr=7 data=3312 raw=zzzcf0
+COMPUTE wr bank2 t=2475000 addr=3 data=1796 raw=zzz704
+COMPUTE wr bank3 t=2475000 addr=30 data=1897 raw=zzz769
+TOPNTT step=105 t=2475000 wr_en=1111 wr_addr=11/7/3/30 cnt4=3/2/1/0 sw=0000 tw=1227/1435/2617 ain=986/2726/1137/2877 bin=2975/3312/1796/1897 alu=952/1782/1842/620 rd_addr=33
+COMPUTE wr bank0 t=2485000 addr=15 data=620 raw=zzz26c
+COMPUTE wr bank1 t=2485000 addr=11 data=1842 raw=zzz732
+COMPUTE wr bank2 t=2485000 addr=7 data=1782 raw=zzz6f6
+COMPUTE wr bank3 t=2485000 addr=3 data=952 raw=zzz3b8
+TOPNTT step=106 t=2485000 wr_en=1111 wr_addr=15/11/7/3 cnt4=0/3/2/1 sw=0000 tw=2617/452/910 ain=134/3139/2815/2491 bin=620/1842/1782/952 alu=2007/1513/744/2779 rd_addr=37
+COMPUTE wr bank0 t=2495000 addr=19 data=2007 raw=zzz7d7
+COMPUTE wr bank1 t=2495000 addr=15 data=2779 raw=zzzadb
+COMPUTE wr bank2 t=2495000 addr=11 data=744 raw=zzz2e8
+COMPUTE wr bank3 t=2495000 addr=7 data=1513 raw=zzz5e9
+TOPNTT step=107 t=2495000 wr_en=1111 wr_addr=19/15/11/7 cnt4=1/0/3/2 sw=0000 tw=2617/452/910 ain=3301/2977/2653/2329 bin=2007/2779/744/1513 alu=1163/1017/2940/35 rd_addr=41
+COMPUTE wr bank0 t=2505000 addr=23 data=1017 raw=zzz3f9
+COMPUTE wr bank1 t=2505000 addr=19 data=1163 raw=zzz48b
+COMPUTE wr bank2 t=2505000 addr=15 data=35 raw=zzz023
+COMPUTE wr bank3 t=2505000 addr=11 data=2940 raw=zzzb7c
+TOPNTT step=108 t=2505000 wr_en=1111 wr_addr=23/19/15/11 cnt4=2/1/0/3 sw=0000 tw=2617/452/910 ain=53/3058/2734/2410 bin=1017/1163/35/2940 alu=1585/748/195/2194 rd_addr=45
+COMPUTE wr bank0 t=2515000 addr=27 data=195 raw=zzz0c3
+COMPUTE wr bank1 t=2515000 addr=23 data=748 raw=zzz2ec
+COMPUTE wr bank2 t=2515000 addr=19 data=1585 raw=zzz631
+COMPUTE wr bank3 t=2515000 addr=15 data=2194 raw=zzz892
+TOPNTT step=109 t=2515000 wr_en=1111 wr_addr=27/23/19/15 cnt4=3/2/1/0 sw=0000 tw=2617/452/910 ain=3220/2896/2572/2248 bin=195/748/1585/2194 alu=741/2547/2391/1992 rd_addr=49
+COMPUTE wr bank0 t=2525000 addr=31 data=1992 raw=zzz7c8
+COMPUTE wr bank1 t=2525000 addr=27 data=2391 raw=zzz957
+COMPUTE wr bank2 t=2525000 addr=23 data=2547 raw=zzz9f3
+COMPUTE wr bank3 t=2525000 addr=19 data=741 raw=zzz2e5
+TOPNTT step=110 t=2525000 wr_en=1111 wr_addr=31/27/23/19 cnt4=0/3/2/1 sw=0000 tw=2617/452/910 ain=1758/1434/1110/786 bin=1992/2391/2547/741 alu=2972/2278/1293/822 rd_addr=53
+COMPUTE wr bank0 t=2535000 addr=32 data=2972 raw=zzzb9c
+COMPUTE wr bank1 t=2535000 addr=31 data=822 raw=zzz336
+COMPUTE wr bank2 t=2535000 addr=27 data=1293 raw=zzz50d
+COMPUTE wr bank3 t=2535000 addr=23 data=2278 raw=zzz8e6
+TOPNTT step=111 t=2535000 wr_en=1111 wr_addr=32/31/27/23 cnt4=1/0/3/2 sw=0000 tw=2617/452/910 ain=1596/1272/948/624 bin=2972/822/1293/2278 alu=829/384/160/1407 rd_addr=57
+COMPUTE wr bank0 t=2545000 addr=36 data=384 raw=zzz180
+COMPUTE wr bank1 t=2545000 addr=32 data=829 raw=zzz33d
+COMPUTE wr bank2 t=2545000 addr=31 data=1407 raw=zzz57f
+COMPUTE wr bank3 t=2545000 addr=27 data=160 raw=zzz0a0
+TOPNTT step=112 t=2545000 wr_en=1111 wr_addr=36/32/31/27 cnt4=2/1/0/3 sw=0000 tw=2617/452/910 ain=1677/1353/1029/705 bin=384/829/1407/160 alu=236/1533/2979/237 rd_addr=61
+TAIL ctrl t=2545000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=61 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2555000 addr=40 data=2979 raw=zzzba3
+COMPUTE wr bank1 t=2555000 addr=36 data=1533 raw=zzz5fd
+COMPUTE wr bank2 t=2555000 addr=32 data=236 raw=zzz0ec
+COMPUTE wr bank3 t=2555000 addr=31 data=237 raw=zzz0ed
+TOPNTT step=113 t=2555000 wr_en=1111 wr_addr=40/36/32/31 cnt4=3/2/1/0 sw=0000 tw=2617/452/910 ain=1515/1191/867/543 bin=2979/1533/236/237 alu=1422/2623/3264/1506 rd_addr=34
+COMPUTE wr bank0 t=2565000 addr=44 data=1506 raw=zzz5e2
+COMPUTE wr bank1 t=2565000 addr=40 data=3264 raw=zzzcc0
+COMPUTE wr bank2 t=2565000 addr=36 data=2623 raw=zzza3f
+COMPUTE wr bank3 t=2565000 addr=32 data=1422 raw=zzz58e
+TOPNTT step=114 t=2565000 wr_en=1111 wr_addr=44/40/36/32 cnt4=0/3/2/1 sw=0000 tw=3110/1010/1848 ain=2330/2686/3042/69 bin=1506/3264/2623/1422 alu=1604/443/1457/2366 rd_addr=38
+COMPUTE wr bank0 t=2575000 addr=48 data=1604 raw=zzz644
+COMPUTE wr bank1 t=2575000 addr=44 data=2366 raw=zzz93e
+COMPUTE wr bank2 t=2575000 addr=40 data=1457 raw=zzz5b1
+COMPUTE wr bank3 t=2575000 addr=36 data=443 raw=zzz1bb
+TOPNTT step=115 t=2575000 wr_en=1111 wr_addr=48/44/40/36 cnt4=1/0/3/2 sw=0000 tw=3110/1010/1848 ain=2508/2864/3220/247 bin=1604/2366/1457/443 alu=2790/3168/1742/1936 rd_addr=42
+COMPUTE wr bank0 t=2585000 addr=52 data=3168 raw=zzzc60
+COMPUTE wr bank1 t=2585000 addr=48 data=2790 raw=zzzae6
+COMPUTE wr bank2 t=2585000 addr=44 data=1936 raw=zzz790
+COMPUTE wr bank3 t=2585000 addr=40 data=1742 raw=zzz6ce
+TOPNTT step=116 t=2585000 wr_en=1111 wr_addr=52/48/44/40 cnt4=2/1/0/3 sw=0000 tw=3110/1010/1848 ain=2419/2775/3131/158 bin=3168/2790/1936/1742 alu=2197/988/2218/2796 rd_addr=46
+COMPUTE wr bank0 t=2595000 addr=56 data=2218 raw=zzz8aa
+COMPUTE wr bank1 t=2595000 addr=52 data=988 raw=zzz3dc
+COMPUTE wr bank2 t=2595000 addr=48 data=2197 raw=zzz895
+COMPUTE wr bank3 t=2595000 addr=44 data=2796 raw=zzzaec
+TOPNTT step=117 t=2595000 wr_en=1111 wr_addr=56/52/48/44 cnt4=3/2/1/0 sw=0000 tw=3110/1010/1848 ain=2597/2953/3309/336 bin=2218/988/2197/2796 alu=54/2078/2503/1721 rd_addr=50
+COMPUTE wr bank0 t=2605000 addr=60 data=1721 raw=zzz6b9
+COMPUTE wr bank1 t=2605000 addr=56 data=2503 raw=zzz9c7
+COMPUTE wr bank2 t=2605000 addr=52 data=2078 raw=zzz81e
+COMPUTE wr bank3 t=2605000 addr=48 data=54 raw=zzz036
+TOPNTT step=118 t=2605000 wr_en=1111 wr_addr=60/56/52/48 cnt4=0/3/2/1 sw=0000 tw=3110/1010/1848 ain=710/1066/1422/1778 bin=1721/2503/2078/54 alu=229/3227/696/2581 rd_addr=54
+COMPUTE wr bank0 t=2615000 addr=33 data=229 raw=zzz0e5
+COMPUTE wr bank1 t=2615000 addr=60 data=2581 raw=zzza15
+COMPUTE wr bank2 t=2615000 addr=56 data=696 raw=zzz2b8
+COMPUTE wr bank3 t=2615000 addr=52 data=3227 raw=zzzc9b
+TOPNTT step=119 t=2615000 wr_en=1111 wr_addr=33/60/56/52 cnt4=1/0/3/2 sw=0000 tw=3110/1010/1848 ain=888/1244/1600/1956 bin=229/2581/696/3227 alu=2481/1805/981/2151 rd_addr=58
+COMPUTE wr bank0 t=2625000 addr=37 data=1805 raw=zzz70d
+COMPUTE wr bank1 t=2625000 addr=33 data=2481 raw=zzz9b1
+COMPUTE wr bank2 t=2625000 addr=60 data=2151 raw=zzz867
+COMPUTE wr bank3 t=2625000 addr=56 data=981 raw=zzz3d5
+TOPNTT step=120 t=2625000 wr_en=1111 wr_addr=37/33/60/56 cnt4=2/1/0/3 sw=0000 tw=3110/1010/1848 ain=799/1155/1511/1867 bin=1805/2481/2151/981 alu=1355/1615/717/3011 rd_addr=62
+ALUDET step=120 pe2=1355/1710/1712/2093 pe2d=1615/2707/717/3072/1114/3011 pe1d=679/3085/3021
+ALUPE1 step=120 in=2419/2935/1762/2890 out=1286/3033/45/77 d4=171/621/16 mid=1773 sw=0/0/0
+ALUMUL step=120 mul=1155/1511/1867 tw=3110/1010/1848 p=2935/1762/2890 en=1/1
+TAIL ctrl t=2625000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=62 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2635000 addr=41 data=717 raw=zzz2cd
+COMPUTE wr bank1 t=2635000 addr=37 data=1615 raw=zzz64f
+COMPUTE wr bank2 t=2635000 addr=33 data=1355 raw=zzz54b
+COMPUTE wr bank3 t=2635000 addr=60 data=3011 raw=zzzbc3
+TOPNTT step=121 t=2635000 wr_en=1111 wr_addr=41/37/33/60 cnt4=3/2/1/0 sw=0000 tw=3110/1010/1848 ain=977/1333/1689/2045 bin=717/1615/1355/3011 alu=278/1710/2707/1114 rd_addr=35
+ALUDET step=121 pe2=278/1520/373/722 pe2d=1710/1712/2707/2093/3072/1114 pe1d=237/3216/186
+ALUPE1 step=121 in=2597/670/716/752 out=418/1959/1269/2332 d4=2292/752/900 mid=1646 sw=0/0/0
+ALUMUL step=121 mul=1333/1689/2045 tw=3110/1010/1848 p=670/716/752 en=1/1
+COMPUTE wr bank0 t=2645000 addr=45 data=1114 raw=zzz45a
+COMPUTE wr bank1 t=2645000 addr=41 data=2707 raw=zzza93
+COMPUTE wr bank2 t=2645000 addr=37 data=1710 raw=zzz6ae
+COMPUTE wr bank3 t=2645000 addr=33 data=278 raw=zzz116
+TOPNTT step=122 t=2645000 wr_en=1111 wr_addr=45/41/37/33 cnt4=0/3/2/1 sw=0000 tw=648/2522/219 ain=3074/1366/2987/1279 bin=1114/2707/1710/278 alu=792/1520/1712/3072 rd_addr=39
+ALUDET step=122 pe2=792/93/2879/3268 pe2d=1520/373/1712/722/2093/3072 pe1d=1121/1486/2879
+ALUPE1 step=122 in=710/2669/359/1760 out=852/2496/657/2869 d4=2896/2351/458 mid=45 sw=0/0/0
+ALUMUL step=122 mul=1366/2987/1279 tw=648/2522/219 p=2669/359/1760 en=1/1
+COMPUTE wr bank0 t=2655000 addr=49 data=792 raw=zzz318
+COMPUTE wr bank1 t=2655000 addr=45 data=3072 raw=zzzc00
+COMPUTE wr bank2 t=2655000 addr=41 data=1712 raw=zzz6b0
+COMPUTE wr bank3 t=2655000 addr=37 data=1520 raw=zzz5f0
+TOPNTT step=123 t=2655000 wr_en=1111 wr_addr=49/45/41/37 cnt4=1/0/3/2 sw=0000 tw=648/2522/219 ain=2220/512/2133/425 bin=792/3072/1712/1520 alu=3044/93/373/2093 rd_addr=43
+ALUDET step=123 pe2=3044/3232/1540/1897 pe2d=93/2879/373/3268/722/2093 pe1d=16/1617/3197
+ALUPE1 step=123 in=888/404/2642/2951 out=3313/1422/1881/1795 d4=1688/2482/1342 mid=3247 sw=0/0/0
+ALUMUL step=123 mul=512/2133/425 tw=648/2522/219 p=404/2642/2951 en=1/1
+COMPUTE wr bank0 t=2665000 addr=53 data=93 raw=zzz05d
+COMPUTE wr bank1 t=2665000 addr=49 data=3044 raw=zzzbe4
+COMPUTE wr bank2 t=2665000 addr=45 data=2093 raw=zzz82d
+COMPUTE wr bank3 t=2665000 addr=41 data=373 raw=zzz175
+TOPNTT step=124 t=2665000 wr_en=1111 wr_addr=53/49/45/41 cnt4=2/1/0/3 sw=0000 tw=648/2522/219 ain=2647/939/2560/852 bin=93/3044/2093/373 alu=1918/3232/2879/722 rd_addr=47
+ALUDET step=124 pe2=1918/3327/545/918 pe2d=3232/1540/2879/1897/3268/722 pe1d=900/621/2561
+ALUPE1 step=124 in=799/3201/3165/691 out=1069/1100/351/2837 d4=1286/3033/45 mid=909 sw=0/0/0
+ALUMUL step=124 mul=939/2560/852 tw=648/2522/219 p=3201/3165/691 en=1/1
+COMPUTE wr bank0 t=2675000 addr=57 data=2879 raw=zzzb3f
+COMPUTE wr bank1 t=2675000 addr=53 data=3232 raw=zzzca0
+COMPUTE wr bank2 t=2675000 addr=49 data=1918 raw=zzz77e
+COMPUTE wr bank3 t=2675000 addr=45 data=722 raw=zzz2d2
+TOPNTT step=125 t=2675000 wr_en=1111 wr_addr=57/53/49/45 cnt4=3/2/1/0 sw=0000 tw=648/2522/219 ain=1793/85/1706/3327 bin=2879/3232/1918/722 alu=841/3327/1540/3268 rd_addr=51
+ALUDET step=125 pe2=841/3137/2535/2876 pe2d=3327/545/1540/918/1897/3268 pe1d=458/752/27
+ALUPE1 step=125 in=977/936/2119/1882 out=201/26/1575/2968 d4=418/1959/1269 mid=782 sw=0/0/0
+ALUMUL step=125 mul=85/1706/3327 tw=648/2522/219 p=936/2119/1882 en=1/1
+COMPUTE wr bank0 t=2685000 addr=61 data=3268 raw=zzzcc4
+COMPUTE wr bank1 t=2685000 addr=57 data=1540 raw=zzz604
+COMPUTE wr bank2 t=2685000 addr=53 data=3327 raw=zzzcff
+COMPUTE wr bank3 t=2685000 addr=49 data=841 raw=zzz349
+TOPNTT step=126 t=2685000 wr_en=1111 wr_addr=61/57/53/49 cnt4=0/3/2/1 sw=0000 tw=648/2522/219 ain=1196/2817/1109/2730 bin=3268/1540/3327/841 alu=990/3137/545/1897 rd_addr=55
+ALUDET step=126 pe2=990/2882/1582/537 pe2d=3137/2535/545/2876/918/1897 pe1d=1342/2351/2720
+ALUPE1 step=126 in=3074/1597/2936/2828 out=635/563/963/1238 d4=852/2496/657 mid=2510 sw=0/0/0
+ALUMUL step=126 mul=2817/1109/2730 tw=648/2522/219 p=1597/2936/2828 en=1/1
+COMPUTE wr bank0 t=2695000 addr=34 data=990 raw=zzz3de
+COMPUTE wr bank1 t=2695000 addr=61 data=1897 raw=zzz769
+COMPUTE wr bank2 t=2695000 addr=57 data=545 raw=zzz221
+COMPUTE wr bank3 t=2695000 addr=53 data=3137 raw=zzzc41
+TOPNTT step=127 t=2695000 wr_en=1111 wr_addr=34/61/57/53 cnt4=1/0/3/2 sw=0000 tw=648/2522/219 ain=342/1963/255/1876 bin=990/1897/545/3137 alu=2377/2882/2535/918 rd_addr=59
+ALUDET step=127 pe2=2377/908/1788/1630 pe2d=2882/1582/2535/537/2876/918 pe1d=45/2482/3038
+ALUPE1 step=127 in=2220/1705/1137/1200 out=3096/2818/2187/1369 d4=3313/1422/1881 mid=2383 sw=0/0/0
+ALUMUL step=127 mul=1963/255/1876 tw=648/2522/219 p=1705/1137/1200 en=1/1
+COMPUTE wr bank0 t=2705000 addr=38 data=2882 raw=zzzb42
+COMPUTE wr bank1 t=2705000 addr=34 data=2377 raw=zzz949
+COMPUTE wr bank2 t=2705000 addr=61 data=918 raw=zzz396
+COMPUTE wr bank3 t=2705000 addr=57 data=2535 raw=zzz9e7
+TOPNTT step=128 t=2705000 wr_en=1111 wr_addr=38/34/61/57 cnt4=2/1/0/3 sw=0000 tw=648/2522/219 ain=769/2390/682/2303 bin=2882/2377/918/2535 alu=19/908/1582/2876 rd_addr=63
+ALUDET step=128 pe2=19/1895/1685/2748 pe2d=908/1788/1582/1630/537/2876 pe1d=1269/3033/2402
+ALUPE1 step=128 in=2647/1651/372/2014 out=2681/1096/138/373 d4=1069/1100/351 mid=2098 sw=0/0/0
+ALUMUL step=128 mul=2390/682/2303 tw=648/2522/219 p=1651/372/2014 en=1/1
+TAIL ctrl t=2705000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=63 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2715000 addr=42 data=1582 raw=zzz62e
+COMPUTE wr bank1 t=2715000 addr=38 data=908 raw=zzz38c
+COMPUTE wr bank2 t=2715000 addr=34 data=19 raw=zzz013
+COMPUTE wr bank3 t=2715000 addr=61 data=2876 raw=zzzb3c
+TOPNTT step=129 t=2715000 wr_en=1111 wr_addr=42/38/34/61 cnt4=3/2/1/0 sw=0000 tw=648/2522/219 ain=3244/1536/3157/1449 bin=1582/908/19/2876 alu=1406/1895/1788/537 rd_addr=0
+ALUDET step=129 pe2=1406/3250/1891/512 pe2d=1895/1685/1788/2748/1630/537 pe1d=657/1959/1773
+ALUPE1 step=129 in=1793/1759/1902/386 out=28/2905/1083/504 d4=201/26/1575 mid=505 sw=0/0/0
+ALUMUL step=129 mul=1536/3157/1449 tw=648/2522/219 p=1759/1902/386 en=1/1
+TAIL ctrl t=2715000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=2725000 addr=46 data=537 raw=zzz219
+COMPUTE wr bank1 t=2725000 addr=42 data=1788 raw=zzz6fc
+COMPUTE wr bank2 t=2725000 addr=38 data=1895 raw=zzz767
+COMPUTE wr bank3 t=2725000 addr=34 data=1406 raw=zzz57e
+TOPNTT step=130 t=2725000 wr_en=1111 wr_addr=46/42/38/34 cnt4=0/3/2/1 sw=0000 tw=569/1320/1974 ain=327/920/1513/2106 bin=537/1788/1895/1406 alu=2169/3250/1685/1630 rd_addr=16
+ALUDET step=130 pe2=2169/724/3298/3307 pe2d=3250/1891/1685/512/2748/1630 pe1d=1881/2496/1646
+ALUPE1 step=130 in=1196/1624/1654/2421 out=3019/336/2275/2103 d4=635/563/963 mid=2966 sw=0/0/0
+ALUMUL step=130 mul=920/1513/2106 tw=569/1320/1974 p=1624/1654/2421 en=1/1
+COMPUTE wr bank0 t=2735000 addr=50 data=2169 raw=zzz879
+COMPUTE wr bank1 t=2735000 addr=46 data=1630 raw=zzz65e
+COMPUTE wr bank2 t=2735000 addr=42 data=1685 raw=zzz695
+COMPUTE wr bank3 t=2735000 addr=38 data=3250 raw=zzzcb2
+TOPNTT step=131 t=2735000 wr_en=1111 wr_addr=50/46/42/38 cnt4=1/0/3/2 sw=0000 tw=569/1320/1974 ain=2288/2881/145/738 bin=2169/1630/1685/3250 alu=227/724/1891/2748 rd_addr=1
+ALUDET step=131 pe2=227/2079/175/1071 pe2d=724/3298/1891/3307/512/2748 pe1d=351/1422/45
+ALUPE1 step=131 in=342/1732/3184/793 out=366/2145/3220/2234 d4=3096/2818/2187 mid=1373 sw=0/0/0
+ALUMUL step=131 mul=2881/145/738 tw=569/1320/1974 p=1732/3184/793 en=1/1
+COMPUTE wr bank0 t=2745000 addr=54 data=724 raw=zzz2d4
+COMPUTE wr bank1 t=2745000 addr=50 data=227 raw=zzz0e3
+COMPUTE wr bank2 t=2745000 addr=46 data=2748 raw=zzzabc
+COMPUTE wr bank3 t=2745000 addr=42 data=1891 raw=zzz763
+TOPNTT step=132 t=2745000 wr_en=1111 wr_addr=54/50/46/42 cnt4=2/1/0/3 sw=0000 tw=1974/331/1919 ain=1612/2738/535/1661 bin=724/227/2748/1891 alu=1198/2079/3298/512 rd_addr=17
+ALUDET step=132 pe2=1198/3066/72/2189 pe2d=2079/175/3298/1071/3307/512 pe1d=1575/1100/3247
+ALUPE1 step=132 in=769/1678/2419/1607 out=2850/716/2871/2161 d4=2681/1096/138 mid=2532 sw=0/0/0
+ALUMUL step=132 mul=2738/535/1661 tw=1974/331/1919 p=1678/2419/1607 en=1/1
+COMPUTE wr bank0 t=2755000 addr=58 data=3298 raw=zzzce2
+COMPUTE wr bank1 t=2755000 addr=54 data=2079 raw=zzz81f
+COMPUTE wr bank2 t=2755000 addr=50 data=1198 raw=zzz4ae
+COMPUTE wr bank3 t=2755000 addr=46 data=512 raw=zzz200
+TOPNTT step=133 t=2755000 wr_en=1111 wr_addr=58/54/50/46 cnt4=3/2/1/0 sw=0000 tw=1974/331/1919 ain=2175/3301/1098/2224 bin=3298/2079/1198/512 alu=2585/3066/175/3307 rd_addr=2
+ALUDET step=133 pe2=2585/1092/278/3282 pe2d=3066/72/175/2189/1071/3307 pe1d=963/26/909
+ALUPE1 step=133 in=3244/1786/620/3308 out=197/2525/487/947 d4=28/2905/1083 mid=939 sw=0/0/0
+ALUMUL step=133 mul=3301/1098/2224 tw=1974/331/1919 p=1786/620/3308 en=1/1
+COMPUTE wr bank0 t=2765000 addr=62 data=3307 raw=zzzceb
+COMPUTE wr bank1 t=2765000 addr=58 data=175 raw=zzz0af
+COMPUTE wr bank2 t=2765000 addr=54 data=3066 raw=zzzbfa
+COMPUTE wr bank3 t=2765000 addr=50 data=2585 raw=zzza19
+TOPNTT step=134 t=2765000 wr_en=1111 wr_addr=62/58/54/50 cnt4=0/3/2/1 sw=0000 tw=1729/1977/56 ain=2065/1094/123/2481 bin=3307/175/3066/2585 alu=448/1092/72/1071 rd_addr=18
+ALUDET step=134 pe2=448/2299/1585/1306 pe2d=1092/278/72/3282/2189/1071 pe1d=2187/563/782
+ALUPE1 step=134 in=327/2889/1762/171 out=3188/3285/1679/1554 d4=3019/336/2275 mid=71 sw=0/0/0
+ALUMUL step=134 mul=1094/123/2481 tw=1729/1977/56 p=2889/1762/171 en=1/1
+COMPUTE wr bank0 t=2775000 addr=35 data=448 raw=zzz1c0
+COMPUTE wr bank1 t=2775000 addr=62 data=1071 raw=zzz42f
+COMPUTE wr bank2 t=2775000 addr=58 data=72 raw=zzz048
+COMPUTE wr bank3 t=2775000 addr=54 data=1092 raw=zzz444
+TOPNTT step=135 t=2775000 wr_en=1111 wr_addr=35/62/58/54 cnt4=1/0/3/2 sw=0000 tw=1729/1977/56 ain=3244/2273/1302/331 bin=448/1071/72/1092 alu=2933/2299/278/2189 rd_addr=3
+ALUDET step=135 pe2=2933/2030/452/136 pe2d=2299/1585/278/1306/3282/2189 pe1d=138/2818/2510
+ALUPE1 step=135 in=2288/359/2972/316 out=535/1765/2624/340 d4=366/2145/3220 mid=1807 sw=0/0/0
+ALUMUL step=135 mul=2273/1302/331 tw=1729/1977/56 p=359/2972/316 en=1/1
+COMPUTE wr bank0 t=2785000 addr=39 data=2299 raw=zzz8fb
+COMPUTE wr bank1 t=2785000 addr=35 data=2933 raw=zzzb75
+COMPUTE wr bank2 t=2785000 addr=62 data=2189 raw=zzz88d
+COMPUTE wr bank3 t=2785000 addr=58 data=278 raw=zzz116
+TOPNTT step=136 t=2785000 wr_en=1111 wr_addr=39/35/62/58 cnt4=2/1/0/3 sw=0000 tw=2447/2304/3289 ain=2218/1796/1374/952 bin=2299/2933/2189/278 alu=26/2030/1585/3282 rd_addr=19
+ALUDET step=136 pe2=26/500/2683/721 pe2d=2030/452/1585/136/1306/3282 pe1d=1083/1096/2383
+ALUPE1 step=136 in=1612/1019/569/804 out=2089/3060/1894/193 d4=2850/716/2871 mid=2718 sw=0/0/0
+ALUMUL step=136 mul=1796/1374/952 tw=2447/2304/3289 p=1019/569/804 en=1/1
+COMPUTE wr bank0 t=2795000 addr=43 data=1585 raw=zzz631
+COMPUTE wr bank1 t=2795000 addr=39 data=2030 raw=zzz7ee
+COMPUTE wr bank2 t=2795000 addr=35 data=26 raw=zzz01a
+COMPUTE wr bank3 t=2795000 addr=62 data=3282 raw=zzzcd2
+TOPNTT step=137 t=2795000 wr_en=1111 wr_addr=43/39/35/62 cnt4=3/2/1/0 sw=0000 tw=2447/2304/3289 ain=2007/1585/1163/741 bin=1585/2030/26/3282 alu=2511/500/452/1306 rd_addr=4
+ALUDET step=137 pe2=2511/231/1550/2880 pe2d=500/2683/452/721/136/1306 pe1d=2275/2905/2098
+ALUPE1 step=137 in=2175/1648/1118/2257 out=1931/675/2645/2308 d4=197/2525/487 mid=43 sw=0/0/0
+ALUMUL step=137 mul=1585/1163/741 tw=2447/2304/3289 p=1648/1118/2257 en=1/1
+COMPUTE wr bank0 t=2805000 addr=47 data=1306 raw=zzz51a
+COMPUTE wr bank1 t=2805000 addr=43 data=452 raw=zzz1c4
+COMPUTE wr bank2 t=2805000 addr=39 data=500 raw=zzz1f4
+COMPUTE wr bank3 t=2805000 addr=35 data=2511 raw=zzz9cf
+TOPNTT step=138 t=2805000 wr_en=1111 wr_addr=47/43/39/35 cnt4=0/3/2/1 sw=0000 tw=1919/33/2882 ain=2321/1231/141/2380 bin=1306/452/500/2511 alu=237/231/2683/136 rd_addr=20
+ALUDET step=138 pe2=237/3064/2134/2678 pe2d=231/1550/2683/2880/721/136 pe1d=3220/336/505
+ALUPE1 step=138 in=2065/2023/1810/2647 out=2181/1823/1043/2915 d4=3188/3285/1679 mid=215 sw=0/0/0
+ALUMUL step=138 mul=1231/141/2380 tw=1919/33/2882 p=2023/1810/2647 en=1/1
+COMPUTE wr bank0 t=2815000 addr=51 data=237 raw=zzz0ed
+COMPUTE wr bank1 t=2815000 addr=47 data=136 raw=zzz088
+COMPUTE wr bank2 t=2815000 addr=43 data=2683 raw=zzza7b
+COMPUTE wr bank3 t=2815000 addr=39 data=231 raw=zzz0e7
+TOPNTT step=139 t=2815000 wr_en=1111 wr_addr=51/47/43/39 cnt4=1/0/3/2 sw=0000 tw=1919/33/2882 ain=1776/686/2925/1835 bin=237/136/2683/231 alu=2722/3064/1550/721 rd_addr=5
+ALUDET step=139 pe2=2722/2795/1001/1508 pe2d=3064/2134/1550/2678/2880/721 pe1d=2871/2145/2966
+ALUPE1 step=139 in=3244/2703/1053/3289 out=3293/576/1057/1701 d4=535/1765/2624 mid=2720 sw=0/0/0
+ALUMUL step=139 mul=686/2925/1835 tw=1919/33/2882 p=2703/1053/3289 en=1/1
+COMPUTE wr bank0 t=2825000 addr=55 data=3064 raw=zzzbf8
+COMPUTE wr bank1 t=2825000 addr=51 data=2722 raw=zzzaa2
+COMPUTE wr bank2 t=2825000 addr=47 data=721 raw=zzz2d1
+COMPUTE wr bank3 t=2825000 addr=43 data=1550 raw=zzz60e
+TOPNTT step=140 t=2825000 wr_en=1111 wr_addr=55/51/47/43 cnt4=2/1/0/3 sw=0000 tw=2094/1756/1746 ain=2661/2566/2471/2376 bin=3064/2722/721/1550 alu=3144/2795/2134/2880 rd_addr=21
+ALUDET step=140 pe2=3144/1265/3232/2093 pe2d=2795/1001/2134/1508/2678/2880 pe1d=487/716/1373
+ALUPE1 step=140 in=2218/200/2259/2154 out=546/1341/255/2203 d4=2089/3060/1894 mid=2705 sw=0/0/0
+ALUMUL step=140 mul=2566/2471/2376 tw=2094/1756/1746 p=200/2259/2154 en=1/1
+COMPUTE wr bank0 t=2835000 addr=59 data=2134 raw=zzz856
+COMPUTE wr bank1 t=2835000 addr=55 data=2795 raw=zzzaeb
+COMPUTE wr bank2 t=2835000 addr=51 data=3144 raw=zzzc48
+COMPUTE wr bank3 t=2835000 addr=47 data=2880 raw=zzzb40
+TOPNTT step=141 t=2835000 wr_en=1111 wr_addr=59/55/51/47 cnt4=3/2/1/0 sw=0000 tw=2094/1756/1746 ain=949/854/759/664 bin=2134/2795/3144/2880 alu=2300/1265/1001/2678 rd_addr=6
+ALUDET step=141 pe2=2300/996/2099/923 pe2d=1265/3232/1001/2093/1508/2678 pe1d=1679/2525/2532
+ALUPE1 step=141 in=2007/955/15/1222 out=968/2663/2191/1109 d4=1931/675/2645 mid=2743 sw=0/0/0
+ALUMUL step=141 mul=854/759/664 tw=2094/1756/1746 p=955/15/1222 en=1/1
+COMPUTE wr bank0 t=2845000 addr=63 data=2678 raw=zzza76
+COMPUTE wr bank1 t=2845000 addr=59 data=1001 raw=zzz3e9
+COMPUTE wr bank2 t=2845000 addr=55 data=1265 raw=zzz4f1
+COMPUTE wr bank3 t=2845000 addr=51 data=2300 raw=zzz8fc
+TOPNTT step=142 t=2845000 wr_en=1111 wr_addr=63/59/55/51 cnt4=0/3/2/1 sw=0000 tw=630/632/3033 ain=632/2974/1987/1000 bin=2678/1001/1265/2300 alu=1820/996/3232/1508 rd_addr=22
+ALUDET step=142 pe2=1820/768/2358/3020 pe2d=996/2099/3232/923/2093/1508 pe1d=2624/3285/939
+ALUPE1 step=142 in=2321/2089/2375/2336 out=1148/2354/3288/2216 d4=2181/1823/1043 mid=1375 sw=0/0/0
+ALUMUL step=142 mul=2974/1987/1000 tw=630/632/3033 p=2089/2375/2336 en=1/1
+COMPUTE wr bank0 t=2855000 addr=0 data=1820 raw=zzz71c
+COMPUTE wr bank1 t=2855000 addr=63 data=1508 raw=zzz5e4
+COMPUTE wr bank2 t=2855000 addr=59 data=3232 raw=zzzca0
+COMPUTE wr bank3 t=2855000 addr=55 data=996 raw=zzz3e4
+TOPNTT step=143 t=2855000 wr_en=1111 wr_addr=0/63/59/55 cnt4=1/0/3/2 sw=0000 tw=630/632/3033 ain=1803/816/3158/2171 bin=1820/1508/3232/996 alu=2606/768/2099/2093 rd_addr=7
+ALUDET step=143 pe2=2606/425/1256/1536 pe2d=768/2358/2099/3020/923/2093 pe1d=1894/1765/71
+ALUPE1 step=143 in=1776/2208/1671/1885 out=2022/2177/1992/2332 d4=3293/576/1057 mid=3062 sw=0/0/0
+ALUMUL step=143 mul=816/3158/2171 tw=630/632/3033 p=2208/1671/1885 en=1/1
+COMPUTE wr bank0 t=2865000 addr=16 data=768 raw=zzz300
+COMPUTE wr bank1 t=2865000 addr=0 data=2606 raw=zzza2e
+COMPUTE wr bank2 t=2865000 addr=63 data=2093 raw=zzz82d
+COMPUTE wr bank3 t=2865000 addr=59 data=2099 raw=zzz833
+TOPNTT step=144 t=2865000 wr_en=1111 wr_addr=16/0/63/59 cnt4=2/1/0/3 sw=0000 tw=56/2055/687 ain=252/1782/3312/1513 bin=768/2606/2093/2099 alu=675/425/2358/923 rd_addr=23
+ALUDET step=144 pe2=675/3259/358/2156 pe2d=425/1256/2358/1536/3020/923 pe1d=2645/3060/1807
+ALUPE1 step=144 in=2661/1376/372/812 out=1367/1096/3275/3029 d4=546/1341/255 mid=3082 sw=0/0/0
+ALUMUL step=144 mul=1782/3312/1513 tw=56/2055/687 p=1376/372/812 en=1/1
+COMPUTE wr bank0 t=2875000 addr=1 data=2358 raw=zzz936
+COMPUTE wr bank1 t=2875000 addr=16 data=425 raw=zzz1a9
+COMPUTE wr bank2 t=2875000 addr=0 data=675 raw=zzz2a3
+COMPUTE wr bank3 t=2875000 addr=63 data=923 raw=zzz39b
+TOPNTT step=145 t=2875000 wr_en=1111 wr_addr=1/16/0/63 cnt4=3/2/1/0 sw=0000 tw=56/2055/687 ain=1017/2547/748/2278 bin=2358/425/675/923 alu=540/3259/1256/3020 rd_addr=8
+ALUDET step=145 pe2=540/60/2717/2054 pe2d=3259/358/1256/2156/1536/3020 pe1d=1043/675/2718
+ALUPE1 step=145 in=949/2980/3256/70 out=118/764/105/2151 d4=968/2663/2191 mid=323 sw=0/0/0
+ALUMUL step=145 mul=2547/748/2278 tw=56/2055/687 p=2980/3256/70 en=1/1
+COMPUTE wr bank0 t=2885000 addr=17 data=3020 raw=zzzbcc
+COMPUTE wr bank1 t=2885000 addr=1 data=1256 raw=zzz4e8
+COMPUTE wr bank2 t=2885000 addr=16 data=3259 raw=zzzcbb
+COMPUTE wr bank3 t=2885000 addr=0 data=540 raw=zzz21c
+TOPNTT step=146 t=2885000 wr_en=1111 wr_addr=17/1/16/0 cnt4=0/3/2/1 sw=0000 tw=3260/1915/936 ain=1695/173/1980/458 bin=3020/1256/3259/540 alu=1887/60/358/1536 rd_addr=24
+ALUDET step=146 pe2=1887/3284/2534/555 pe2d=60/2717/358/2054/2156/1536 pe1d=1057/1823/43
+ALUPE1 step=146 in=632/1599/7/406 out=3033/2188/2289/469 d4=1148/2354/3288 mid=564 sw=0/0/0
+ALUMUL step=146 mul=173/1980/458 tw=3260/1915/936 p=1599/7/406 en=1/1
+COMPUTE wr bank0 t=2895000 addr=2 data=1887 raw=zzz75f
+COMPUTE wr bank1 t=2895000 addr=17 data=1536 raw=zzz600
+COMPUTE wr bank2 t=2895000 addr=1 data=358 raw=zzz166
+COMPUTE wr bank3 t=2895000 addr=16 data=60 raw=zzz03c
+TOPNTT step=147 t=2895000 wr_en=1111 wr_addr=2/17/1/16 cnt4=1/0/3/2 sw=0000 tw=3260/1915/936 ain=934/2741/1219/3026 bin=1887/1536/358/60 alu=302/3284/2717/2156 rd_addr=9
+ALUDET step=147 pe2=302/1013/1634/40 pe2d=3284/2534/2717/555/2054/2156 pe1d=255/576/215
+ALUPE1 step=147 in=1803/882/3124/2233 out=876/3050/1022/1088 d4=2022/2177/1992 mid=2910 sw=0/0/0
+ALUMUL step=147 mul=2741/1219/3026 tw=3260/1915/936 p=882/3124/2233 en=1/1
+COMPUTE wr bank0 t=2905000 addr=18 data=3284 raw=zzzcd4
+COMPUTE wr bank1 t=2905000 addr=2 data=302 raw=zzz12e
+COMPUTE wr bank2 t=2905000 addr=17 data=2156 raw=zzz86c
+COMPUTE wr bank3 t=2905000 addr=1 data=2717 raw=zzza9d
+TOPNTT step=148 t=2905000 wr_en=1111 wr_addr=18/2/17/1 cnt4=2/1/0/3 sw=0000 tw=2879/3040/3136 ain=2965/631/1626/2621 bin=3284/302/2156/2717 alu=173/1013/2534/2054 rd_addr=25
+ALUDET step=148 pe2=173/428/2123/2819 pe2d=1013/1634/2534/40/555/2054 pe1d=2191/1341/2720
+ALUPE1 step=148 in=252/1072/3061/3323 out=639/2005/625/2378 d4=1367/1096/3275 mid=1193 sw=0/0/0
+ALUMUL step=148 mul=631/1626/2621 tw=2879/3040/3136 p=1072/3061/3323 en=1/1
+COMPUTE wr bank0 t=2915000 addr=3 data=2534 raw=zzz9e6
+COMPUTE wr bank1 t=2915000 addr=18 data=1013 raw=zzz3f5
+COMPUTE wr bank2 t=2915000 addr=2 data=173 raw=zzz0ad
+COMPUTE wr bank3 t=2915000 addr=17 data=2054 raw=zzz806
+TOPNTT step=149 t=2915000 wr_en=1111 wr_addr=3/18/2/17 cnt4=3/2/1/0 sw=0000 tw=2879/3040/3136 ain=1798/2793/459/1454 bin=2534/1013/173/2054 alu=870/428/1634/555 rd_addr=10
+ALUDET step=149 pe2=870/3080/3174/904 pe2d=428/2123/1634/2819/40/555 pe1d=3288/2663/2705
+ALUPE1 step=149 in=1017/2810/1805/1936 out=1598/3115/2008/2524 d4=118/764/105 mid=1978 sw=0/0/0
+ALUMUL step=149 mul=2793/459/1454 tw=2879/3040/3136 p=2810/1805/1936 en=1/1
+COMPUTE wr bank0 t=2925000 addr=19 data=555 raw=zzz22b
+COMPUTE wr bank1 t=2925000 addr=3 data=1634 raw=zzz662
+COMPUTE wr bank2 t=2925000 addr=18 data=428 raw=zzz1ac
+COMPUTE wr bank3 t=2925000 addr=2 data=870 raw=zzz366
+TOPNTT step=150 t=2925000 wr_en=1111 wr_addr=19/3/18/2 cnt4=0/3/2/1 sw=0000 tw=3289/2679/1089 ain=724/827/930/1033 bin=555/1634/428/870 alu=2463/3080/2123/40 rd_addr=26
+ALUDET step=150 pe2=2463/2324/271/897 pe2d=3080/3174/2123/904/2819/40 pe1d=1992/2354/2743
+ALUPE1 step=150 in=1695/168/1365/618 out=3313/1066/520/3088 d4=3033/2188/2289 mid=1078 sw=0/0/0
+ALUMUL step=150 mul=827/930/1033 tw=3289/2679/1089 p=168/1365/618 en=1/1
+COMPUTE wr bank0 t=2935000 addr=4 data=2463 raw=zzz99f
+COMPUTE wr bank1 t=2935000 addr=19 data=40 raw=zzz028
+COMPUTE wr bank2 t=2935000 addr=3 data=2123 raw=zzz84b
+COMPUTE wr bank3 t=2935000 addr=18 data=3080 raw=zzzc08
+TOPNTT step=151 t=2935000 wr_en=1111 wr_addr=4/19/3/18 cnt4=1/0/3/2 sw=0000 tw=3289/2679/1089 ain=2440/2543/2646/2749 bin=2463/40/2123/3080 alu=882/2324/3174/2819 rd_addr=11
+ALUDET step=151 pe2=882/2629/2683/910 pe2d=2324/271/3174/897/904/2819 pe1d=3275/2177/1375
+ALUPE1 step=151 in=934/1411/109/2862 out=2822/1417/2541/1271 d4=876/3050/1022 mid=874 sw=0/0/0
+ALUMUL step=151 mul=2543/2646/2749 tw=3289/2679/1089 p=1411/109/2862 en=1/1
+COMPUTE wr bank0 t=2945000 addr=20 data=2324 raw=zzz914
+COMPUTE wr bank1 t=2945000 addr=4 data=882 raw=zzz372
+COMPUTE wr bank2 t=2945000 addr=19 data=2819 raw=zzzb03
+COMPUTE wr bank3 t=2945000 addr=3 data=3174 raw=zzzc66
+TOPNTT step=152 t=2945000 wr_en=1111 wr_addr=20/4/19/3 cnt4=2/1/0/3 sw=0000 tw=1476/2132/1600 ain=2975/744/1842/2940 bin=2324/882/2819/3174 alu=1892/2629/271/904 rd_addr=27
+ALUDET step=152 pe2=1892/2048/845/2530 pe2d=2629/2683/271/910/897/904 pe1d=105/1096/3062
+ALUPE1 step=152 in=2965/3209/2606/3162 out=3060/786/330/2046 d4=639/2005/625 mid=2879 sw=0/0/0
+ALUMUL step=152 mul=744/1842/2940 tw=1476/2132/1600 p=3209/2606/3162 en=1/1
+COMPUTE wr bank0 t=2955000 addr=5 data=271 raw=zzz10f
+COMPUTE wr bank1 t=2955000 addr=20 data=2629 raw=zzza45
+COMPUTE wr bank2 t=2955000 addr=4 data=1892 raw=zzz764
+COMPUTE wr bank3 t=2955000 addr=19 data=904 raw=zzz388
+TOPNTT step=153 t=2955000 wr_en=1111 wr_addr=5/20/4/19 cnt4=3/2/1/0 sw=0000 tw=1476/2132/1600 ain=195/1293/2391/160 bin=271/2629/1892/904 alu=597/2048/2683/897 rd_addr=12
+ALUDET step=153 pe2=597/2293/1155/3080 pe2d=2048/845/2683/2530/910/897 pe1d=2289/764/3082
+ALUPE1 step=153 in=1798/218/2394/1857 out=1043/944/825/1079 d4=1598/3115/2008 mid=1878 sw=0/0/0
+ALUMUL step=153 mul=1293/2391/160 tw=1476/2132/1600 p=218/2394/1857 en=1/1
+COMPUTE wr bank0 t=2965000 addr=21 data=897 raw=zzz381
+COMPUTE wr bank1 t=2965000 addr=5 data=2683 raw=zzza7b
+COMPUTE wr bank2 t=2965000 addr=20 data=2048 raw=zzz800
+COMPUTE wr bank3 t=2965000 addr=4 data=597 raw=zzz255
+TOPNTT step=154 t=2965000 wr_en=1111 wr_addr=21/5/20/4 cnt4=0/3/2/1 sw=0000 tw=797/464/1235 ain=3063/164/594/1024 bin=897/2683/2048/597 alu=2644/2293/845/910 rd_addr=28
+ALUDET step=154 pe2=2644/2671/1963/1908 pe2d=2293/1155/845/3080/2530/910 pe1d=1022/2188/323
+ALUPE1 step=154 in=724/955/2145/1252 out=2242/3042/359/2951 d4=3313/1066/520 mid=47 sw=0/0/0
+ALUMUL step=154 mul=164/594/1024 tw=797/464/1235 p=955/2145/1252 en=1/1
+COMPUTE wr bank0 t=2975000 addr=6 data=2644 raw=zzza54
+COMPUTE wr bank1 t=2975000 addr=21 data=910 raw=zzz38e
+COMPUTE wr bank2 t=2975000 addr=5 data=845 raw=zzz34d
+COMPUTE wr bank3 t=2975000 addr=20 data=2293 raw=zzz8f5
+TOPNTT step=155 t=2975000 wr_en=1111 wr_addr=6/21/5/20 cnt4=1/0/3/2 sw=0000 tw=797/464/1235 ain=3278/379/809/1239 bin=2644/910/845/2293 alu=1384/2671/1155/2530 rd_addr=13
+ALUDET step=155 pe2=1384/3087/1812/929 pe2d=2671/1963/1155/1908/3080/2530 pe1d=625/3050/564
+ALUPE1 step=155 in=2440/2208/1700/1511 out=863/2075/2733/3109 d4=2822/1417/2541 mid=1690 sw=0/0/0
+ALUMUL step=155 mul=379/809/1239 tw=797/464/1235 p=2208/1700/1511 en=1/1
+COMPUTE wr bank0 t=2985000 addr=22 data=2671 raw=zzza6f
+COMPUTE wr bank1 t=2985000 addr=6 data=1384 raw=zzz568
+COMPUTE wr bank2 t=2985000 addr=21 data=2530 raw=zzz9e2
+COMPUTE wr bank3 t=2985000 addr=5 data=1155 raw=zzz483
+TOPNTT step=156 t=2985000 wr_en=1111 wr_addr=22/6/21/5 cnt4=2/1/0/3 sw=0000 tw=2882/76/69 ain=37/1016/1995/2974 bin=2671/1384/2530/1155 alu=1050/3087/1963/3080 rd_addr=29
+ALUDET step=156 pe2=1050/142/2247/898 pe2d=3087/1812/1963/929/1908/3080 pe1d=2008/2005/2910
+ALUPE1 step=156 in=2975/3294/21/3175 out=2869/2207/1908/936 d4=3060/786/330 mid=3032 sw=0/0/0
+ALUMUL step=156 mul=1016/1995/2974 tw=2882/76/69 p=3294/21/3175 en=1/1
+COMPUTE wr bank0 t=2995000 addr=7 data=1963 raw=zzz7ab
+COMPUTE wr bank1 t=2995000 addr=22 data=3087 raw=zzzc0f
+COMPUTE wr bank2 t=2995000 addr=6 data=1050 raw=zzz41a
+COMPUTE wr bank3 t=2995000 addr=21 data=3080 raw=zzzc08
+TOPNTT step=157 t=2995000 wr_en=1111 wr_addr=7/22/6/21 cnt4=3/2/1/0 sw=0000 tw=2882/76/69 ain=2191/3170/820/1799 bin=1963/3087/1050/3080 alu=910/142/1812/1908 rd_addr=14
+ALUDET step=157 pe2=910/2321/1405/2761 pe2d=142/2247/1812/898/929/1908 pe1d=520/3115/1193
+ALUPE1 step=157 in=195/758/2646/2528 out=811/390/740/1287 d4=1043/944/825 mid=697 sw=0/0/0
+ALUMUL step=157 mul=3170/820/1799 tw=2882/76/69 p=758/2646/2528 en=1/1
+COMPUTE wr bank0 t=3005000 addr=23 data=1908 raw=zzz774
+COMPUTE wr bank1 t=3005000 addr=7 data=1812 raw=zzz714
+COMPUTE wr bank2 t=3005000 addr=22 data=142 raw=zzz08e
+COMPUTE wr bank3 t=3005000 addr=6 data=910 raw=zzz38e
+TOPNTT step=158 t=3005000 wr_en=1111 wr_addr=23/7/22/6 cnt4=0/3/2/1 sw=0000 tw=848/816/1853 ain=2481/1363/245/2456 bin=1908/1812/142/910 alu=517/2321/2247/929 rd_addr=30
+ALUDET step=158 pe2=517/1266/2274/2723 pe2d=2321/1405/2247/2761/898/929 pe1d=2541/1066/1978
+ALUPE1 step=158 in=3063/580/1217/2235 out=2996/3140/2954/1367 d4=2242/3042/359 mid=119 sw=0/0/0
+ALUMUL step=158 mul=1363/245/2456 tw=848/816/1853 p=580/1217/2235 en=1/1
+COMPUTE wr bank0 t=3015000 addr=8 data=517 raw=zzz205
+COMPUTE wr bank1 t=3015000 addr=23 data=929 raw=zzz3a1
+COMPUTE wr bank2 t=3015000 addr=7 data=2247 raw=zzz8c7
+COMPUTE wr bank3 t=3015000 addr=22 data=2321 raw=zzz911
+TOPNTT step=159 t=3015000 wr_en=1111 wr_addr=8/23/7/22 cnt4=1/0/3/2 sw=0000 tw=848/816/1853 ain=1922/804/3015/1897 bin=517/929/2247/2321 alu=1987/1266/1405/898 rd_addr=15
+ALUDET step=159 pe2=1987/2112/99/2867 pe2d=1266/2274/1405/2723/2761/898 pe1d=330/1417/1078
+ALUPE1 step=159 in=3278/772/2302/2662 out=2841/3286/878/2477 d4=863/2075/2733 mid=1559 sw=0/0/0
+ALUMUL step=159 mul=804/3015/1897 tw=848/816/1853 p=772/2302/2662 en=1/1
+COMPUTE wr bank0 t=3025000 addr=24 data=1266 raw=zzz4f2
+COMPUTE wr bank1 t=3025000 addr=8 data=1987 raw=zzz7c3
+COMPUTE wr bank2 t=3025000 addr=23 data=898 raw=zzz382
+COMPUTE wr bank3 t=3025000 addr=7 data=1405 raw=zzz57d
+TOPNTT step=160 t=3025000 wr_en=1111 wr_addr=24/8/23/7 cnt4=2/1/0/3 sw=0000 tw=1333/1052/2481 ain=620/35/2779/2194 bin=1266/1987/898/1405 alu=1955/2112/2274/2761 rd_addr=31
+ALUDET step=160 pe2=1955/1726/2529/2321 pe2d=2112/99/2274/2867/2723/2761 pe1d=825/786/874
+ALUPE1 step=160 in=37/572/407/2981 out=951/2815/1846/2482 d4=2869/2207/1908 mid=1674 sw=0/0/0
+ALUMUL step=160 mul=35/2779/2194 tw=1333/1052/2481 p=572/407/2981 en=1/1
+COMPUTE wr bank0 t=3035000 addr=9 data=2274 raw=zzz8e2
+COMPUTE wr bank1 t=3035000 addr=24 data=2112 raw=zzz840
+COMPUTE wr bank2 t=3035000 addr=8 data=1955 raw=zzz7a3
+COMPUTE wr bank3 t=3035000 addr=23 data=2761 raw=zzzac9
+TOPNTT step=161 t=3035000 wr_en=1111 wr_addr=9/24/8/23 cnt4=3/2/1/0 sw=0000 tw=1333/1052/2481 ain=1992/1407/822/237 bin=2274/2112/1955/2761 alu=2938/1726/99/2723 rd_addr=32
+ALUDET step=161 pe2=2938/1881/2117/256 pe2d=1726/2529/99/2321/2867/2723 pe1d=359/944/2879
+ALUPE1 step=161 in=2191/2440/2979/235 out=2251/105/976/15 d4=811/390/740 mid=1439 sw=0/0/0
+ALUMUL step=161 mul=1407/822/237 tw=1333/1052/2481 p=2440/2979/235 en=1/1
+COMPUTE wr bank0 t=3045000 addr=25 data=2723 raw=zzzaa3
+COMPUTE wr bank1 t=3045000 addr=9 data=99 raw=zzz063
+COMPUTE wr bank2 t=3045000 addr=24 data=1726 raw=zzz6be
+COMPUTE wr bank3 t=3045000 addr=8 data=2938 raw=zzzb7a
+TOPNTT step=162 t=3045000 wr_en=1111 wr_addr=25/9/24/8 cnt4=0/3/2/1 sw=0000 tw=569/1320/1974 ain=2972/236/829/1422 bin=2723/99/1726/2938 alu=1747/1881/2529/2867 rd_addr=48
+ALUDET step=162 pe2=1747/1061/662/2755 pe2d=1881/2117/2529/256/2321/2867 pe1d=2733/3042/1878
+ALUPE1 step=162 in=2481/1500/343/1261 out=444/224/2959/2682 d4=2996/3140/2954 mid=920 sw=0/0/0
+ALUMUL step=162 mul=236/829/1422 tw=569/1320/1974 p=1500/343/1261 en=1/1
+COMPUTE wr bank0 t=3055000 addr=10 data=1747 raw=zzz6d3
+COMPUTE wr bank1 t=3055000 addr=25 data=2867 raw=zzzb33
+COMPUTE wr bank2 t=3055000 addr=9 data=2529 raw=zzz9e1
+COMPUTE wr bank3 t=3055000 addr=24 data=1881 raw=zzz759
+TOPNTT step=163 t=3055000 wr_en=1111 wr_addr=10/25/9/24 cnt4=1/0/3/2 sw=0000 tw=569/1320/1974 ain=1604/2197/2790/54 bin=1747/2867/2529/1881 alu=1201/1061/2117/2321 rd_addr=33
+ALUDET step=163 pe2=1201/755/421/725 pe2d=1061/662/2117/2755/256/2321 pe1d=1908/2075/47
+ALUPE1 step=163 in=1922/2658/892/219 out=1841/2675/2541/2350 d4=2841/3286/878 mid=2205 sw=0/0/0
+ALUMUL step=163 mul=2197/2790/54 tw=569/1320/1974 p=2658/892/219 en=1/1
+COMPUTE wr bank0 t=3065000 addr=26 data=1061 raw=zzz425
+COMPUTE wr bank1 t=3065000 addr=10 data=1201 raw=zzz4b1
+COMPUTE wr bank2 t=3065000 addr=25 data=2321 raw=zzz911
+COMPUTE wr bank3 t=3065000 addr=9 data=2117 raw=zzz845
+TOPNTT step=164 t=3065000 wr_en=1111 wr_addr=26/10/25/9 cnt4=2/1/0/3 sw=0000 tw=1974/331/1919 ain=229/1355/2481/278 bin=1061/1201/2321/2117 alu=2807/755/662/256 rd_addr=49
+ALUDET step=164 pe2=2807/2307/3185/272 pe2d=755/421/662/725/2755/256 pe1d=740/2207/1690
+ALUPE1 step=164 in=620/2997/1194/150 out=2824/2761/2138/1445 d4=951/2815/1846 mid=239 sw=0/0/0
+ALUMUL step=164 mul=1355/2481/278 tw=1974/331/1919 p=2997/1194/150 en=1/1
+COMPUTE wr bank0 t=3075000 addr=11 data=662 raw=zzz296
+COMPUTE wr bank1 t=3075000 addr=26 data=755 raw=zzz2f3
+COMPUTE wr bank2 t=3075000 addr=10 data=2807 raw=zzzaf7
+COMPUTE wr bank3 t=3075000 addr=25 data=256 raw=zzz100
+TOPNTT step=165 t=3075000 wr_en=1111 wr_addr=11/26/10/25 cnt4=3/2/1/0 sw=0000 tw=1974/331/1919 ain=792/1918/3044/841 bin=662/755/2807/256 alu=2798/2307/421/2755 rd_addr=34
+ALUDET step=165 pe2=2798/3228/2884/1857 pe2d=2307/3185/421/272/725/2755 pe1d=2954/390/3032
+ALUPE1 step=165 in=1992/1967/2404/86 out=2814/2877/1030/1268 d4=2251/105/976 mid=2439 sw=0/0/0
+ALUMUL step=165 mul=1918/3044/841 tw=1974/331/1919 p=1967/2404/86 en=1/1
+COMPUTE wr bank0 t=3085000 addr=27 data=2755 raw=zzzac3
+COMPUTE wr bank1 t=3085000 addr=11 data=421 raw=zzz1a5
+COMPUTE wr bank2 t=3085000 addr=26 data=2307 raw=zzz903
+COMPUTE wr bank3 t=3085000 addr=10 data=2798 raw=zzzaee
+TOPNTT step=166 t=3085000 wr_en=1111 wr_addr=27/11/26/10 cnt4=0/3/2/1 sw=0000 tw=1729/1977/56 ain=990/19/2377/1406 bin=2755/421/2307/2798 alu=437/3228/3185/725 rd_addr=50
+ALUDET step=166 pe2=437/3291/1465/401 pe2d=3228/2884/3185/1857/272/725 pe1d=878/3140/697
+ALUPE1 step=166 in=2972/1624/2367/1908 out=1814/3147/2755/2747 d4=444/224/2959 mid=2847 sw=0/0/0
+ALUMUL step=166 mul=19/2377/1406 tw=1729/1977/56 p=1624/2367/1908 en=1/1
+COMPUTE wr bank0 t=3095000 addr=12 data=437 raw=zzz1b5
+COMPUTE wr bank1 t=3095000 addr=27 data=725 raw=zzz2d5
+COMPUTE wr bank2 t=3095000 addr=11 data=3185 raw=zzzc71
+COMPUTE wr bank3 t=3095000 addr=26 data=3228 raw=zzzc9c
+TOPNTT step=167 t=3095000 wr_en=1111 wr_addr=12/27/11/26 cnt4=1/0/3/2 sw=0000 tw=1729/1977/56 ain=2169/1198/227/2585 bin=437/725/3185/3228 alu=2356/3291/2884/272 rd_addr=35
+ALUDET step=167 pe2=2356/2244/2146/3037 pe2d=3291/1465/2884/401/1857/272 pe1d=1846/3286/119
+ALUPE1 step=167 in=1604/2423/248/2053 out=1067/2053/2917/740 d4=1841/2675/2541 mid=1881 sw=0/0/0
+ALUMUL step=167 mul=1198/227/2585 tw=1729/1977/56 p=2423/248/2053 en=1/1
+COMPUTE wr bank0 t=3105000 addr=28 data=3291 raw=zzzcdb
+COMPUTE wr bank1 t=3105000 addr=12 data=2356 raw=zzz934
+COMPUTE wr bank2 t=3105000 addr=27 data=272 raw=zzz110
+COMPUTE wr bank3 t=3105000 addr=11 data=2884 raw=zzzb44
+TOPNTT step=168 t=3105000 wr_en=1111 wr_addr=28/12/27/11 cnt4=2/1/0/3 sw=0000 tw=2447/2304/3289 ain=448/26/2933/2511 bin=3291/2356/272/2884 alu=668/2244/1465/1857 rd_addr=51
+ALUDET step=168 pe2=668/2377/220/212 pe2d=2244/2146/1465/3037/401/1857 pe1d=976/2815/1559
+ALUPE1 step=168 in=229/2998/2508/3195 out=2010/203/605/435 d4=2824/2761/2138 mid=3045 sw=0/0/0
+ALUMUL step=168 mul=26/2933/2511 tw=2447/2304/3289 p=2998/2508/3195 en=1/1
+COMPUTE wr bank0 t=3115000 addr=13 data=1465 raw=zzz5b9
+COMPUTE wr bank1 t=3115000 addr=28 data=2244 raw=zzz8c4
+COMPUTE wr bank2 t=3115000 addr=12 data=668 raw=zzz29c
+COMPUTE wr bank3 t=3115000 addr=27 data=1857 raw=zzz741
+TOPNTT step=169 t=3115000 wr_en=1111 wr_addr=13/28/12/27 cnt4=3/2/1/0 sw=0000 tw=2447/2304/3289 ain=237/3144/2722/2300 bin=1465/2244/668/1857 alu=1187/2377/2146/401 rd_addr=36
+ALUDET step=169 pe2=1187/3281/2495/1801 pe2d=2377/220/2146/212/3037/401 pe1d=2959/105/1674
+ALUPE1 step=169 in=792/298/3057/1319 out=1852/1147/1356/2517 d4=2814/2877/1030 mid=370 sw=0/0/0
+ALUMUL step=169 mul=3144/2722/2300 tw=2447/2304/3289 p=298/3057/1319 en=1/1
+COMPUTE wr bank0 t=3125000 addr=29 data=401 raw=zzz191
+COMPUTE wr bank1 t=3125000 addr=13 data=2146 raw=zzz862
+COMPUTE wr bank2 t=3125000 addr=28 data=2377 raw=zzz949
+COMPUTE wr bank3 t=3125000 addr=12 data=1187 raw=zzz4a3
+TOPNTT step=170 t=3125000 wr_en=1111 wr_addr=29/13/28/12 cnt4=0/3/2/1 sw=0000 tw=1919/33/2882 ain=384/2623/1533/443 bin=401/2146/2377/1187 alu=2256/3281/220/3037 rd_addr=52
+ALUDET step=170 pe2=2256/2573/63/1703 pe2d=3281/2495/220/1801/212/3037 pe1d=2541/224/1439
+ALUPE1 step=170 in=990/2363/3096/2968 out=2737/2864/1050/2201 d4=1814/3147/2755 mid=3132 sw=0/0/0
+ALUMUL step=170 mul=2623/1533/443 tw=1919/33/2882 p=2363/3096/2968 en=1/1
+COMPUTE wr bank0 t=3135000 addr=14 data=2256 raw=zzz8d0
+COMPUTE wr bank1 t=3135000 addr=29 data=3037 raw=zzzbdd
+COMPUTE wr bank2 t=3135000 addr=13 data=220 raw=zzz0dc
+COMPUTE wr bank3 t=3135000 addr=28 data=3281 raw=zzzcd1
+TOPNTT step=171 t=3135000 wr_en=1111 wr_addr=14/29/13/28 cnt4=1/0/3/2 sw=0000 tw=1919/33/2882 ain=3168/2078/988/3227 bin=2256/3037/220/3281 alu=2362/2573/2495/212 rd_addr=37
+ALUDET step=171 pe2=2362/218/3266/1842 pe2d=2573/63/2495/1703/1801/212 pe1d=2138/2675/920
+ALUPE1 step=171 in=2169/3043/2339/281 out=520/1617/1064/3145 d4=1067/2053/2917 mid=2308 sw=0/0/0
+ALUMUL step=171 mul=2078/988/3227 tw=1919/33/2882 p=3043/2339/281 en=1/1
+COMPUTE wr bank0 t=3145000 addr=30 data=2573 raw=zzza0d
+COMPUTE wr bank1 t=3145000 addr=14 data=2362 raw=zzz93a
+COMPUTE wr bank2 t=3145000 addr=29 data=212 raw=zzz0d4
+COMPUTE wr bank3 t=3145000 addr=13 data=2495 raw=zzz9bf
+TOPNTT step=172 t=3145000 wr_en=1111 wr_addr=30/14/29/13 cnt4=2/1/0/3 sw=0000 tw=2094/1756/1746 ain=1805/1710/1615/1520 bin=2573/2362/212/2495 alu=1632/218/63/1801 rd_addr=53
+ALUDET step=172 pe2=1632/1627/1996/554 pe2d=218/3266/63/1842/1703/1801 pe1d=1030/2761/2205
+ALUPE1 step=172 in=448/2242/1137/1688 out=757/2002/1223/1656 d4=2010/203/605 mid=2724 sw=0/0/0
+ALUMUL step=172 mul=1710/1615/1520 tw=2094/1756/1746 p=2242/1137/1688 en=1/1
+COMPUTE wr bank0 t=3155000 addr=15 data=63 raw=zzz03f
+COMPUTE wr bank1 t=3155000 addr=30 data=218 raw=zzz0da
+COMPUTE wr bank2 t=3155000 addr=14 data=1632 raw=zzz660
+COMPUTE wr bank3 t=3155000 addr=29 data=1801 raw=zzz709
+TOPNTT step=173 t=3155000 wr_en=1111 wr_addr=15/30/14/29 cnt4=3/2/1/0 sw=0000 tw=2094/1756/1746 ain=93/3327/3232/3137 bin=63/218/1632/1801 alu=3120/1627/3266/1703 rd_addr=38
+ALUDET step=173 pe2=3120/2733/2343/3101 pe2d=1627/1996/3266/554/1842/1703 pe1d=2755/2877/239
+ALUPE1 step=173 in=237/2997/2222/756 out=1179/3324/3159/562 d4=1852/1147/1356 mid=2762 sw=0/0/0
+ALUMUL step=173 mul=3327/3232/3137 tw=2094/1756/1746 p=2997/2222/756 en=1/1
+COMPUTE wr bank0 t=3165000 addr=31 data=1703 raw=zzz6a7
+COMPUTE wr bank1 t=3165000 addr=15 data=3266 raw=zzzcc2
+COMPUTE wr bank2 t=3165000 addr=30 data=1627 raw=zzz65b
+COMPUTE wr bank3 t=3165000 addr=14 data=3120 raw=zzzc30
+TOPNTT step=174 t=3165000 wr_en=1111 wr_addr=31/15/30/14 cnt4=0/3/2/1 sw=0000 tw=630/632/3033 ain=2882/1895/908/3250 bin=1703/3266/1627/3120 alu=2213/2733/1996/1842 rd_addr=54
+ALUDET step=174 pe2=2213/2261/1807/2278 pe2d=2733/2343/1996/3101/554/1842 pe1d=2917/3147/2439
+ALUPE1 step=174 in=384/484/2023/446 out=1585/601/2640/2274 d4=2737/2864/1050 mid=554 sw=0/0/0
+ALUMUL step=174 mul=1895/908/3250 tw=630/632/3033 p=484/2023/446 en=1/1
+COMPUTE wr bank0 t=3175000 addr=32 data=2213 raw=zzz8a5
+COMPUTE wr bank1 t=3175000 addr=31 data=1842 raw=zzz732
+COMPUTE wr bank2 t=3175000 addr=15 data=1996 raw=zzz7cc
+COMPUTE wr bank3 t=3175000 addr=30 data=2733 raw=zzzaad
+TOPNTT step=175 t=3175000 wr_en=1111 wr_addr=32/31/15/30 cnt4=1/0/3/2 sw=0000 tw=630/632/3033 ain=724/3066/2079/1092 bin=2213/1842/1996/2733 alu=2999/2261/2343/554 rd_addr=39
+ALUDET step=175 pe2=2999/1918/705/794 pe2d=2261/1807/2343/2278/3101/554 pe1d=605/2053/2847
+ALUPE1 step=175 in=3168/603/1319/3324 out=2459/424/1344/2390 d4=520/1617/1064 mid=2241 sw=0/0/0
+ALUMUL step=175 mul=3066/2079/1092 tw=630/632/3033 p=603/1319/3324 en=1/1
+COMPUTE wr bank0 t=3185000 addr=48 data=2261 raw=zzz8d5
+COMPUTE wr bank1 t=3185000 addr=32 data=2999 raw=zzzbb7
+COMPUTE wr bank2 t=3185000 addr=31 data=554 raw=zzz22a
+COMPUTE wr bank3 t=3185000 addr=15 data=2343 raw=zzz927
+TOPNTT step=176 t=3185000 wr_en=1111 wr_addr=48/32/31/15 cnt4=2/1/0/3 sw=0000 tw=56/2055/687 ain=2299/500/2030/231 bin=2261/2999/554/2343 alu=2272/1918/1807/3101 rd_addr=55
+ALUDET step=176 pe2=2272/3324/3202/2105 pe2d=1918/705/1807/794/2278/3101 pe1d=1356/203/1881
+ALUPE1 step=176 in=1805/2178/1814/441 out=2407/930/1690/2590 d4=757/2002/1223 mid=38 sw=0/0/0
+ALUMUL step=176 mul=500/2030/231 tw=56/2055/687 p=2178/1814/441 en=1/1
+COMPUTE wr bank0 t=3195000 addr=33 data=1807 raw=zzz70f
+COMPUTE wr bank1 t=3195000 addr=48 data=1918 raw=zzz77e
+COMPUTE wr bank2 t=3195000 addr=32 data=2272 raw=zzz8e0
+COMPUTE wr bank3 t=3195000 addr=31 data=3101 raw=zzzc1d
+TOPNTT step=177 t=3195000 wr_en=1111 wr_addr=33/48/32/31 cnt4=3/2/1/0 sw=0000 tw=56/2055/687 ain=3064/1265/2795/996 bin=1807/1918/2272/3101 alu=2137/3324/705/2278 rd_addr=40
+ALUDET step=177 pe2=2137/125/2232/2003 pe2d=3324/3202/705/2105/794/2278 pe1d=1050/1147/3045
+ALUPE1 step=177 in=93/453/1369/3028 out=1158/598/1849/1712 d4=1179/3324/3159 mid=608 sw=0/0/0
+ALUMUL step=177 mul=1265/2795/996 tw=56/2055/687 p=453/1369/3028 en=1/1
+COMPUTE wr bank0 t=3205000 addr=49 data=2278 raw=zzz8e6
+COMPUTE wr bank1 t=3205000 addr=33 data=705 raw=zzz2c1
+COMPUTE wr bank2 t=3205000 addr=48 data=3324 raw=zzzcfc
+COMPUTE wr bank3 t=3205000 addr=32 data=2137 raw=zzz859
+TOPNTT step=178 t=3205000 wr_en=1111 wr_addr=49/33/48/32 cnt4=0/3/2/1 sw=0000 tw=3260/1915/936 ain=2979/1457/3264/1742 bin=2278/705/3324/2137 alu=2759/125/3202/794 rd_addr=56
+ALUDET step=178 pe2=2759/484/2084/1962 pe2d=125/2232/3202/2003/2105/794 pe1d=1064/2864/370
+ALUPE1 step=178 in=2882/2905/3230/2984 out=290/2619/3320/2443 d4=1585/601/2640 mid=1737 sw=0/0/0
+ALUMUL step=178 mul=1457/3264/1742 tw=3260/1915/936 p=2905/3230/2984 en=1/1
+COMPUTE wr bank0 t=3215000 addr=34 data=2759 raw=zzzac7
+COMPUTE wr bank1 t=3215000 addr=49 data=794 raw=zzz31a
+COMPUTE wr bank2 t=3215000 addr=33 data=3202 raw=zzzc82
+COMPUTE wr bank3 t=3215000 addr=48 data=125 raw=zzz07d
+TOPNTT step=179 t=3215000 wr_en=1111 wr_addr=34/49/33/48 cnt4=1/0/3/2 sw=0000 tw=3260/1915/936 ain=2218/696/2503/981 bin=2759/794/3202/125 alu=1174/484/2232/2105 rd_addr=41
+ALUDET step=179 pe2=1174/1542/1184/1447 pe2d=484/2084/2232/1962/2003/2105 pe1d=1223/1617/3132
+ALUPE1 step=179 in=724/2188/3018/1482 out=1462/152/2053/3062 d4=2459/424/1344 mid=754 sw=0/0/0
+ALUMUL step=179 mul=696/2503/981 tw=3260/1915/936 p=2188/3018/1482 en=1/1
+COMPUTE wr bank0 t=3225000 addr=50 data=484 raw=zzz1e4
+COMPUTE wr bank1 t=3225000 addr=34 data=1174 raw=zzz496
+COMPUTE wr bank2 t=3225000 addr=49 data=2105 raw=zzz839
+COMPUTE wr bank3 t=3225000 addr=33 data=2232 raw=zzz8b8
+TOPNTT step=180 t=3225000 wr_en=1111 wr_addr=50/34/49/33 cnt4=2/1/0/3 sw=0000 tw=2879/3040/3136 ain=717/1712/2707/373 bin=484/1174/2105/2232 alu=2186/1542/2084/2003 rd_addr=57
+ALUDET step=180 pe2=2186/1754/984/197 pe2d=1542/1184/2084/1447/1962/2003 pe1d=3159/2002/2308
+ALUPE1 step=180 in=2299/1941/2433/965 out=2783/2560/2981/2451 d4=2407/930/1690 mid=3250 sw=0/0/0
+ALUMUL step=180 mul=1712/2707/373 tw=2879/3040/3136 p=1941/2433/965 en=1/1
+COMPUTE wr bank0 t=3235000 addr=35 data=2084 raw=zzz824
+COMPUTE wr bank1 t=3235000 addr=50 data=1542 raw=zzz606
+COMPUTE wr bank2 t=3235000 addr=34 data=2186 raw=zzz88a
+COMPUTE wr bank3 t=3235000 addr=49 data=2003 raw=zzz7d3
+TOPNTT step=181 t=3235000 wr_en=1111 wr_addr=35/50/34/49 cnt4=3/2/1/0 sw=0000 tw=2879/3040/3136 ain=2879/545/1540/2535 bin=2084/1542/2186/2003 alu=2883/1754/1184/1962 rd_addr=42
+COMPUTE wr bank0 t=3245000 addr=51 data=1962 raw=zzz7aa
+COMPUTE wr bank1 t=3245000 addr=35 data=1184 raw=zzz4a0
+COMPUTE wr bank2 t=3245000 addr=50 data=1754 raw=zzz6da
+COMPUTE wr bank3 t=3245000 addr=34 data=2883 raw=zzzb43
+TOPNTT step=182 t=3245000 wr_en=1111 wr_addr=51/35/50/34 cnt4=0/3/2/1 sw=0000 tw=3289/2679/1089 ain=1582/1685/1788/1891 bin=1962/1184/1754/2883 alu=8/1077/984/1447 rd_addr=58
+COMPUTE wr bank0 t=3255000 addr=36 data=8 raw=zzz008
+COMPUTE wr bank1 t=3255000 addr=51 data=1447 raw=zzz5a7
+COMPUTE wr bank2 t=3255000 addr=35 data=984 raw=zzz3d8
+COMPUTE wr bank3 t=3255000 addr=50 data=1077 raw=zzz435
+TOPNTT step=183 t=3255000 wr_en=1111 wr_addr=36/51/35/50 cnt4=1/0/3/2 sw=0000 tw=3289/2679/1089 ain=3298/72/175/278 bin=8/1447/984/1077 alu=1756/812/2035/197 rd_addr=43
+COMPUTE wr bank0 t=3265000 addr=52 data=812 raw=zzz32c
+COMPUTE wr bank1 t=3265000 addr=36 data=1756 raw=zzz6dc
+COMPUTE wr bank2 t=3265000 addr=51 data=197 raw=zzz0c5
+COMPUTE wr bank3 t=3265000 addr=35 data=2035 raw=zzz7f3
+TOPNTT step=184 t=3265000 wr_en=1111 wr_addr=52/36/51/35 cnt4=2/1/0/3 sw=0000 tw=1476/2132/1600 ain=1585/2683/452/1550 bin=812/1756/197/2035 alu=2909/1117/1477/1611 rd_addr=59
+COMPUTE wr bank0 t=3275000 addr=37 data=1477 raw=zzz5c5
+COMPUTE wr bank1 t=3275000 addr=52 data=1117 raw=zzz45d
+COMPUTE wr bank2 t=3275000 addr=36 data=2909 raw=zzzb5d
+COMPUTE wr bank3 t=3275000 addr=51 data=1611 raw=zzz64b
+TOPNTT step=185 t=3275000 wr_en=1111 wr_addr=37/52/36/51 cnt4=3/2/1/0 sw=0000 tw=1476/2132/1600 ain=2134/3232/1001/2099 bin=1477/1117/2909/1611 alu=1614/506/560/2568 rd_addr=44
+COMPUTE wr bank0 t=3285000 addr=53 data=2568 raw=zzza08
+COMPUTE wr bank1 t=3285000 addr=37 data=560 raw=zzz230
+COMPUTE wr bank2 t=3285000 addr=52 data=506 raw=zzz1fa
+COMPUTE wr bank3 t=3285000 addr=36 data=1614 raw=zzz64e
+TOPNTT step=186 t=3285000 wr_en=1111 wr_addr=53/37/52/36 cnt4=0/3/2/1 sw=0000 tw=797/464/1235 ain=1506/1936/2366/2796 bin=2568/560/506/1614 alu=2014/751/1000/2581 rd_addr=60
+TAIL ctrl t=3285000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=60 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=3295000 addr=38 data=2014 raw=zzz7de
+COMPUTE wr bank1 t=3295000 addr=53 data=2581 raw=zzza15
+COMPUTE wr bank2 t=3295000 addr=37 data=1000 raw=zzz3e8
+COMPUTE wr bank3 t=3295000 addr=52 data=751 raw=zzz2ef
+TOPNTT step=187 t=3295000 wr_en=1111 wr_addr=38/53/37/52 cnt4=1/0/3/2 sw=0000 tw=797/464/1235 ain=1721/2151/2581/3011 bin=2014/2581/1000/751 alu=754/2879/1310/2805 rd_addr=45
+COMPUTE wr bank0 t=3305000 addr=54 data=2879 raw=zzzb3f
+COMPUTE wr bank1 t=3305000 addr=38 data=754 raw=zzz2f2
+COMPUTE wr bank2 t=3305000 addr=53 data=2805 raw=zzzaf5
+COMPUTE wr bank3 t=3305000 addr=37 data=1310 raw=zzz51e
+TOPNTT step=188 t=3305000 wr_en=1111 wr_addr=54/38/53/37 cnt4=2/1/0/3 sw=0000 tw=2882/76/69 ain=1114/2093/3072/722 bin=2879/754/2805/1310 alu=980/3295/223/26 rd_addr=61
+TAIL ctrl t=3305000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=61 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=3315000 addr=39 data=223 raw=zzz0df
+COMPUTE wr bank1 t=3315000 addr=54 data=3295 raw=zzzcdf
+COMPUTE wr bank2 t=3315000 addr=38 data=980 raw=zzz3d4
+COMPUTE wr bank3 t=3315000 addr=53 data=26 raw=zzz01a
+TOPNTT step=189 t=3315000 wr_en=1111 wr_addr=39/54/38/53 cnt4=3/2/1/0 sw=0000 tw=2882/76/69 ain=3268/918/1897/2876 bin=223/3295/980/26 alu=840/2896/72/3083 rd_addr=46
+COMPUTE wr bank0 t=3325000 addr=55 data=3083 raw=zzzc0b
+COMPUTE wr bank1 t=3325000 addr=39 data=72 raw=zzz048
+COMPUTE wr bank2 t=3325000 addr=54 data=2896 raw=zzzb50
+COMPUTE wr bank3 t=3325000 addr=38 data=840 raw=zzz348
+TOPNTT step=190 t=3325000 wr_en=1111 wr_addr=55/39/54/38 cnt4=0/3/2/1 sw=0000 tw=848/816/1853 ain=537/2748/1630/512 bin=3083/72/2896/840 alu=1252/1746/1826/2104 rd_addr=62
+TAIL ctrl t=3325000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=62 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=3335000 addr=40 data=1252 raw=zzz4e4
+COMPUTE wr bank1 t=3335000 addr=55 data=2104 raw=zzz838
+COMPUTE wr bank2 t=3335000 addr=39 data=1826 raw=zzz722
+COMPUTE wr bank3 t=3335000 addr=54 data=1746 raw=zzz6d2
+TOPNTT step=191 t=3335000 wr_en=1111 wr_addr=40/55/39/54 cnt4=1/0/3/2 sw=0000 tw=848/816/1853 ain=3307/2189/1071/3282 bin=1252/2104/1826/1746 alu=2722/1689/984/165 rd_addr=47
+COMPUTE wr bank0 t=3345000 addr=56 data=1689 raw=zzz699
+COMPUTE wr bank1 t=3345000 addr=40 data=2722 raw=zzzaa2
+COMPUTE wr bank2 t=3345000 addr=55 data=165 raw=zzz0a5
+COMPUTE wr bank3 t=3345000 addr=39 data=984 raw=zzz3d8
+TOPNTT step=192 t=3345000 wr_en=1111 wr_addr=56/40/55/39 cnt4=2/1/0/3 sw=0000 tw=1333/1052/2481 ain=1306/721/136/2880 bin=1689/2722/165/984 alu=782/2535/2851/2028 rd_addr=63
+TAIL ctrl t=3345000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=63 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=3355000 addr=41 data=2851 raw=zzzb23
+COMPUTE wr bank1 t=3355000 addr=56 data=2535 raw=zzz9e7
+COMPUTE wr bank2 t=3355000 addr=40 data=782 raw=zzz30e
+COMPUTE wr bank3 t=3355000 addr=55 data=2028 raw=zzz7ec
+TOPNTT step=193 t=3355000 wr_en=1111 wr_addr=41/56/40/55 cnt4=3/2/1/0 sw=0000 tw=1333/1052/2481 ain=2678/2093/1508/923 bin=2851/2535/782/2028 alu=1765/139/676/2795 rd_addr=0
+TAIL ctrl t=3355000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=0000
+COMPUTE wr bank0 t=3365000 addr=57 data=2795 raw=zzzaeb
+COMPUTE wr bank1 t=3365000 addr=41 data=676 raw=zzz2a4
+COMPUTE wr bank2 t=3365000 addr=56 data=139 raw=zzz08b
+COMPUTE wr bank3 t=3365000 addr=40 data=1765 raw=zzz6e5
+TOPNTT step=194 t=3365000 wr_en=1111 wr_addr=57/41/56/40 cnt4=0/3/2/1 sw=0000 tw=2775/0/3015 ain=1820/2606/675/540 bin=2795/676/139/1765 alu=1474/294/2323/2939 rd_addr=2
+COMPUTE wr bank0 t=3375000 addr=42 data=1474 raw=zzz5c2
+COMPUTE wr bank1 t=3375000 addr=57 data=2939 raw=zzzb7b
+COMPUTE wr bank2 t=3375000 addr=41 data=2323 raw=zzz913
+COMPUTE wr bank3 t=3375000 addr=56 data=294 raw=zzz126
+TOPNTT step=195 t=3375000 wr_en=1111 wr_addr=42/57/41/56 cnt4=1/0/3/2 sw=0000 tw=2466/0/268 ain=1887/302/173/870 bin=1474/2939/2323/294 alu=928/908/1911/2953 rd_addr=4
+COMPUTE wr bank0 t=3385000 addr=58 data=908 raw=zzz38c
+COMPUTE wr bank1 t=3385000 addr=42 data=928 raw=zzz3a0
+COMPUTE wr bank2 t=3385000 addr=57 data=2953 raw=zzzb89
+COMPUTE wr bank3 t=3385000 addr=41 data=1911 raw=zzz777
+TOPNTT step=196 t=3385000 wr_en=1111 wr_addr=58/42/57/41 cnt4=2/1/0/3 sw=0000 tw=885/0/2761 ain=2463/882/1892/597 bin=908/928/2953/1911 alu=1138/602/2206/888 rd_addr=6
+COMPUTE wr bank0 t=3395000 addr=43 data=2206 raw=zzz89e
+COMPUTE wr bank1 t=3395000 addr=58 data=602 raw=zzz25a
+COMPUTE wr bank2 t=3395000 addr=42 data=1138 raw=zzz472
+COMPUTE wr bank3 t=3395000 addr=57 data=888 raw=zzz378
+TOPNTT step=197 t=3395000 wr_en=1111 wr_addr=43/58/42/57 cnt4=3/2/1/0 sw=0000 tw=2298/0/1651 ain=2644/1384/1050/910 bin=2206/602/1138/888 alu=1129/1103/1965/1740 rd_addr=8
+COMPUTE wr bank0 t=3405000 addr=59 data=1740 raw=zzz6cc
+COMPUTE wr bank1 t=3405000 addr=43 data=1965 raw=zzz7ad
+COMPUTE wr bank2 t=3405000 addr=58 data=1103 raw=zzz44f
+COMPUTE wr bank3 t=3405000 addr=42 data=1129 raw=zzz469
+TOPNTT step=198 t=3405000 wr_en=1111 wr_addr=59/43/58/42 cnt4=0/3/2/1 sw=0000 tw=1092/0/2662 ain=517/1987/1955/2938 bin=1740/1965/1103/1129 alu=3061/2024/1370/3039 rd_addr=10
+COMPUTE wr bank0 t=3415000 addr=44 data=3061 raw=zzzbf5
+COMPUTE wr bank1 t=3415000 addr=59 data=3039 raw=zzzbdf
+COMPUTE wr bank2 t=3415000 addr=43 data=1370 raw=zzz55a
+COMPUTE wr bank3 t=3415000 addr=58 data=2024 raw=zzz7e8
+TOPNTT step=199 t=3415000 wr_en=1111 wr_addr=44/59/43/58 cnt4=1/0/3/2 sw=0000 tw=319/0/2308 ain=1747/1201/2807/2798 bin=3061/3039/1370/2024 alu=1651/1103/1069/2729 rd_addr=12
+COMPUTE wr bank0 t=3425000 addr=60 data=1103 raw=zzz44f
+COMPUTE wr bank1 t=3425000 addr=44 data=1651 raw=zzz673
+COMPUTE wr bank2 t=3425000 addr=59 data=2729 raw=zzzaa9
+COMPUTE wr bank3 t=3425000 addr=43 data=1069 raw=zzz42d
+TOPNTT step=200 t=3425000 wr_en=1111 wr_addr=60/44/59/43 cnt4=2/1/0/3 sw=0000 tw=1212/0/723 ain=437/2356/668/1187 bin=1103/1651/2729/1069 alu=2592/56/141/985 rd_addr=14
+COMPUTE wr bank0 t=3435000 addr=45 data=141 raw=zzz08d
+COMPUTE wr bank1 t=3435000 addr=60 data=56 raw=zzz038
+COMPUTE wr bank2 t=3435000 addr=44 data=2592 raw=zzza20
+COMPUTE wr bank3 t=3435000 addr=59 data=985 raw=zzz3d9
+TOPNTT step=201 t=3435000 wr_en=1111 wr_addr=45/60/44/59 cnt4=3/2/1/0 sw=0000 tw=2549/0/952 ain=2256/2362/1632/3120 bin=141/56/2592/985 alu=3111/2829/822/1719 rd_addr=16
+COMPUTE wr bank0 t=3445000 addr=61 data=1719 raw=zzz6b7
+COMPUTE wr bank1 t=3445000 addr=45 data=822 raw=zzz336
+COMPUTE wr bank2 t=3445000 addr=60 data=2829 raw=zzzb0d
+COMPUTE wr bank3 t=3445000 addr=44 data=3111 raw=zzzc27
+TOPNTT step=202 t=3445000 wr_en=1111 wr_addr=61/45/60/44 cnt4=0/3/2/1 sw=0000 tw=2150/0/2156 ain=768/425/3259/60 bin=1719/822/2829/3111 alu=2309/404/3022/1026 rd_addr=18
+COMPUTE wr bank0 t=3455000 addr=46 data=2309 raw=zzz905
+COMPUTE wr bank1 t=3455000 addr=61 data=1026 raw=zzz402
+COMPUTE wr bank2 t=3455000 addr=45 data=3022 raw=zzzbce
+COMPUTE wr bank3 t=3455000 addr=60 data=404 raw=zzz194
+TOPNTT step=203 t=3455000 wr_en=1111 wr_addr=46/61/45/60 cnt4=1/0/3/2 sw=0000 tw=561/0/2337 ain=3284/1013/428/3080 bin=2309/1026/3022/404 alu=2415/3060/1968/2671 rd_addr=20
+COMPUTE wr bank0 t=3465000 addr=62 data=3060 raw=zzzbf4
+COMPUTE wr bank1 t=3465000 addr=46 data=2415 raw=zzz96f
+COMPUTE wr bank2 t=3465000 addr=61 data=2671 raw=zzza6f
+COMPUTE wr bank3 t=3465000 addr=45 data=1968 raw=zzz7b0
+TOPNTT step=204 t=3465000 wr_en=1111 wr_addr=62/46/61/45 cnt4=2/1/0/3 sw=0000 tw=2935/0/2649 ain=2324/2629/2048/2293 bin=3060/2415/2671/1968 alu=2376/705/0/931 rd_addr=22
+COMPUTE wr bank0 t=3475000 addr=47 data=0 raw=zzz000
+COMPUTE wr bank1 t=3475000 addr=62 data=705 raw=zzz2c1
+COMPUTE wr bank2 t=3475000 addr=46 data=2376 raw=zzz948
+COMPUTE wr bank3 t=3475000 addr=61 data=931 raw=zzz3a3
+TOPNTT step=205 t=3475000 wr_en=1111 wr_addr=47/62/46/61 cnt4=3/2/1/0 sw=0000 tw=3220/0/1789 ain=2671/3087/142/2321 bin=0/705/2376/931 alu=535/2180/3203/108 rd_addr=24
+COMPUTE wr bank0 t=3485000 addr=63 data=108 raw=zzz06c
+COMPUTE wr bank1 t=3485000 addr=47 data=3203 raw=zzzc83
+COMPUTE wr bank2 t=3485000 addr=62 data=2180 raw=zzz884
+COMPUTE wr bank3 t=3485000 addr=46 data=535 raw=zzz217
+TOPNTT step=206 t=3485000 wr_en=1111 wr_addr=63/47/62/46 cnt4=0/3/2/1 sw=1000 tw=1026/0/233 ain=1266/2112/1726/1881 bin=108/3203/2180/535 alu=2845/3286/505/247 rd_addr=26
+COMPUTE wr bank0 t=3495000 addr=0 data=2845 raw=zzzb1d
+COMPUTE wr bank1 t=3495000 addr=63 data=247 raw=zzz0f7
+COMPUTE wr bank2 t=3495000 addr=47 data=505 raw=zzz1f9
+COMPUTE wr bank3 t=3495000 addr=62 data=3286 raw=zzzcd6
+TOPNTT step=207 t=3495000 wr_en=1111 wr_addr=0/63/47/62 cnt4=1/0/3/2 sw=1100 tw=757/0/2388 ain=1061/755/2307/3228 bin=2845/247/505/3286 alu=198/795/852/163 rd_addr=28
+COMPUTE wr bank0 t=3505000 addr=2 data=198 raw=zzz0c6
+COMPUTE wr bank1 t=3505000 addr=0 data=795 raw=zzz31b
+COMPUTE wr bank2 t=3505000 addr=63 data=163 raw=zzz0a3
+COMPUTE wr bank3 t=3505000 addr=47 data=852 raw=zzz354
+TOPNTT step=208 t=3505000 wr_en=1111 wr_addr=2/0/63/47 cnt4=2/1/0/3 sw=1110 tw=1029/0/1100 ain=3291/2244/2377/3281 bin=198/795/163/852 alu=155/247/482/2710 rd_addr=30
+COMPUTE wr bank0 t=3515000 addr=4 data=155 raw=zzz09b
+COMPUTE wr bank1 t=3515000 addr=2 data=247 raw=zzz0f7
+COMPUTE wr bank2 t=3515000 addr=0 data=482 raw=zzz1e2
+COMPUTE wr bank3 t=3515000 addr=63 data=2710 raw=zzza96
+TOPNTT step=209 t=3515000 wr_en=1111 wr_addr=4/2/0/63 cnt4=3/2/1/0 sw=1111 tw=1645/0/2687 ain=2573/218/1627/2733 bin=155/247/482/2710 alu=581/1442/2825/868 rd_addr=1
+COMPUTE wr bank0 t=3525000 addr=6 data=581 raw=zzz245
+COMPUTE wr bank1 t=3525000 addr=4 data=1442 raw=zzz5a2
+COMPUTE wr bank2 t=3525000 addr=2 data=2825 raw=zzzb09
+COMPUTE wr bank3 t=3525000 addr=0 data=868 raw=zzz364
+TOPNTT step=210 t=3525000 wr_en=1111 wr_addr=6/4/2/0 cnt4=0/3/2/1 sw=1111 tw=886/0/3050 ain=2358/1256/358/2717 bin=581/1442/2825/868 alu=803/1378/664/850 rd_addr=3
+COMPUTE wr bank0 t=3535000 addr=8 data=803 raw=zzz323
+COMPUTE wr bank1 t=3535000 addr=6 data=1378 raw=zzz562
+COMPUTE wr bank2 t=3535000 addr=4 data=664 raw=zzz298
+COMPUTE wr bank3 t=3535000 addr=2 data=850 raw=zzz352
+TOPNTT step=211 t=3535000 wr_en=1111 wr_addr=8/6/4/2 cnt4=1/0/3/2 sw=1111 tw=2594/0/641 ain=2534/1634/2123/3174 bin=803/1378/664/850 alu=2880/231/111/3120 rd_addr=5
+COMPUTE wr bank0 t=3545000 addr=10 data=2880 raw=zzzb40
+COMPUTE wr bank1 t=3545000 addr=8 data=231 raw=zzz0e7
+COMPUTE wr bank2 t=3545000 addr=6 data=111 raw=zzz06f
+COMPUTE wr bank3 t=3545000 addr=4 data=3120 raw=zzzc30
+TOPNTT step=212 t=3545000 wr_en=1111 wr_addr=10/8/6/4 cnt4=2/1/0/3 sw=1111 tw=2154/0/3312 ain=271/2683/845/1155 bin=2880/231/111/3120 alu=558/614/1806/1989 rd_addr=7
+COMPUTE wr bank0 t=3555000 addr=12 data=558 raw=zzz22e
+COMPUTE wr bank1 t=3555000 addr=10 data=614 raw=zzz266
+COMPUTE wr bank2 t=3555000 addr=8 data=1806 raw=zzz70e
+COMPUTE wr bank3 t=3555000 addr=6 data=1989 raw=zzz7c5
+TOPNTT step=213 t=3555000 wr_en=1111 wr_addr=12/10/8/6 cnt4=3/2/1/0 sw=1111 tw=1745/0/1626 ain=1963/1812/2247/1405 bin=558/614/1806/1989 alu=2522/316/1752/2104 rd_addr=9
+COMPUTE wr bank0 t=3565000 addr=14 data=2522 raw=zzz9da
+COMPUTE wr bank1 t=3565000 addr=12 data=316 raw=zzz13c
+COMPUTE wr bank2 t=3565000 addr=10 data=1752 raw=zzz6d8
+COMPUTE wr bank3 t=3565000 addr=8 data=2104 raw=zzz838
+TOPNTT step=214 t=3565000 wr_en=1111 wr_addr=14/12/10/8 cnt4=0/3/2/1 sw=1111 tw=525/0/1920 ain=2274/99/2529/2117 bin=2522/316/1752/2104 alu=2197/1990/2089/533 rd_addr=11
+COMPUTE wr bank0 t=3575000 addr=16 data=2197 raw=zzz895
+COMPUTE wr bank1 t=3575000 addr=14 data=1990 raw=zzz7c6
+COMPUTE wr bank2 t=3575000 addr=12 data=2089 raw=zzz829
+COMPUTE wr bank3 t=3575000 addr=10 data=533 raw=zzz215
+TOPNTT step=215 t=3575000 wr_en=1111 wr_addr=16/14/12/10 cnt4=1/0/3/2 sw=1111 tw=2266/0/2390 ain=662/421/3185/2884 bin=2197/1990/2089/533 alu=2220/2668/70/2576 rd_addr=13
+COMPUTE wr bank0 t=3585000 addr=18 data=2220 raw=zzz8ac
+COMPUTE wr bank1 t=3585000 addr=16 data=2668 raw=zzza6c
+COMPUTE wr bank2 t=3585000 addr=14 data=70 raw=zzz046
+COMPUTE wr bank3 t=3585000 addr=12 data=2576 raw=zzza10
+TOPNTT step=216 t=3585000 wr_en=1111 wr_addr=18/16/14/12 cnt4=2/1/0/3 sw=1111 tw=1607/0/1692 ain=1465/2146/220/2495 bin=2220/2668/70/2576 alu=2634/1019/2306/3194 rd_addr=15
+COMPUTE wr bank0 t=3595000 addr=20 data=2634 raw=zzza4a
+COMPUTE wr bank1 t=3595000 addr=18 data=1019 raw=zzz3fb
+COMPUTE wr bank2 t=3595000 addr=16 data=2306 raw=zzz902
+COMPUTE wr bank3 t=3595000 addr=14 data=3194 raw=zzzc7a
+TOPNTT step=217 t=3595000 wr_en=1111 wr_addr=20/18/16/14 cnt4=3/2/1/0 sw=1111 tw=2954/0/1482 ain=63/3266/1996/2343 bin=2634/1019/2306/3194 alu=2150/2014/3280/883 rd_addr=17
+COMPUTE wr bank0 t=3605000 addr=22 data=2150 raw=zzz866
+COMPUTE wr bank1 t=3605000 addr=20 data=2014 raw=zzz7de
+COMPUTE wr bank2 t=3605000 addr=18 data=3280 raw=zzzcd0
+COMPUTE wr bank3 t=3605000 addr=16 data=883 raw=zzz373
+TOPNTT step=218 t=3605000 wr_en=1111 wr_addr=22/20/18/16 cnt4=0/3/2/1 sw=1111 tw=2186/0/2573 ain=3020/1536/2156/2054 bin=2150/2014/3280/883 alu=3143/3192/2147/905 rd_addr=19
+COMPUTE wr bank0 t=3615000 addr=24 data=3143 raw=zzzc47
+COMPUTE wr bank1 t=3615000 addr=22 data=3192 raw=zzzc78
+COMPUTE wr bank2 t=3615000 addr=20 data=2147 raw=zzz863
+COMPUTE wr bank3 t=3615000 addr=18 data=905 raw=zzz389
+TOPNTT step=219 t=3615000 wr_en=1111 wr_addr=24/22/20/18 cnt4=1/0/3/2 sw=1111 tw=1230/0/2596 ain=555/40/2819/904 bin=3143/3192/2147/905 alu=2217/2718/2022/1949 rd_addr=21
+COMPUTE wr bank0 t=3625000 addr=26 data=2217 raw=zzz8a9
+COMPUTE wr bank1 t=3625000 addr=24 data=2718 raw=zzza9e
+COMPUTE wr bank2 t=3625000 addr=22 data=2022 raw=zzz7e6
+COMPUTE wr bank3 t=3625000 addr=20 data=1949 raw=zzz79d
+TOPNTT step=220 t=3625000 wr_en=1111 wr_addr=26/24/22/20 cnt4=2/1/0/3 sw=1111 tw=1219/0/2746 ain=897/910/2530/3080 bin=2217/2718/2022/1949 alu=1094/3234/1467/1591 rd_addr=23
+COMPUTE wr bank0 t=3635000 addr=28 data=1094 raw=zzz446
+COMPUTE wr bank1 t=3635000 addr=26 data=3234 raw=zzzca2
+COMPUTE wr bank2 t=3635000 addr=24 data=1467 raw=zzz5bb
+COMPUTE wr bank3 t=3635000 addr=22 data=1591 raw=zzz637
+TOPNTT step=221 t=3635000 wr_en=1111 wr_addr=28/26/24/22 cnt4=3/2/1/0 sw=1111 tw=1292/0/540 ain=1908/929/898/2761 bin=1094/3234/1467/1591 alu=1075/2159/1668/1985 rd_addr=25
+COMPUTE wr bank0 t=3645000 addr=30 data=1075 raw=zzz433
+COMPUTE wr bank1 t=3645000 addr=28 data=2159 raw=zzz86f
+COMPUTE wr bank2 t=3645000 addr=26 data=1668 raw=zzz684
+COMPUTE wr bank3 t=3645000 addr=24 data=1985 raw=zzz7c1
+TOPNTT step=222 t=3645000 wr_en=1111 wr_addr=30/28/26/24 cnt4=0/3/2/1 sw=1111 tw=2926/0/48 ain=2723/2867/2321/256 bin=1075/2159/1668/1985 alu=1356/742/524/2946 rd_addr=27
+COMPUTE wr bank0 t=3655000 addr=1 data=1356 raw=zzz54c
+COMPUTE wr bank1 t=3655000 addr=30 data=742 raw=zzz2e6
+COMPUTE wr bank2 t=3655000 addr=28 data=524 raw=zzz20c
+COMPUTE wr bank3 t=3655000 addr=26 data=2946 raw=zzzb82
+TOPNTT step=223 t=3655000 wr_en=1111 wr_addr=1/30/28/26 cnt4=1/0/3/2 sw=1111 tw=556/0/892 ain=2755/725/272/1857 bin=1356/742/524/2946 alu=449/31/149/901 rd_addr=29
+COMPUTE wr bank0 t=3665000 addr=3 data=449 raw=zzz1c1
+COMPUTE wr bank1 t=3665000 addr=1 data=31 raw=zzz01f
+COMPUTE wr bank2 t=3665000 addr=30 data=149 raw=zzz095
+COMPUTE wr bank3 t=3665000 addr=28 data=901 raw=zzz385
+TOPNTT step=224 t=3665000 wr_en=1111 wr_addr=3/1/30/28 cnt4=2/1/0/3 sw=1111 tw=1455/0/1041 ain=401/3037/212/1801 bin=449/31/149/901 alu=1712/1290/2149/3105 rd_addr=31
+COMPUTE wr bank0 t=3675000 addr=5 data=1712 raw=zzz6b0
+COMPUTE wr bank1 t=3675000 addr=3 data=1290 raw=zzz50a
+COMPUTE wr bank2 t=3675000 addr=1 data=2149 raw=zzz865
+COMPUTE wr bank3 t=3675000 addr=30 data=3105 raw=zzzc21
+TOPNTT step=225 t=3675000 wr_en=1111 wr_addr=5/3/1/30 cnt4=3/2/1/0 sw=1111 tw=1239/0/1868 ain=1703/1842/554/3101 bin=1712/1290/2149/3105 alu=2835/2159/2642/1896 rd_addr=32
+COMPUTE wr bank0 t=3685000 addr=7 data=2835 raw=zzzb13
+COMPUTE wr bank1 t=3685000 addr=5 data=2159 raw=zzz86f
+COMPUTE wr bank2 t=3685000 addr=3 data=2642 raw=zzza52
+COMPUTE wr bank3 t=3685000 addr=1 data=1896 raw=zzz768
+TOPNTT step=226 t=3685000 wr_en=1111 wr_addr=7/5/3/1 cnt4=0/3/2/1 sw=1111 tw=2775/0/3015 ain=2213/2999/2272/2137 bin=2835/2159/2642/1896 alu=613/1091/3100/1604 rd_addr=34
+COMPUTE wr bank0 t=3695000 addr=9 data=613 raw=zzz265
+COMPUTE wr bank1 t=3695000 addr=7 data=1091 raw=zzz443
+COMPUTE wr bank2 t=3695000 addr=5 data=3100 raw=zzzc1c
+COMPUTE wr bank3 t=3695000 addr=3 data=1604 raw=zzz644
+TOPNTT step=227 t=3695000 wr_en=1111 wr_addr=9/7/5/3 cnt4=1/0/3/2 sw=1111 tw=2466/0/268 ain=2759/1174/2186/2883 bin=613/1091/3100/1604 alu=1974/606/659/1919 rd_addr=36
+COMPUTE wr bank0 t=3705000 addr=11 data=1974 raw=zzz7b6
+COMPUTE wr bank1 t=3705000 addr=9 data=606 raw=zzz25e
+COMPUTE wr bank2 t=3705000 addr=7 data=659 raw=zzz293
+COMPUTE wr bank3 t=3705000 addr=5 data=1919 raw=zzz77f
+TOPNTT step=228 t=3705000 wr_en=1111 wr_addr=11/9/7/5 cnt4=2/1/0/3 sw=1111 tw=885/0/2761 ain=8/1756/2909/1614 bin=1974/606/659/1919 alu=931/2679/2453/506 rd_addr=38
+COMPUTE wr bank0 t=3715000 addr=13 data=931 raw=zzz3a3
+COMPUTE wr bank1 t=3715000 addr=11 data=2679 raw=zzza77
+COMPUTE wr bank2 t=3715000 addr=9 data=2453 raw=zzz995
+COMPUTE wr bank3 t=3715000 addr=7 data=506 raw=zzz1fa
+TOPNTT step=229 t=3715000 wr_en=1111 wr_addr=13/11/9/7 cnt4=3/2/1/0 sw=1111 tw=2298/0/1651 ain=2014/754/980/840 bin=931/2679/2453/506 alu=2637/1999/1858/2605 rd_addr=40
+COMPUTE wr bank0 t=3725000 addr=15 data=2637 raw=zzza4d
+COMPUTE wr bank1 t=3725000 addr=13 data=1999 raw=zzz7cf
+COMPUTE wr bank2 t=3725000 addr=11 data=1858 raw=zzz742
+COMPUTE wr bank3 t=3725000 addr=9 data=2605 raw=zzza2d
+TOPNTT step=230 t=3725000 wr_en=1111 wr_addr=15/13/11/9 cnt4=0/3/2/1 sw=1111 tw=1092/0/2662 ain=1252/2722/782/1765 bin=2637/1999/1858/2605 alu=517/818/1735/1183 rd_addr=42
+COMPUTE wr bank0 t=3735000 addr=17 data=517 raw=zzz205
+COMPUTE wr bank1 t=3735000 addr=15 data=818 raw=zzz332
+COMPUTE wr bank2 t=3735000 addr=13 data=1735 raw=zzz6c7
+COMPUTE wr bank3 t=3735000 addr=11 data=1183 raw=zzz49f
+TOPNTT step=231 t=3735000 wr_en=1111 wr_addr=17/15/13/11 cnt4=1/0/3/2 sw=1111 tw=319/0/2308 ain=1474/928/1138/1129 bin=517/818/1735/1183 alu=2206/2194/987/2034 rd_addr=44
+COMPUTE wr bank0 t=3745000 addr=19 data=2206 raw=zzz89e
+COMPUTE wr bank1 t=3745000 addr=17 data=2194 raw=zzz892
+COMPUTE wr bank2 t=3745000 addr=15 data=987 raw=zzz3db
+COMPUTE wr bank3 t=3745000 addr=13 data=2034 raw=zzz7f2
+TOPNTT step=232 t=3745000 wr_en=1111 wr_addr=19/17/15/13 cnt4=2/1/0/3 sw=1111 tw=1212/0/723 ain=3061/1651/2592/3111 bin=2206/2194/987/2034 alu=3200/2233/1313/3005 rd_addr=46
+COMPUTE wr bank0 t=3755000 addr=21 data=3200 raw=zzzc80
+COMPUTE wr bank1 t=3755000 addr=19 data=2233 raw=zzz8b9
+COMPUTE wr bank2 t=3755000 addr=17 data=1313 raw=zzz521
+COMPUTE wr bank3 t=3755000 addr=15 data=3005 raw=zzzbbd
+TOPNTT step=233 t=3755000 wr_en=1111 wr_addr=21/19/17/15 cnt4=3/2/1/0 sw=1111 tw=2549/0/952 ain=2309/2415/2376/535 bin=3200/2233/1313/3005 alu=3246/1923/1532/2999 rd_addr=48
+COMPUTE wr bank0 t=3765000 addr=23 data=3246 raw=zzzcae
+COMPUTE wr bank1 t=3765000 addr=21 data=1923 raw=zzz783
+COMPUTE wr bank2 t=3765000 addr=19 data=1532 raw=zzz5fc
+COMPUTE wr bank3 t=3765000 addr=17 data=2999 raw=zzzbb7
+TOPNTT step=234 t=3765000 wr_en=1111 wr_addr=23/21/19/17 cnt4=0/3/2/1 sw=1111 tw=2150/0/2156 ain=2261/1918/3324/125 bin=3246/1923/1532/2999 alu=531/570/461/777 rd_addr=50
+COMPUTE wr bank0 t=3775000 addr=25 data=531 raw=zzz213
+COMPUTE wr bank1 t=3775000 addr=23 data=570 raw=zzz23a
+COMPUTE wr bank2 t=3775000 addr=21 data=461 raw=zzz1cd
+COMPUTE wr bank3 t=3775000 addr=19 data=777 raw=zzz309
+TOPNTT step=235 t=3775000 wr_en=1111 wr_addr=25/23/21/19 cnt4=1/0/3/2 sw=1111 tw=561/0/2337 ain=484/1542/1754/1077 bin=531/570/461/777 alu=36/1586/2330/1270 rd_addr=52
+COMPUTE wr bank0 t=3785000 addr=27 data=36 raw=zzz024
+COMPUTE wr bank1 t=3785000 addr=25 data=1586 raw=zzz632
+COMPUTE wr bank2 t=3785000 addr=23 data=2330 raw=zzz91a
+COMPUTE wr bank3 t=3785000 addr=21 data=1270 raw=zzz4f6
+TOPNTT step=236 t=3785000 wr_en=1111 wr_addr=27/25/23/21 cnt4=2/1/0/3 sw=1111 tw=2935/0/2649 ain=812/1117/506/751 bin=36/1586/2330/1270 alu=1973/2145/658/2795 rd_addr=54
+COMPUTE wr bank0 t=3795000 addr=29 data=1973 raw=zzz7b5
+COMPUTE wr bank1 t=3795000 addr=27 data=2145 raw=zzz861
+COMPUTE wr bank2 t=3795000 addr=25 data=658 raw=zzz292
+COMPUTE wr bank3 t=3795000 addr=23 data=2795 raw=zzzaeb
+TOPNTT step=237 t=3795000 wr_en=1111 wr_addr=29/27/25/23 cnt4=3/2/1/0 sw=1111 tw=3220/0/1789 ain=2879/3295/2896/1746 bin=1973/2145/658/2795 alu=630/2158/1048/655 rd_addr=56
+COMPUTE wr bank0 t=3805000 addr=31 data=630 raw=zzz276
+COMPUTE wr bank1 t=3805000 addr=29 data=2158 raw=zzz86e
+COMPUTE wr bank2 t=3805000 addr=27 data=1048 raw=zzz418
+COMPUTE wr bank3 t=3805000 addr=25 data=655 raw=zzz28f
+TOPNTT step=238 t=3805000 wr_en=1111 wr_addr=31/29/27/25 cnt4=0/3/2/1 sw=1111 tw=1026/0/233 ain=1689/2535/139/294 bin=630/2158/1048/655 alu=3261/2776/1419/2825 rd_addr=58
+COMPUTE wr bank0 t=3815000 addr=32 data=3261 raw=zzzcbd
+COMPUTE wr bank1 t=3815000 addr=31 data=2776 raw=zzzad8
+COMPUTE wr bank2 t=3815000 addr=29 data=1419 raw=zzz58b
+COMPUTE wr bank3 t=3815000 addr=27 data=2825 raw=zzzb09
+TOPNTT step=239 t=3815000 wr_en=1111 wr_addr=32/31/29/27 cnt4=1/0/3/2 sw=1111 tw=757/0/2388 ain=908/602/1103/2024 bin=3261/2776/1419/2825 alu=1352/1165/2134/2334 rd_addr=60
+TAIL ctrl t=3815000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=60 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=3825000 addr=34 data=1352 raw=zzz548
+COMPUTE wr bank1 t=3825000 addr=32 data=1165 raw=zzz48d
+COMPUTE wr bank2 t=3825000 addr=31 data=2134 raw=zzz856
+COMPUTE wr bank3 t=3825000 addr=29 data=2334 raw=zzz91e
+TOPNTT step=240 t=3825000 wr_en=1111 wr_addr=34/32/31/29 cnt4=2/1/0/3 sw=1111 tw=1029/0/1100 ain=1103/56/2829/404 bin=1352/1165/2134/2334 alu=765/837/1687/2303 rd_addr=62
+TAIL ctrl t=3825000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=62 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=3835000 addr=36 data=765 raw=zzz2fd
+COMPUTE wr bank1 t=3835000 addr=34 data=837 raw=zzz345
+COMPUTE wr bank2 t=3835000 addr=32 data=1687 raw=zzz697
+COMPUTE wr bank3 t=3835000 addr=31 data=2303 raw=zzz8ff
+TOPNTT step=241 t=3835000 wr_en=1111 wr_addr=36/34/32/31 cnt4=3/2/1/0 sw=1111 tw=1645/0/2687 ain=3060/705/2180/3286 bin=765/837/1687/2303 alu=943/2580/3306/2857 rd_addr=33
+COMPUTE wr bank0 t=3845000 addr=38 data=943 raw=zzz3af
+COMPUTE wr bank1 t=3845000 addr=36 data=2580 raw=zzza14
+COMPUTE wr bank2 t=3845000 addr=34 data=3306 raw=zzzcea
+COMPUTE wr bank3 t=3845000 addr=32 data=2857 raw=zzzb29
+TOPNTT step=242 t=3845000 wr_en=1111 wr_addr=38/36/34/32 cnt4=0/3/2/1 sw=1111 tw=886/0/3050 ain=1807/705/3202/2232 bin=943/2580/3306/2857 alu=2964/3085/827/1066 rd_addr=35
+COMPUTE wr bank0 t=3855000 addr=40 data=2964 raw=zzzb94
+COMPUTE wr bank1 t=3855000 addr=38 data=3085 raw=zzzc0d
+COMPUTE wr bank2 t=3855000 addr=36 data=827 raw=zzz33b
+COMPUTE wr bank3 t=3855000 addr=34 data=1066 raw=zzz42a
+TOPNTT step=243 t=3855000 wr_en=1111 wr_addr=40/38/36/34 cnt4=1/0/3/2 sw=1111 tw=2594/0/641 ain=2084/1184/984/2035 bin=2964/3085/827/1066 alu=1055/2869/2674/1662 rd_addr=37
+COMPUTE wr bank0 t=3865000 addr=42 data=1055 raw=zzz41f
+COMPUTE wr bank1 t=3865000 addr=40 data=2869 raw=zzzb35
+COMPUTE wr bank2 t=3865000 addr=38 data=2674 raw=zzza72
+COMPUTE wr bank3 t=3865000 addr=36 data=1662 raw=zzz67e
+TOPNTT step=244 t=3865000 wr_en=1111 wr_addr=42/40/38/36 cnt4=2/1/0/3 sw=1111 tw=2154/0/3312 ain=1477/560/1000/1310 bin=1055/2869/2674/1662 alu=2842/1893/186/2615 rd_addr=39
+COMPUTE wr bank0 t=3875000 addr=44 data=2842 raw=zzzb1a
+COMPUTE wr bank1 t=3875000 addr=42 data=1893 raw=zzz765
+COMPUTE wr bank2 t=3875000 addr=40 data=186 raw=zzz0ba
+COMPUTE wr bank3 t=3875000 addr=38 data=2615 raw=zzza37
+TOPNTT step=245 t=3875000 wr_en=1111 wr_addr=44/42/40/38 cnt4=3/2/1/0 sw=1111 tw=1745/0/1626 ain=223/72/1826/984 bin=2842/1893/186/2615 alu=1476/3280/3262/1378 rd_addr=41
+COMPUTE wr bank0 t=3885000 addr=46 data=1476 raw=zzz5c4
+COMPUTE wr bank1 t=3885000 addr=44 data=3280 raw=zzzcd0
+COMPUTE wr bank2 t=3885000 addr=42 data=3262 raw=zzzcbe
+COMPUTE wr bank3 t=3885000 addr=40 data=1378 raw=zzz562
+TOPNTT step=246 t=3885000 wr_en=1111 wr_addr=46/44/42/40 cnt4=0/3/2/1 sw=1111 tw=525/0/1920 ain=2851/676/2323/1911 bin=1476/3280/3262/1378 alu=1911/3142/1083/2343 rd_addr=43
+COMPUTE wr bank0 t=3895000 addr=48 data=1911 raw=zzz777
+COMPUTE wr bank1 t=3895000 addr=46 data=3142 raw=zzzc46
+COMPUTE wr bank2 t=3895000 addr=44 data=1083 raw=zzz43b
+COMPUTE wr bank3 t=3895000 addr=42 data=2343 raw=zzz927
+TOPNTT step=247 t=3895000 wr_en=1111 wr_addr=48/46/44/42 cnt4=1/0/3/2 sw=1111 tw=2266/0/2390 ain=2206/1965/1370/1069 bin=1911/3142/1083/2343 alu=54/2611/2695/772 rd_addr=45
+COMPUTE wr bank0 t=3905000 addr=50 data=54 raw=zzz036
+COMPUTE wr bank1 t=3905000 addr=48 data=2611 raw=zzza33
+COMPUTE wr bank2 t=3905000 addr=46 data=2695 raw=zzza87
+COMPUTE wr bank3 t=3905000 addr=44 data=772 raw=zzz304
+TOPNTT step=248 t=3905000 wr_en=1111 wr_addr=50/48/46/44 cnt4=2/1/0/3 sw=1111 tw=1607/0/1692 ain=141/822/3022/1968 bin=54/2611/2695/772 alu=460/914/1616/2057 rd_addr=47
+COMPUTE wr bank0 t=3915000 addr=52 data=460 raw=zzz1cc
+COMPUTE wr bank1 t=3915000 addr=50 data=914 raw=zzz392
+COMPUTE wr bank2 t=3915000 addr=48 data=1616 raw=zzz650
+COMPUTE wr bank3 t=3915000 addr=46 data=2057 raw=zzz809
+TOPNTT step=249 t=3915000 wr_en=1111 wr_addr=52/50/48/46 cnt4=3/2/1/0 sw=1111 tw=2954/0/1482 ain=0/3203/505/852 bin=460/914/1616/2057 alu=3246/1164/3015/1703 rd_addr=49
+COMPUTE wr bank0 t=3925000 addr=54 data=3246 raw=zzzcae
+COMPUTE wr bank1 t=3925000 addr=52 data=1164 raw=zzz48c
+COMPUTE wr bank2 t=3925000 addr=50 data=3015 raw=zzzbc7
+COMPUTE wr bank3 t=3925000 addr=48 data=1703 raw=zzz6a7
+TOPNTT step=250 t=3925000 wr_en=1111 wr_addr=54/52/50/48 cnt4=0/3/2/1 sw=1111 tw=2186/0/2573 ain=2278/794/2105/2003 bin=3246/1164/3015/1703 alu=2651/2512/2404/493 rd_addr=51
+COMPUTE wr bank0 t=3935000 addr=56 data=2651 raw=zzza5b
+COMPUTE wr bank1 t=3935000 addr=54 data=2512 raw=zzz9d0
+COMPUTE wr bank2 t=3935000 addr=52 data=2404 raw=zzz964
+COMPUTE wr bank3 t=3935000 addr=50 data=493 raw=zzz1ed
+TOPNTT step=251 t=3935000 wr_en=1111 wr_addr=56/54/52/50 cnt4=1/0/3/2 sw=1111 tw=1230/0/2596 ain=1962/1447/197/1611 bin=2651/2512/2404/493 alu=1574/727/2493/1937 rd_addr=53
+COMPUTE wr bank0 t=3945000 addr=58 data=1574 raw=zzz626
+COMPUTE wr bank1 t=3945000 addr=56 data=727 raw=zzz2d7
+COMPUTE wr bank2 t=3945000 addr=54 data=2493 raw=zzz9bd
+COMPUTE wr bank3 t=3945000 addr=52 data=1937 raw=zzz791
+TOPNTT step=252 t=3945000 wr_en=1111 wr_addr=58/56/54/52 cnt4=2/1/0/3 sw=1111 tw=1219/0/2746 ain=2568/2581/2805/26 bin=1574/727/2493/1937 alu=164/242/2063/3299 rd_addr=55
+COMPUTE wr bank0 t=3955000 addr=60 data=164 raw=zzz0a4
+COMPUTE wr bank1 t=3955000 addr=58 data=242 raw=zzz0f2
+COMPUTE wr bank2 t=3955000 addr=56 data=2063 raw=zzz80f
+COMPUTE wr bank3 t=3955000 addr=54 data=3299 raw=zzzce3
+TOPNTT step=253 t=3955000 wr_en=1111 wr_addr=60/58/56/54 cnt4=3/2/1/0 sw=1111 tw=1292/0/540 ain=3083/2104/165/2028 bin=164/242/2063/3299 alu=2247/2042/1680/1544 rd_addr=57
+COMPUTE wr bank0 t=3965000 addr=62 data=2247 raw=zzz8c7
+COMPUTE wr bank1 t=3965000 addr=60 data=2042 raw=zzz7fa
+COMPUTE wr bank2 t=3965000 addr=58 data=1680 raw=zzz690
+COMPUTE wr bank3 t=3965000 addr=56 data=1544 raw=zzz608
+TOPNTT step=254 t=3965000 wr_en=1111 wr_addr=62/60/58/56 cnt4=0/3/2/1 sw=1111 tw=2926/0/48 ain=2795/2939/2953/888 bin=2247/2042/1680/1544 alu=847/544/393/526 rd_addr=59
+COMPUTE wr bank0 t=3975000 addr=33 data=847 raw=zzz34f
+COMPUTE wr bank1 t=3975000 addr=62 data=544 raw=zzz220
+COMPUTE wr bank2 t=3975000 addr=60 data=393 raw=zzz189
+COMPUTE wr bank3 t=3975000 addr=58 data=526 raw=zzz20e
+TOPNTT step=255 t=3975000 wr_en=1111 wr_addr=33/62/60/58 cnt4=1/0/3/2 sw=1111 tw=556/0/892 ain=1740/3039/2729/985 bin=847/544/393/526 alu=2745/2767/744/1936 rd_addr=61
+TAIL ctrl t=3975000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=61 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=3985000 addr=35 data=2745 raw=zzzab9
+COMPUTE wr bank1 t=3985000 addr=33 data=2767 raw=zzzacf
+COMPUTE wr bank2 t=3985000 addr=62 data=744 raw=zzz2e8
+COMPUTE wr bank3 t=3985000 addr=60 data=1936 raw=zzz790
+TOPNTT step=256 t=3985000 wr_en=1111 wr_addr=35/33/62/60 cnt4=2/1/0/3 sw=1111 tw=1455/0/1041 ain=1719/1026/2671/931 bin=2745/2767/744/1936 alu=805/1423/2349/287 rd_addr=63
+TAIL ctrl t=3985000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=63 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=3995000 addr=37 data=805 raw=zzz325
+COMPUTE wr bank1 t=3995000 addr=35 data=1423 raw=zzz58f
+COMPUTE wr bank2 t=3995000 addr=33 data=2349 raw=zzz92d
+COMPUTE wr bank3 t=3995000 addr=62 data=287 raw=zzz11f
+TOPNTT step=257 t=3995000 wr_en=1111 wr_addr=37/35/33/62 cnt4=3/2/1/0 sw=1111 tw=1239/0/1868 ain=108/247/163/2710 bin=805/1423/2349/287 alu=3278/2149/2761/726 rd_addr=0
+TAIL ctrl t=3995000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4005000 addr=39 data=3278 raw=zzzcce
+COMPUTE wr bank1 t=4005000 addr=37 data=2149 raw=zzz865
+COMPUTE wr bank2 t=4005000 addr=35 data=2761 raw=zzzac9
+COMPUTE wr bank3 t=4005000 addr=33 data=726 raw=zzz2d6
+TOPNTT step=258 t=4005000 wr_en=1111 wr_addr=39/37/35/33 cnt4=0/3/2/1 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=3278/2149/2761/726 alu=2236/497/2765/2536 rd_addr=0
+TAIL ctrl t=4005000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4015000 addr=41 data=2236 raw=zzz8bc
+COMPUTE wr bank1 t=4015000 addr=39 data=497 raw=zzz1f1
+COMPUTE wr bank2 t=4015000 addr=37 data=2765 raw=zzzacd
+COMPUTE wr bank3 t=4015000 addr=35 data=2536 raw=zzz9e8
+TOPNTT step=259 t=4015000 wr_en=1111 wr_addr=41/39/37/35 cnt4=1/0/3/2 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=2236/497/2765/2536 alu=1988/137/2652/2564 rd_addr=0
+TAIL ctrl t=4015000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4025000 addr=43 data=1988 raw=zzz7c4
+COMPUTE wr bank1 t=4025000 addr=41 data=137 raw=zzz089
+COMPUTE wr bank2 t=4025000 addr=39 data=2652 raw=zzza5c
+COMPUTE wr bank3 t=4025000 addr=37 data=2564 raw=zzza04
+TOPNTT step=260 t=4025000 wr_en=1111 wr_addr=43/41/39/37 cnt4=2/1/0/3 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1988/137/2652/2564 alu=1345/2424/3135/1000 rd_addr=0
+TAIL ctrl t=4025000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4035000 addr=45 data=1345 raw=zzz541
+COMPUTE wr bank1 t=4035000 addr=43 data=2424 raw=zzz978
+COMPUTE wr bank2 t=4035000 addr=41 data=3135 raw=zzzc3f
+COMPUTE wr bank3 t=4035000 addr=39 data=1000 raw=zzz3e8
+TOPNTT step=261 t=4035000 wr_en=1111 wr_addr=45/43/41/39 cnt4=3/2/1/0 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1345/2424/3135/1000 alu=1819/2266/2710/1511 rd_addr=0
+TAIL ctrl t=4035000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4045000 addr=47 data=1819 raw=zzz71b
+COMPUTE wr bank1 t=4045000 addr=45 data=2266 raw=zzz8da
+COMPUTE wr bank2 t=4045000 addr=43 data=2710 raw=zzza96
+COMPUTE wr bank3 t=4045000 addr=41 data=1511 raw=zzz5e7
+TOPNTT step=262 t=4045000 wr_en=1111 wr_addr=47/45/43/41 cnt4=0/3/2/1 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1819/2266/2710/1511 alu=1656/1510/1842/30 rd_addr=0
+TAIL ctrl t=4045000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4055000 addr=49 data=1656 raw=zzz678
+COMPUTE wr bank1 t=4055000 addr=47 data=1510 raw=zzz5e6
+COMPUTE wr bank2 t=4055000 addr=45 data=1842 raw=zzz732
+COMPUTE wr bank3 t=4055000 addr=43 data=30 raw=zzz01e
+TOPNTT step=263 t=4055000 wr_en=1111 wr_addr=49/47/45/43 cnt4=1/0/3/2 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1656/1510/1842/30 alu=683/2900/1046/873 rd_addr=0
+TAIL ctrl t=4055000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4065000 addr=51 data=683 raw=zzz2ab
+COMPUTE wr bank1 t=4065000 addr=49 data=2900 raw=zzzb54
+COMPUTE wr bank2 t=4065000 addr=47 data=1046 raw=zzz416
+COMPUTE wr bank3 t=4065000 addr=45 data=873 raw=zzz369
+TOPNTT step=264 t=4065000 wr_en=1111 wr_addr=51/49/47/45 cnt4=2/1/0/3 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=683/2900/1046/873 alu=1392/3241/163/3293 rd_addr=0
+TAIL ctrl t=4065000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4075000 addr=53 data=1392 raw=zzz570
+COMPUTE wr bank1 t=4075000 addr=51 data=3241 raw=zzzca9
+COMPUTE wr bank2 t=4075000 addr=49 data=163 raw=zzz0a3
+COMPUTE wr bank3 t=4075000 addr=47 data=3293 raw=zzzcdd
+TOPNTT step=265 t=4075000 wr_en=1111 wr_addr=53/51/49/47 cnt4=3/2/1/0 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1392/3241/163/3293 alu=645/415/1899/718 rd_addr=0
+TAIL ctrl t=4075000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4085000 addr=55 data=645 raw=zzz285
+COMPUTE wr bank1 t=4085000 addr=53 data=415 raw=zzz19f
+COMPUTE wr bank2 t=4085000 addr=51 data=1899 raw=zzz76b
+COMPUTE wr bank3 t=4085000 addr=49 data=718 raw=zzz2ce
+TOPNTT step=266 t=4085000 wr_en=1111 wr_addr=55/53/51/49 cnt4=0/3/2/1 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=645/415/1899/718 alu=3236/2192/2513/1824 rd_addr=0
+TAIL ctrl t=4085000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4095000 addr=57 data=3236 raw=zzzca4
+COMPUTE wr bank1 t=4095000 addr=55 data=2192 raw=zzz890
+COMPUTE wr bank2 t=4095000 addr=53 data=2513 raw=zzz9d1
+COMPUTE wr bank3 t=4095000 addr=51 data=1824 raw=zzz720
+TOPNTT step=267 t=4095000 wr_en=1111 wr_addr=57/55/53/51 cnt4=1/0/3/2 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=3236/2192/2513/1824 alu=1496/2354/3023/3097 rd_addr=0
+TAIL ctrl t=4095000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4105000 addr=59 data=1496 raw=zzz5d8
+COMPUTE wr bank1 t=4105000 addr=57 data=2354 raw=zzz932
+COMPUTE wr bank2 t=4105000 addr=55 data=3023 raw=zzzbcf
+COMPUTE wr bank3 t=4105000 addr=53 data=3097 raw=zzzc19
+TOPNTT step=268 t=4105000 wr_en=1111 wr_addr=59/57/55/53 cnt4=2/1/0/3 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1496/2354/3023/3097 alu=1759/1984/2282/636 rd_addr=0
+TAIL ctrl t=4105000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4115000 addr=61 data=1759 raw=zzz6df
+COMPUTE wr bank1 t=4115000 addr=59 data=1984 raw=zzz7c0
+COMPUTE wr bank2 t=4115000 addr=57 data=2282 raw=zzz8ea
+COMPUTE wr bank3 t=4115000 addr=55 data=636 raw=zzz27c
+TOPNTT step=269 t=4115000 wr_en=1111 wr_addr=61/59/57/55 cnt4=3/2/1/0 sw=1111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1759/1984/2282/636 alu=1972/1679/3241/295 rd_addr=0
+TAIL ctrl t=4115000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=1111
+COMPUTE wr bank0 t=4125000 addr=63 data=1972 raw=zzz7b4
+COMPUTE wr bank1 t=4125000 addr=61 data=1679 raw=zzz68f
+COMPUTE wr bank2 t=4125000 addr=59 data=3241 raw=zzzca9
+COMPUTE wr bank3 t=4125000 addr=57 data=295 raw=zzz127
+TOPNTT step=270 t=4125000 wr_en=1111 wr_addr=63/61/59/57 cnt4=0/3/2/1 sw=0111 tw=2868/2402/1891 ain=108/163/247/2710 bin=1972/1679/3241/295 alu=273/1573/831/2217 rd_addr=0
+TAIL ctrl t=4125000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=1111 sw=0111
+COMPUTE wr bank1 t=4135000 addr=63 data=1573 raw=zzz625
+COMPUTE wr bank2 t=4135000 addr=61 data=831 raw=zzz33f
+COMPUTE wr bank3 t=4135000 addr=59 data=2217 raw=zzz8a9
+TOPNTT step=271 t=4135000 wr_en=0111 wr_addr=0/63/61/59 cnt4=1/0/3/2 sw=0011 tw=2868/2402/1891 ain=108/163/247/2710 bin=273/1573/831/2217 alu=273/195/1766/1182 rd_addr=0
+TAIL ctrl t=4135000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=0111 sw=0011
+COMPUTE wr bank2 t=4145000 addr=63 data=1766 raw=zzz6e6
+COMPUTE wr bank3 t=4145000 addr=61 data=1182 raw=zzz49e
+TOPNTT step=272 t=4145000 wr_en=0011 wr_addr=0/0/63/61 cnt4=2/1/0/3 sw=0001 tw=2868/2402/1891 ain=108/163/247/2710 bin=195/273/1766/1182 alu=273/195/1845/1889 rd_addr=0
+TAIL ctrl t=4145000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=0 rd_addr=0 wr_en=0011 sw=0001
+COMPUTE wr bank3 t=4155000 addr=63 data=1889 raw=zzz761
+TOPNTT step=273 t=4155000 wr_en=0001 wr_addr=0/0/0/63 cnt4=3/2/1/0 sw=0000 tw=2868/2402/1891 ain=108/163/247/2710 bin=1845/195/273/1889 alu=273/195/1845/1448 rd_addr=0
+TAIL ctrl t=4155000 cur=10 comp=1 cdone=0 wstart=0 wwork=0 done_flag=0 rd_done=1 rd_done_d15=1 rd_addr=0 wr_en=0001 sw=0000
+TOPNTT step=274 t=4165000 wr_en=0000 wr_addr=0/0/0/0 cnt4=0/3/2/1 sw=0000 tw=2868/2402/1891 ain=108/163/247/2710 bin=1448/1845/195/273 alu=273/195/1845/1448 rd_addr=0
+TAIL ctrl t=4165000 cur=10 comp=1 cdone=1 wstart=0 wwork=0 done_flag=1 rd_done=1 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4175000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=1 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4185000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4195000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4205000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4215000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4225000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4235000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4245000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4255000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4265000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4275000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4285000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4295000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4305000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4315000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4325000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4335000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=1 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4345000 cur=11 comp=0 cdone=1 wstart=1 wwork=1 done_flag=1 rd_done=0 rd_done_d15=0 rd_addr=0 wr_en=0000 sw=0000
+TAIL ctrl t=4355000 cur=11 comp=0 cdone=0 wstart=1 wwork=1 done_flag=0 rd_done=0 rd_done_d15=0 rd_addr=0 wr_en=0000 sw=0000
+WRITE beat=0 t=4405000 cnt_128_ntt=3 CS=1 data1=2845 data2=3261 out_lo=3261 out_hi=2845 src_bank=0 src_a=0 src_b=32 a0=0 b0=32 a1=0 b1=32 a2=0 b2=32 a3=0 b3=32
+WRITE beat=1 t=4415000 cnt_128_ntt=4 CS=1 data1=795 data2=1165 out_lo=1165 out_hi=795 src_bank=2 src_a=0 src_b=32 a0=0 b0=32 a1=0 b1=32 a2=0 b2=32 a3=0 b3=32
+WRITE beat=2 t=4425000 cnt_128_ntt=5 CS=1 data1=482 data2=1687 out_lo=1687 out_hi=482 src_bank=0 src_a=0 src_b=32 a0=1 b0=33 a1=1 b1=33 a2=1 b2=33 a3=1 b3=33
+WRITE beat=3 t=4435000 cnt_128_ntt=6 CS=1 data1=868 data2=2857 out_lo=2857 out_hi=868 src_bank=2 src_a=0 src_b=32 a0=1 b0=33 a1=1 b1=33 a2=1 b2=33 a3=1 b3=33
+WRITE beat=4 t=4445000 cnt_128_ntt=7 CS=1 data1=1356 data2=847 out_lo=847 out_hi=1356 src_bank=0 src_a=0 src_b=32 a0=1 b0=33 a1=1 b1=33 a2=1 b2=33 a3=1 b3=33
+WRITE beat=5 t=4455000 cnt_128_ntt=8 CS=1 data1=31 data2=2767 out_lo=2767 out_hi=31 src_bank=2 src_a=1 src_b=33 a0=1 b0=33 a1=1 b1=33 a2=1 b2=33 a3=1 b3=33
+WRITE beat=6 t=4465000 cnt_128_ntt=9 CS=1 data1=2149 data2=2349 out_lo=2349 out_hi=2149 src_bank=0 src_a=1 src_b=33 a0=2 b0=34 a1=2 b1=34 a2=2 b2=34 a3=2 b3=34
+WRITE beat=7 t=4475000 cnt_128_ntt=10 CS=1 data1=1896 data2=726 out_lo=726 out_hi=1896 src_bank=2 src_a=1 src_b=33 a0=2 b0=34 a1=2 b1=34 a2=2 b2=34 a3=2 b3=34
+WRITE beat=8 t=4485000 cnt_128_ntt=11 CS=1 data1=198 data2=1352 out_lo=1352 out_hi=198 src_bank=0 src_a=1 src_b=33 a0=2 b0=34 a1=2 b1=34 a2=2 b2=34 a3=2 b3=34
+WRITE beat=9 t=4495000 cnt_128_ntt=12 CS=1 data1=247 data2=837 out_lo=837 out_hi=247 src_bank=2 src_a=2 src_b=34 a0=2 b0=34 a1=2 b1=34 a2=2 b2=34 a3=2 b3=34
+WRITE beat=10 t=4505000 cnt_128_ntt=13 CS=1 data1=2825 data2=3306 out_lo=3306 out_hi=2825 src_bank=0 src_a=2 src_b=34 a0=3 b0=35 a1=3 b1=35 a2=3 b2=35 a3=3 b3=35
+WRITE beat=11 t=4515000 cnt_128_ntt=14 CS=1 data1=850 data2=1066 out_lo=1066 out_hi=850 src_bank=2 src_a=2 src_b=34 a0=3 b0=35 a1=3 b1=35 a2=3 b2=35 a3=3 b3=35
+WRITE beat=12 t=4525000 cnt_128_ntt=15 CS=1 data1=449 data2=2745 out_lo=2745 out_hi=449 src_bank=0 src_a=2 src_b=34 a0=3 b0=35 a1=3 b1=35 a2=3 b2=35 a3=3 b3=35
+WRITE beat=13 t=4535000 cnt_128_ntt=16 CS=1 data1=1290 data2=1423 out_lo=1423 out_hi=1290 src_bank=2 src_a=3 src_b=35 a0=3 b0=35 a1=3 b1=35 a2=3 b2=35 a3=3 b3=35
+WRITE beat=14 t=4545000 cnt_128_ntt=17 CS=1 data1=2642 data2=2761 out_lo=2761 out_hi=2642 src_bank=0 src_a=3 src_b=35 a0=4 b0=36 a1=4 b1=36 a2=4 b2=36 a3=4 b3=36
+WRITE beat=15 t=4555000 cnt_128_ntt=18 CS=1 data1=1604 data2=2536 out_lo=2536 out_hi=1604 src_bank=2 src_a=3 src_b=35 a0=4 b0=36 a1=4 b1=36 a2=4 b2=36 a3=4 b3=36
+WRITE beat=16 t=4565000 cnt_128_ntt=19 CS=1 data1=155 data2=765 out_lo=765 out_hi=155 src_bank=0 src_a=3 src_b=35 a0=4 b0=36 a1=4 b1=36 a2=4 b2=36 a3=4 b3=36
+WRITE beat=17 t=4575000 cnt_128_ntt=20 CS=1 data1=1442 data2=2580 out_lo=2580 out_hi=1442 src_bank=2 src_a=4 src_b=36 a0=4 b0=36 a1=4 b1=36 a2=4 b2=36 a3=4 b3=36
+WRITE beat=18 t=4585000 cnt_128_ntt=21 CS=1 data1=664 data2=827 out_lo=827 out_hi=664 src_bank=0 src_a=4 src_b=36 a0=5 b0=37 a1=5 b1=37 a2=5 b2=37 a3=5 b3=37
+WRITE beat=19 t=4595000 cnt_128_ntt=22 CS=1 data1=3120 data2=1662 out_lo=1662 out_hi=3120 src_bank=2 src_a=4 src_b=36 a0=5 b0=37 a1=5 b1=37 a2=5 b2=37 a3=5 b3=37
+WRITE beat=20 t=4605000 cnt_128_ntt=23 CS=1 data1=1712 data2=805 out_lo=805 out_hi=1712 src_bank=0 src_a=4 src_b=36 a0=5 b0=37 a1=5 b1=37 a2=5 b2=37 a3=5 b3=37
+WRITE beat=21 t=4615000 cnt_128_ntt=24 CS=1 data1=2159 data2=2149 out_lo=2149 out_hi=2159 src_bank=2 src_a=5 src_b=37 a0=5 b0=37 a1=5 b1=37 a2=5 b2=37 a3=5 b3=37
+WRITE beat=22 t=4625000 cnt_128_ntt=25 CS=1 data1=3100 data2=2765 out_lo=2765 out_hi=3100 src_bank=0 src_a=5 src_b=37 a0=6 b0=38 a1=6 b1=38 a2=6 b2=38 a3=6 b3=38
+WRITE beat=23 t=4635000 cnt_128_ntt=26 CS=1 data1=1919 data2=2564 out_lo=2564 out_hi=1919 src_bank=2 src_a=5 src_b=37 a0=6 b0=38 a1=6 b1=38 a2=6 b2=38 a3=6 b3=38
+WRITE beat=24 t=4645000 cnt_128_ntt=27 CS=1 data1=581 data2=943 out_lo=943 out_hi=581 src_bank=0 src_a=5 src_b=37 a0=6 b0=38 a1=6 b1=38 a2=6 b2=38 a3=6 b3=38
+WRITE beat=25 t=4655000 cnt_128_ntt=28 CS=1 data1=1378 data2=3085 out_lo=3085 out_hi=1378 src_bank=2 src_a=6 src_b=38 a0=6 b0=38 a1=6 b1=38 a2=6 b2=38 a3=6 b3=38
+WRITE beat=26 t=4665000 cnt_128_ntt=29 CS=1 data1=111 data2=2674 out_lo=2674 out_hi=111 src_bank=0 src_a=6 src_b=38 a0=7 b0=39 a1=7 b1=39 a2=7 b2=39 a3=7 b3=39
+WRITE beat=27 t=4675000 cnt_128_ntt=30 CS=1 data1=1989 data2=2615 out_lo=2615 out_hi=1989 src_bank=2 src_a=6 src_b=38 a0=7 b0=39 a1=7 b1=39 a2=7 b2=39 a3=7 b3=39
+WRITE beat=28 t=4685000 cnt_128_ntt=31 CS=1 data1=2835 data2=3278 out_lo=3278 out_hi=2835 src_bank=0 src_a=6 src_b=38 a0=7 b0=39 a1=7 b1=39 a2=7 b2=39 a3=7 b3=39
+WRITE beat=29 t=4695000 cnt_128_ntt=32 CS=10 data1=1091 data2=497 out_lo=497 out_hi=1091 src_bank=2 src_a=7 src_b=39 a0=7 b0=39 a1=7 b1=39 a2=7 b2=39 a3=7 b3=39
+WRITE beat=30 t=4705000 cnt_128_ntt=33 CS=10 data1=659 data2=2652 out_lo=2652 out_hi=659 src_bank=0 src_a=7 src_b=39 a0=8 b0=40 a1=8 b1=40 a2=8 b2=40 a3=8 b3=40
+WRITE beat=31 t=4715000 cnt_128_ntt=34 CS=10 data1=506 data2=1000 out_lo=1000 out_hi=506 src_bank=2 src_a=7 src_b=39 a0=8 b0=40 a1=8 b1=40 a2=8 b2=40 a3=8 b3=40
+WRITE beat=32 t=4725000 cnt_128_ntt=35 CS=10 data1=803 data2=2964 out_lo=2964 out_hi=803 src_bank=1 src_a=7 src_b=39 a0=8 b0=40 a1=8 b1=40 a2=8 b2=40 a3=8 b3=40
+WRITE beat=33 t=4735000 cnt_128_ntt=36 CS=10 data1=231 data2=2869 out_lo=2869 out_hi=231 src_bank=3 src_a=8 src_b=40 a0=8 b0=40 a1=8 b1=40 a2=8 b2=40 a3=8 b3=40
+WRITE beat=34 t=4745000 cnt_128_ntt=37 CS=10 data1=1806 data2=186 out_lo=186 out_hi=1806 src_bank=1 src_a=8 src_b=40 a0=9 b0=41 a1=9 b1=41 a2=9 b2=41 a3=9 b3=41
+WRITE beat=35 t=4755000 cnt_128_ntt=38 CS=10 data1=2104 data2=1378 out_lo=1378 out_hi=2104 src_bank=3 src_a=8 src_b=40 a0=9 b0=41 a1=9 b1=41 a2=9 b2=41 a3=9 b3=41
+WRITE beat=36 t=4765000 cnt_128_ntt=39 CS=10 data1=613 data2=2236 out_lo=2236 out_hi=613 src_bank=1 src_a=8 src_b=40 a0=9 b0=41 a1=9 b1=41 a2=9 b2=41 a3=9 b3=41
+WRITE beat=37 t=4775000 cnt_128_ntt=40 CS=10 data1=606 data2=137 out_lo=137 out_hi=606 src_bank=3 src_a=9 src_b=41 a0=9 b0=41 a1=9 b1=41 a2=9 b2=41 a3=9 b3=41
+WRITE beat=38 t=4785000 cnt_128_ntt=41 CS=10 data1=2453 data2=3135 out_lo=3135 out_hi=2453 src_bank=1 src_a=9 src_b=41 a0=10 b0=42 a1=10 b1=42 a2=10 b2=42 a3=10 b3=42
+WRITE beat=39 t=4795000 cnt_128_ntt=42 CS=10 data1=2605 data2=1511 out_lo=1511 out_hi=2605 src_bank=3 src_a=9 src_b=41 a0=10 b0=42 a1=10 b1=42 a2=10 b2=42 a3=10 b3=42
+WRITE beat=40 t=4805000 cnt_128_ntt=43 CS=10 data1=2880 data2=1055 out_lo=1055 out_hi=2880 src_bank=1 src_a=9 src_b=41 a0=10 b0=42 a1=10 b1=42 a2=10 b2=42 a3=10 b3=42
+WRITE beat=41 t=4815000 cnt_128_ntt=44 CS=10 data1=614 data2=1893 out_lo=1893 out_hi=614 src_bank=3 src_a=10 src_b=42 a0=10 b0=42 a1=10 b1=42 a2=10 b2=42 a3=10 b3=42
+WRITE beat=42 t=4825000 cnt_128_ntt=45 CS=10 data1=1752 data2=3262 out_lo=3262 out_hi=1752 src_bank=1 src_a=10 src_b=42 a0=11 b0=43 a1=11 b1=43 a2=11 b2=43 a3=11 b3=43
+WRITE beat=43 t=4835000 cnt_128_ntt=46 CS=10 data1=533 data2=2343 out_lo=2343 out_hi=533 src_bank=3 src_a=10 src_b=42 a0=11 b0=43 a1=11 b1=43 a2=11 b2=43 a3=11 b3=43
+WRITE beat=44 t=4845000 cnt_128_ntt=47 CS=10 data1=1974 data2=1988 out_lo=1988 out_hi=1974 src_bank=1 src_a=10 src_b=42 a0=11 b0=43 a1=11 b1=43 a2=11 b2=43 a3=11 b3=43
+WRITE beat=45 t=4855000 cnt_128_ntt=48 CS=10 data1=2679 data2=2424 out_lo=2424 out_hi=2679 src_bank=3 src_a=11 src_b=43 a0=11 b0=43 a1=11 b1=43 a2=11 b2=43 a3=11 b3=43
+WRITE beat=46 t=4865000 cnt_128_ntt=49 CS=10 data1=1858 data2=2710 out_lo=2710 out_hi=1858 src_bank=1 src_a=11 src_b=43 a0=12 b0=44 a1=12 b1=44 a2=12 b2=44 a3=12 b3=44
+WRITE beat=47 t=4875000 cnt_128_ntt=50 CS=10 data1=1183 data2=30 out_lo=30 out_hi=1183 src_bank=3 src_a=11 src_b=43 a0=12 b0=44 a1=12 b1=44 a2=12 b2=44 a3=12 b3=44
+WRITE beat=48 t=4885000 cnt_128_ntt=51 CS=10 data1=558 data2=2842 out_lo=2842 out_hi=558 src_bank=1 src_a=11 src_b=43 a0=12 b0=44 a1=12 b1=44 a2=12 b2=44 a3=12 b3=44
+WRITE beat=49 t=4895000 cnt_128_ntt=52 CS=10 data1=316 data2=3280 out_lo=3280 out_hi=316 src_bank=3 src_a=12 src_b=44 a0=12 b0=44 a1=12 b1=44 a2=12 b2=44 a3=12 b3=44
+WRITE beat=50 t=4905000 cnt_128_ntt=53 CS=10 data1=2089 data2=1083 out_lo=1083 out_hi=2089 src_bank=1 src_a=12 src_b=44 a0=13 b0=45 a1=13 b1=45 a2=13 b2=45 a3=13 b3=45
+WRITE beat=51 t=4915000 cnt_128_ntt=54 CS=10 data1=2576 data2=772 out_lo=772 out_hi=2576 src_bank=3 src_a=12 src_b=44 a0=13 b0=45 a1=13 b1=45 a2=13 b2=45 a3=13 b3=45
+WRITE beat=52 t=4925000 cnt_128_ntt=55 CS=10 data1=931 data2=1345 out_lo=1345 out_hi=931 src_bank=1 src_a=12 src_b=44 a0=13 b0=45 a1=13 b1=45 a2=13 b2=45 a3=13 b3=45
+WRITE beat=53 t=4935000 cnt_128_ntt=56 CS=10 data1=1999 data2=2266 out_lo=2266 out_hi=1999 src_bank=3 src_a=13 src_b=45 a0=13 b0=45 a1=13 b1=45 a2=13 b2=45 a3=13 b3=45
+WRITE beat=54 t=4945000 cnt_128_ntt=57 CS=10 data1=1735 data2=1842 out_lo=1842 out_hi=1735 src_bank=1 src_a=13 src_b=45 a0=14 b0=46 a1=14 b1=46 a2=14 b2=46 a3=14 b3=46
+WRITE beat=55 t=4955000 cnt_128_ntt=58 CS=10 data1=2034 data2=873 out_lo=873 out_hi=2034 src_bank=3 src_a=13 src_b=45 a0=14 b0=46 a1=14 b1=46 a2=14 b2=46 a3=14 b3=46
+WRITE beat=56 t=4965000 cnt_128_ntt=59 CS=10 data1=2522 data2=1476 out_lo=1476 out_hi=2522 src_bank=1 src_a=13 src_b=45 a0=14 b0=46 a1=14 b1=46 a2=14 b2=46 a3=14 b3=46
+WRITE beat=57 t=4975000 cnt_128_ntt=60 CS=10 data1=1990 data2=3142 out_lo=3142 out_hi=1990 src_bank=3 src_a=14 src_b=46 a0=14 b0=46 a1=14 b1=46 a2=14 b2=46 a3=14 b3=46
+WRITE beat=58 t=4985000 cnt_128_ntt=61 CS=10 data1=70 data2=2695 out_lo=2695 out_hi=70 src_bank=1 src_a=14 src_b=46 a0=15 b0=47 a1=15 b1=47 a2=15 b2=47 a3=15 b3=47
+WRITE beat=59 t=4995000 cnt_128_ntt=62 CS=10 data1=3194 data2=2057 out_lo=2057 out_hi=3194 src_bank=3 src_a=14 src_b=46 a0=15 b0=47 a1=15 b1=47 a2=15 b2=47 a3=15 b3=47
+WRITE beat=60 t=5005000 cnt_128_ntt=63 CS=10 data1=2637 data2=1819 out_lo=1819 out_hi=2637 src_bank=1 src_a=14 src_b=46 a0=15 b0=47 a1=15 b1=47 a2=15 b2=47 a3=15 b3=47
+WRITE beat=61 t=5015000 cnt_128_ntt=64 CS=100 data1=818 data2=1510 out_lo=1510 out_hi=818 src_bank=3 src_a=15 src_b=47 a0=15 b0=47 a1=15 b1=47 a2=15 b2=47 a3=15 b3=47
+WRITE beat=62 t=5025000 cnt_128_ntt=65 CS=100 data1=987 data2=1046 out_lo=1046 out_hi=987 src_bank=1 src_a=15 src_b=47 a0=16 b0=48 a1=16 b1=48 a2=16 b2=48 a3=16 b3=48
+WRITE beat=63 t=5035000 cnt_128_ntt=66 CS=100 data1=3005 data2=3293 out_lo=3293 out_hi=3005 src_bank=3 src_a=15 src_b=47 a0=16 b0=48 a1=16 b1=48 a2=16 b2=48 a3=16 b3=48
+WRITE beat=64 t=5045000 cnt_128_ntt=67 CS=100 data1=2197 data2=1911 out_lo=1911 out_hi=2197 src_bank=1 src_a=15 src_b=47 a0=16 b0=48 a1=16 b1=48 a2=16 b2=48 a3=16 b3=48
+WRITE beat=65 t=5055000 cnt_128_ntt=68 CS=100 data1=2668 data2=2611 out_lo=2611 out_hi=2668 src_bank=3 src_a=16 src_b=48 a0=16 b0=48 a1=16 b1=48 a2=16 b2=48 a3=16 b3=48
+WRITE beat=66 t=5065000 cnt_128_ntt=69 CS=100 data1=2306 data2=1616 out_lo=1616 out_hi=2306 src_bank=1 src_a=16 src_b=48 a0=17 b0=49 a1=17 b1=49 a2=17 b2=49 a3=17 b3=49
+WRITE beat=67 t=5075000 cnt_128_ntt=70 CS=100 data1=883 data2=1703 out_lo=1703 out_hi=883 src_bank=3 src_a=16 src_b=48 a0=17 b0=49 a1=17 b1=49 a2=17 b2=49 a3=17 b3=49
+WRITE beat=68 t=5085000 cnt_128_ntt=71 CS=100 data1=517 data2=1656 out_lo=1656 out_hi=517 src_bank=1 src_a=16 src_b=48 a0=17 b0=49 a1=17 b1=49 a2=17 b2=49 a3=17 b3=49
+WRITE beat=69 t=5095000 cnt_128_ntt=72 CS=100 data1=2194 data2=2900 out_lo=2900 out_hi=2194 src_bank=3 src_a=17 src_b=49 a0=17 b0=49 a1=17 b1=49 a2=17 b2=49 a3=17 b3=49
+WRITE beat=70 t=5105000 cnt_128_ntt=73 CS=100 data1=1313 data2=163 out_lo=163 out_hi=1313 src_bank=1 src_a=17 src_b=49 a0=18 b0=50 a1=18 b1=50 a2=18 b2=50 a3=18 b3=50
+WRITE beat=71 t=5115000 cnt_128_ntt=74 CS=100 data1=2999 data2=718 out_lo=718 out_hi=2999 src_bank=3 src_a=17 src_b=49 a0=18 b0=50 a1=18 b1=50 a2=18 b2=50 a3=18 b3=50
+WRITE beat=72 t=5125000 cnt_128_ntt=75 CS=100 data1=2220 data2=54 out_lo=54 out_hi=2220 src_bank=1 src_a=17 src_b=49 a0=18 b0=50 a1=18 b1=50 a2=18 b2=50 a3=18 b3=50
+WRITE beat=73 t=5135000 cnt_128_ntt=76 CS=100 data1=1019 data2=914 out_lo=914 out_hi=1019 src_bank=3 src_a=18 src_b=50 a0=18 b0=50 a1=18 b1=50 a2=18 b2=50 a3=18 b3=50
+WRITE beat=74 t=5145000 cnt_128_ntt=77 CS=100 data1=3280 data2=3015 out_lo=3015 out_hi=3280 src_bank=1 src_a=18 src_b=50 a0=19 b0=51 a1=19 b1=51 a2=19 b2=51 a3=19 b3=51
+WRITE beat=75 t=5155000 cnt_128_ntt=78 CS=100 data1=905 data2=493 out_lo=493 out_hi=905 src_bank=3 src_a=18 src_b=50 a0=19 b0=51 a1=19 b1=51 a2=19 b2=51 a3=19 b3=51
+WRITE beat=76 t=5165000 cnt_128_ntt=79 CS=100 data1=2206 data2=683 out_lo=683 out_hi=2206 src_bank=1 src_a=18 src_b=50 a0=19 b0=51 a1=19 b1=51 a2=19 b2=51 a3=19 b3=51
+WRITE beat=77 t=5175000 cnt_128_ntt=80 CS=100 data1=2233 data2=3241 out_lo=3241 out_hi=2233 src_bank=3 src_a=19 src_b=51 a0=19 b0=51 a1=19 b1=51 a2=19 b2=51 a3=19 b3=51
+WRITE beat=78 t=5185000 cnt_128_ntt=81 CS=100 data1=1532 data2=1899 out_lo=1899 out_hi=1532 src_bank=1 src_a=19 src_b=51 a0=20 b0=52 a1=20 b1=52 a2=20 b2=52 a3=20 b3=52
+WRITE beat=79 t=5195000 cnt_128_ntt=82 CS=100 data1=777 data2=1824 out_lo=1824 out_hi=777 src_bank=3 src_a=19 src_b=51 a0=20 b0=52 a1=20 b1=52 a2=20 b2=52 a3=20 b3=52
+WRITE beat=80 t=5205000 cnt_128_ntt=83 CS=100 data1=2634 data2=460 out_lo=460 out_hi=2634 src_bank=1 src_a=19 src_b=51 a0=20 b0=52 a1=20 b1=52 a2=20 b2=52 a3=20 b3=52
+WRITE beat=81 t=5215000 cnt_128_ntt=84 CS=100 data1=2014 data2=1164 out_lo=1164 out_hi=2014 src_bank=3 src_a=20 src_b=52 a0=20 b0=52 a1=20 b1=52 a2=20 b2=52 a3=20 b3=52
+WRITE beat=82 t=5225000 cnt_128_ntt=85 CS=100 data1=2147 data2=2404 out_lo=2404 out_hi=2147 src_bank=1 src_a=20 src_b=52 a0=21 b0=53 a1=21 b1=53 a2=21 b2=53 a3=21 b3=53
+WRITE beat=83 t=5235000 cnt_128_ntt=86 CS=100 data1=1949 data2=1937 out_lo=1937 out_hi=1949 src_bank=3 src_a=20 src_b=52 a0=21 b0=53 a1=21 b1=53 a2=21 b2=53 a3=21 b3=53
+WRITE beat=84 t=5245000 cnt_128_ntt=87 CS=100 data1=3200 data2=1392 out_lo=1392 out_hi=3200 src_bank=1 src_a=20 src_b=52 a0=21 b0=53 a1=21 b1=53 a2=21 b2=53 a3=21 b3=53
+WRITE beat=85 t=5255000 cnt_128_ntt=88 CS=100 data1=1923 data2=415 out_lo=415 out_hi=1923 src_bank=3 src_a=21 src_b=53 a0=21 b0=53 a1=21 b1=53 a2=21 b2=53 a3=21 b3=53
+WRITE beat=86 t=5265000 cnt_128_ntt=89 CS=100 data1=461 data2=2513 out_lo=2513 out_hi=461 src_bank=1 src_a=21 src_b=53 a0=22 b0=54 a1=22 b1=54 a2=22 b2=54 a3=22 b3=54
+WRITE beat=87 t=5275000 cnt_128_ntt=90 CS=100 data1=1270 data2=3097 out_lo=3097 out_hi=1270 src_bank=3 src_a=21 src_b=53 a0=22 b0=54 a1=22 b1=54 a2=22 b2=54 a3=22 b3=54
+WRITE beat=88 t=5285000 cnt_128_ntt=91 CS=100 data1=2150 data2=3246 out_lo=3246 out_hi=2150 src_bank=1 src_a=21 src_b=53 a0=22 b0=54 a1=22 b1=54 a2=22 b2=54 a3=22 b3=54
+WRITE beat=89 t=5295000 cnt_128_ntt=92 CS=100 data1=3192 data2=2512 out_lo=2512 out_hi=3192 src_bank=3 src_a=22 src_b=54 a0=22 b0=54 a1=22 b1=54 a2=22 b2=54 a3=22 b3=54
+WRITE beat=90 t=5305000 cnt_128_ntt=93 CS=100 data1=2022 data2=2493 out_lo=2493 out_hi=2022 src_bank=1 src_a=22 src_b=54 a0=23 b0=55 a1=23 b1=55 a2=23 b2=55 a3=23 b3=55
+WRITE beat=91 t=5315000 cnt_128_ntt=94 CS=100 data1=1591 data2=3299 out_lo=3299 out_hi=1591 src_bank=3 src_a=22 src_b=54 a0=23 b0=55 a1=23 b1=55 a2=23 b2=55 a3=23 b3=55
+WRITE beat=92 t=5325000 cnt_128_ntt=95 CS=100 data1=3246 data2=645 out_lo=645 out_hi=3246 src_bank=1 src_a=22 src_b=54 a0=23 b0=55 a1=23 b1=55 a2=23 b2=55 a3=23 b3=55
+WRITE beat=93 t=5335000 cnt_128_ntt=96 CS=1000 data1=570 data2=2192 out_lo=2192 out_hi=570 src_bank=3 src_a=23 src_b=55 a0=23 b0=55 a1=23 b1=55 a2=23 b2=55 a3=23 b3=55
+WRITE beat=94 t=5345000 cnt_128_ntt=97 CS=1000 data1=2330 data2=3023 out_lo=3023 out_hi=2330 src_bank=1 src_a=23 src_b=55 a0=24 b0=56 a1=24 b1=56 a2=24 b2=56 a3=24 b3=56
+WRITE beat=95 t=5355000 cnt_128_ntt=98 CS=1000 data1=2795 data2=636 out_lo=636 out_hi=2795 src_bank=3 src_a=23 src_b=55 a0=24 b0=56 a1=24 b1=56 a2=24 b2=56 a3=24 b3=56
+WRITE beat=96 t=5365000 cnt_128_ntt=99 CS=1000 data1=3143 data2=2651 out_lo=2651 out_hi=3143 src_bank=0 src_a=23 src_b=55 a0=24 b0=56 a1=24 b1=56 a2=24 b2=56 a3=24 b3=56
+WRITE beat=97 t=5375000 cnt_128_ntt=100 CS=1000 data1=2718 data2=727 out_lo=727 out_hi=2718 src_bank=2 src_a=24 src_b=56 a0=24 b0=56 a1=24 b1=56 a2=24 b2=56 a3=24 b3=56
+WRITE beat=98 t=5385000 cnt_128_ntt=101 CS=1000 data1=1467 data2=2063 out_lo=2063 out_hi=1467 src_bank=0 src_a=24 src_b=56 a0=25 b0=57 a1=25 b1=57 a2=25 b2=57 a3=25 b3=57
+WRITE beat=99 t=5395000 cnt_128_ntt=102 CS=1000 data1=1985 data2=1544 out_lo=1544 out_hi=1985 src_bank=2 src_a=24 src_b=56 a0=25 b0=57 a1=25 b1=57 a2=25 b2=57 a3=25 b3=57
+WRITE beat=100 t=5405000 cnt_128_ntt=103 CS=1000 data1=531 data2=3236 out_lo=3236 out_hi=531 src_bank=0 src_a=24 src_b=56 a0=25 b0=57 a1=25 b1=57 a2=25 b2=57 a3=25 b3=57
+WRITE beat=101 t=5415000 cnt_128_ntt=104 CS=1000 data1=1586 data2=2354 out_lo=2354 out_hi=1586 src_bank=2 src_a=25 src_b=57 a0=25 b0=57 a1=25 b1=57 a2=25 b2=57 a3=25 b3=57
+WRITE beat=102 t=5425000 cnt_128_ntt=105 CS=1000 data1=658 data2=2282 out_lo=2282 out_hi=658 src_bank=0 src_a=25 src_b=57 a0=26 b0=58 a1=26 b1=58 a2=26 b2=58 a3=26 b3=58
+WRITE beat=103 t=5435000 cnt_128_ntt=106 CS=1000 data1=655 data2=295 out_lo=295 out_hi=655 src_bank=2 src_a=25 src_b=57 a0=26 b0=58 a1=26 b1=58 a2=26 b2=58 a3=26 b3=58
+WRITE beat=104 t=5445000 cnt_128_ntt=107 CS=1000 data1=2217 data2=1574 out_lo=1574 out_hi=2217 src_bank=0 src_a=25 src_b=57 a0=26 b0=58 a1=26 b1=58 a2=26 b2=58 a3=26 b3=58
+WRITE beat=105 t=5455000 cnt_128_ntt=108 CS=1000 data1=3234 data2=242 out_lo=242 out_hi=3234 src_bank=2 src_a=26 src_b=58 a0=26 b0=58 a1=26 b1=58 a2=26 b2=58 a3=26 b3=58
+WRITE beat=106 t=5465000 cnt_128_ntt=109 CS=1000 data1=1668 data2=1680 out_lo=1680 out_hi=1668 src_bank=0 src_a=26 src_b=58 a0=27 b0=59 a1=27 b1=59 a2=27 b2=59 a3=27 b3=59
+WRITE beat=107 t=5475000 cnt_128_ntt=110 CS=1000 data1=2946 data2=526 out_lo=526 out_hi=2946 src_bank=2 src_a=26 src_b=58 a0=27 b0=59 a1=27 b1=59 a2=27 b2=59 a3=27 b3=59
+WRITE beat=108 t=5485000 cnt_128_ntt=111 CS=1000 data1=36 data2=1496 out_lo=1496 out_hi=36 src_bank=0 src_a=26 src_b=58 a0=27 b0=59 a1=27 b1=59 a2=27 b2=59 a3=27 b3=59
+WRITE beat=109 t=5495000 cnt_128_ntt=112 CS=1000 data1=2145 data2=1984 out_lo=1984 out_hi=2145 src_bank=2 src_a=27 src_b=59 a0=27 b0=59 a1=27 b1=59 a2=27 b2=59 a3=27 b3=59
+WRITE beat=110 t=5505000 cnt_128_ntt=113 CS=1000 data1=1048 data2=3241 out_lo=3241 out_hi=1048 src_bank=0 src_a=27 src_b=59 a0=28 b0=60 a1=28 b1=60 a2=28 b2=60 a3=28 b3=60
+WRITE beat=111 t=5515000 cnt_128_ntt=114 CS=1000 data1=2825 data2=2217 out_lo=2217 out_hi=2825 src_bank=2 src_a=27 src_b=59 a0=28 b0=60 a1=28 b1=60 a2=28 b2=60 a3=28 b3=60
+WRITE beat=112 t=5525000 cnt_128_ntt=115 CS=1000 data1=1094 data2=164 out_lo=164 out_hi=1094 src_bank=0 src_a=27 src_b=59 a0=28 b0=60 a1=28 b1=60 a2=28 b2=60 a3=28 b3=60
+WRITE beat=113 t=5535000 cnt_128_ntt=116 CS=1000 data1=2159 data2=2042 out_lo=2042 out_hi=2159 src_bank=2 src_a=28 src_b=60 a0=28 b0=60 a1=28 b1=60 a2=28 b2=60 a3=28 b3=60
+WRITE beat=114 t=5545000 cnt_128_ntt=117 CS=1000 data1=524 data2=393 out_lo=393 out_hi=524 src_bank=0 src_a=28 src_b=60 a0=29 b0=61 a1=29 b1=61 a2=29 b2=61 a3=29 b3=61
+WRITE beat=115 t=5555000 cnt_128_ntt=118 CS=1000 data1=901 data2=1936 out_lo=1936 out_hi=901 src_bank=2 src_a=28 src_b=60 a0=29 b0=61 a1=29 b1=61 a2=29 b2=61 a3=29 b3=61
+WRITE beat=116 t=5565000 cnt_128_ntt=119 CS=1000 data1=1973 data2=1759 out_lo=1759 out_hi=1973 src_bank=0 src_a=28 src_b=60 a0=29 b0=61 a1=29 b1=61 a2=29 b2=61 a3=29 b3=61
+WRITE beat=117 t=5575000 cnt_128_ntt=120 CS=1000 data1=2158 data2=1679 out_lo=1679 out_hi=2158 src_bank=2 src_a=29 src_b=61 a0=29 b0=61 a1=29 b1=61 a2=29 b2=61 a3=29 b3=61
+WRITE beat=118 t=5585000 cnt_128_ntt=121 CS=1000 data1=1419 data2=831 out_lo=831 out_hi=1419 src_bank=0 src_a=29 src_b=61 a0=30 b0=62 a1=30 b1=62 a2=30 b2=62 a3=30 b3=62
+WRITE beat=119 t=5595000 cnt_128_ntt=122 CS=1000 data1=2334 data2=1182 out_lo=1182 out_hi=2334 src_bank=2 src_a=29 src_b=61 a0=30 b0=62 a1=30 b1=62 a2=30 b2=62 a3=30 b3=62
+WRITE beat=120 t=5605000 cnt_128_ntt=123 CS=1000 data1=1075 data2=2247 out_lo=2247 out_hi=1075 src_bank=0 src_a=29 src_b=61 a0=30 b0=62 a1=30 b1=62 a2=30 b2=62 a3=30 b3=62
+WRITE beat=121 t=5615000 cnt_128_ntt=124 CS=1000 data1=742 data2=544 out_lo=544 out_hi=742 src_bank=2 src_a=30 src_b=62 a0=30 b0=62 a1=30 b1=62 a2=30 b2=62 a3=30 b3=62
+WRITE beat=122 t=5625000 cnt_128_ntt=125 CS=1000 data1=149 data2=744 out_lo=744 out_hi=149 src_bank=0 src_a=30 src_b=62 a0=31 b0=63 a1=31 b1=63 a2=31 b2=63 a3=31 b3=63
+WRITE beat=123 t=5635000 cnt_128_ntt=126 CS=1000 data1=3105 data2=287 out_lo=287 out_hi=3105 src_bank=2 src_a=30 src_b=62 a0=31 b0=63 a1=31 b1=63 a2=31 b2=63 a3=31 b3=63
+WRITE beat=124 t=5645000 cnt_128_ntt=127 CS=1000 data1=630 data2=1972 out_lo=1972 out_hi=630 src_bank=0 src_a=30 src_b=62 a0=31 b0=63 a1=31 b1=63 a2=31 b2=63 a3=31 b3=63
+WRITE beat=125 t=5655000 cnt_128_ntt=128 CS=1000 data1=2776 data2=1573 out_lo=1573 out_hi=2776 src_bank=2 src_a=31 src_b=63 a0=31 b0=63 a1=31 b1=63 a2=31 b2=63 a3=31 b3=63
+WRITE beat=126 t=5665000 cnt_128_ntt=129 CS=1000 data1=2134 data2=1766 out_lo=1766 out_hi=2134 src_bank=0 src_a=31 src_b=63 a0=0 b0=32 a1=0 b1=32 a2=0 b2=32 a3=0 b3=32
+WRITE beat=127 t=5675000 cnt_128_ntt=130 CS=1000 data1=2303 data2=1889 out_lo=1889 out_hi=2303 src_bank=2 src_a=31 src_b=63 a0=0 b0=32 a1=0 b1=32 a2=0 b2=32 a3=0 b3=32

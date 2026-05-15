@@ -1,0 +1,102 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.gen/sources_1/ip/bank64_KAD_NTT/sim/bank64_KAD_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bank64_KAD_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.gen/sources_1/ip/ila_SHA3_Sample_Ctrl/sim/ila_SHA3_Sample_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_SHA3_Sample_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.gen/sources_1/ip/rom_tw_INTT_NTT/sim/rom_tw_INTT_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tw_INTT_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.gen/sources_1/ip/AXI_Data_FIFO/sim/AXI_Data_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_Data_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.gen/sources_1/ip/coefficient_mem/sim/coefficient_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coefficient_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU_PE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_PE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_mult_J_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_Q_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_mult_Q_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Addr_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/CSA_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSA_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/Top_control_source/Control_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KAD_NTT_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_mem_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KAD_NTT_mem_read
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_mem_write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KAD_NTT_mem_write
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/new/Kyber_PWM_zetas_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_PWM_zetas_v
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/new/Kyber_mul_and_reduce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_mul_and_reduce
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/Mont_Mult_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mont_Mult_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/Mont_Reduction_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mont_Reduction_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/new/PWA_PWS_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PWA_PWS_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/PWM_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PWM_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_Hash.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHA3_Hash
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/SHA3_Sample_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHA3_Sample_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_padder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHA3_padder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/SHA3_permutation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHA3_permutation
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/Top_control_source/Top_HW_ACC_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_HW_ACC_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/compute_switch_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_switch_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/compute_write_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_write_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/full_adder_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/keccak_FIFO_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_FIFO_read
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/keccak_constants.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_constants
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/keccak_round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/keccak_sha3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_sha3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/keccak_sample/keccak_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/PWM_source/mul_and_reduce_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_and_reduce_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/padder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module padder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/PWM_source/pwm_compute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pwm_compute
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/PWM_source/pwm_mem_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pwm_mem_read
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/rconst3in1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rconst3in1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/sources/Top_control_source/read_mem_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_mem_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/rom_tw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tw
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/imports/SHA3_gj+sample_wjr/SHA3.srcs/sources_1/imports/sha0627_2/round3in1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module round3in1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/top_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sources_1/new/KAD_HW_ACC_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KAD_HW_ACC_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/imports/sim/tb_KAD_NTT_Ctrl_compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_KAD_NTT_Ctrl_compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/new/tb_SHA_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_SHA_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/new/tb_Top_HW_ACC_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Top_HW_ACC_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/new/tb_mul_and_reduce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mul_and_reduce
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/new/tb_Top_HW_ACC_Ctrl_test_tse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Top_HW_ACC_Ctrl_test_tse
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/manual_xsim_iter1/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

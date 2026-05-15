@@ -192,10 +192,10 @@ wire		KAD_bank0_switch;
 wire		KAD_bank1_switch;
 wire		KAD_bank2_switch;
 wire		KAD_bank3_switch;
-assign KAD_bank0_switch = KAD_Mode ? (switch_delay[12] & ~rd_done_delay[0]) : switch;
-assign KAD_bank1_switch = KAD_Mode ? (switch_delay[13] & ~rd_done_delay[1]) : switch_d1;
-assign KAD_bank2_switch = KAD_Mode ? (switch_delay[14] & ~rd_done_delay[2]) : switch_d2;
-assign KAD_bank3_switch = KAD_Mode ? (switch_delay[15] & ~rd_done_delay[3]) : switch_d3;
+assign KAD_bank0_switch = KAD_Mode ? switch_delay[12] : switch;
+assign KAD_bank1_switch = KAD_Mode ? switch_delay[13] : switch_d1;
+assign KAD_bank2_switch = KAD_Mode ? switch_delay[14] : switch_d2;
+assign KAD_bank3_switch = KAD_Mode ? switch_delay[15] : switch_d3;
 
 //����ALU_out��bank_in��������?
 always @ (posedge clk or negedge rst_n) begin
@@ -219,7 +219,7 @@ always @ (posedge clk or negedge rst_n) begin
 		bank1_in <= 23'b0;
 	else begin
 		if(KAD_bank1_switch)//�Ƿ�Ϊ���һ��?
-            bank1_in <= ALU_out2;
+            bank1_in <= ALU_out1;
 		else//ǰ����ѭ����ֵ
 			case(bank1_cnt4)
 				2'b00: bank1_in <= ALU_out0;
@@ -235,7 +235,7 @@ always @ (posedge clk or negedge rst_n) begin
         bank2_in <= 23'b0;
     else begin
         if(KAD_bank2_switch)//�Ƿ�Ϊ���һ��?
-            bank2_in <= ALU_out1;
+            bank2_in <= ALU_out2;
         else//ǰ����ѭ����ֵ
             case(bank2_cnt4)
                 2'b00: bank2_in <= ALU_out0;

@@ -1,0 +1,5 @@
+﻿"check","result","matches","total","file"
+"input_write_vs_ml_kem_coe","PASS","256","256","E:\Project\MLDSA\simulation_artifacts\pqc1027_bank_maps\iter5_bank64_latency_match_ml\iter5_compare_pqc_write_vs_ml_kem_coe_summary.csv"
+"precompute_banks_vs_ml_init_coe","PASS","256","256","E:\Project\MLDSA\simulation_artifacts\pqc1027_bank_maps\iter5_bank64_latency_match_ml\iter5_compare_precompute_read_banks_vs_ml_init_summary.csv"
+"compute_banks_vs_ml_snapshot_sync_read","PASS","256","256","E:\Project\MLDSA\simulation_artifacts\pqc1027_bank_maps\iter5_bank64_latency_match_ml\iter5_compare_compute_banks_vs_ml_snapshot4_sync_read_summary.csv"
+"readout_sequence_vs_dut_out","PASS","256","256","E:\Project\MLDSA\simulation_artifacts\pqc1027_bank_maps\iter5_bank64_latency_match_ml\iter5_compare_readout_sequence_vs_dut_out_summary.csv"

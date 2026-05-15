@@ -326,9 +326,9 @@ module KAD_NTT_mem_read
 					coef_web_bram0   <= 'b1 ;    
 					
 					coef_addra_bram0	<= bram_addr ;
-					coef_dina_bram0		<= data_1 ;
+					coef_dina_bram0		<= data_2 ;
 					coef_addrb_bram0	<= bram_addr + 'd32 ;
-					coef_dinb_bram0		<= data_2 ;
+					coef_dinb_bram0		<= data_1 ;
 				end
 				S2: begin
 					coef_ena_bram0   <= 'b0 ;
@@ -340,9 +340,9 @@ module KAD_NTT_mem_read
 					coef_web_bram2   <= 'b1 ;
 					
 					coef_addra_bram2 <= bram_addr ;
-					coef_dina_bram2 <= data_1 ;
+					coef_dina_bram2 <= data_2 ;
 					coef_addrb_bram2 <= bram_addr + 'd32 ;
-					coef_dinb_bram2 <= data_2 ;
+					coef_dinb_bram2 <= data_1 ;
 				end
 				S3: begin
 					coef_ena_bram2   <= 'b0 ;
@@ -354,9 +354,9 @@ module KAD_NTT_mem_read
 					coef_web_bram1   <= 'b1 ;
 					
 					coef_addra_bram1 <= bram_addr ;
-					coef_dina_bram1 <= data_1 ;
+					coef_dina_bram1 <= data_2 ;
 					coef_addrb_bram1 <= bram_addr + 'd32 ;
-					coef_dinb_bram1 <= data_2 ;
+					coef_dinb_bram1 <= data_1 ;
 				end
 				S4: begin
 					coef_ena_bram1   <= 'b0 ;
@@ -368,9 +368,9 @@ module KAD_NTT_mem_read
 					coef_web_bram3   <= 'b1 ;    
 					
 					coef_addra_bram3 <= bram_addr ;
-					coef_dina_bram3 <= data_1 ;
+					coef_dina_bram3 <= data_2 ;
 					coef_addrb_bram3 <= bram_addr + 'd32 ;
-					coef_dinb_bram3 <= data_2 ;
+					coef_dinb_bram3 <= data_1 ;
 				end
 				LAST: begin
 					coef_ena_bram3		<= 'b0 ;

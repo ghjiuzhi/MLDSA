@@ -1,0 +1,94 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Programs/Xilinx2023/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L xbip_utils_v3_0_11 -L mult_gen_v12_0_19 -L c_reg_fd_v12_0_7 -L c_addsub_v12_0_18 -L c_gate_bit_v12_0_7 -L c_mux_bit_v12_0_7 -L c_shift_ram_v12_0_15 -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_KAD_NTT_Ctrl_compare_behav xil_defaultlib.tb_KAD_NTT_Ctrl_compare xil_defaultlib.glbl -log elaborate_manual_iter10_select_d2.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU_PE.v:130]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU_PE.v:130]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU_PE.v:130]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/ALU_PE.v:130]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_dina_bram0' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:360]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_doutb_bram0' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:364]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_dina_bram1' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:368]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_doutb_bram1' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:372]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_dina_bram2' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:376]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_doutb_bram2' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:380]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_dina_bram3' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:384]
+WARNING: [VRFC 10-3091] actual bit length 23 differs from formal bit length 12 for port 'coef_doutb_bram3' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:388]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 11 for port 'op1' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v:26]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 11 for port 'op2' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v:27]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 11 for port 'op3' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v:28]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 6 for port 'addra' [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/rtl/KAD_NTT/rtl/KAD_NTT_Ctrl.v:487]
+WARNING: [VRFC 10-5021] port 'sel' is not connected on this instance [E:/Project/MLDSA/PQC_PRJ_20251027/PQC_HW_ACC_IP/PQC_HW_ACC_IP.srcs/sim_1/imports/sim/tb_KAD_NTT_Ctrl_compare.v:81]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_11.xbip_utils_v3_0_11_pkg
+Compiling package xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv_comp
+Compiling package xbip_addsub_v3_0_7.xbip_addsub_v3_0_7_viv_comp
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_pkg
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_pkg_legacy
+Compiling package c_reg_fd_v12_0_7.c_reg_fd_v12_0_7_viv_comp
+Compiling package unisim.vcomponents
+Compiling module xil_defaultlib.KAD_NTT_mem_read
+Compiling module xil_defaultlib.Addr_Gen
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.rom_tw_INTT_NTT
+Compiling module xil_defaultlib.rom_tw
+Compiling module xil_defaultlib.full_adder_KAD
+Compiling module xil_defaultlib.CSA_KAD(adder_width=11)
+Compiling module xil_defaultlib.ALU_mult_J_KAD
+Compiling module xil_defaultlib.CSA_KAD(adder_width=24)
+Compiling module xil_defaultlib.ALU_mult_Q_KAD
+Compiling module xil_defaultlib.Mont_Reduction_KAD
+Compiling module xil_defaultlib.Mont_Mult_KAD
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_16.c_addsub_v12_0_16_lut6_legacy [\c_addsub_v12_0_16_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_fabric_legacy [\c_addsub_v12_0_16_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_legacy [\c_addsub_v12_0_16_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_viv [\c_addsub_v12_0_16_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_16.c_addsub_v12_0_16 [\c_addsub_v12_0_16(c_xdevicefami...]
+Compiling architecture pe_add_23bit_arch of entity xil_defaultlib.PE_add_23bit [pe_add_23bit_default]
+Compiling architecture rtl of entity c_addsub_v12_0_16.c_addsub_v12_0_16_lut6_legacy [\c_addsub_v12_0_16_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_fabric_legacy [\c_addsub_v12_0_16_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_legacy [\c_addsub_v12_0_16_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_viv [\c_addsub_v12_0_16_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_16.c_addsub_v12_0_16 [\c_addsub_v12_0_16(c_xdevicefami...]
+Compiling architecture pe_sub_24bit_arch of entity xil_defaultlib.PE_sub_24bit [pe_sub_24bit_default]
+Compiling architecture rtl of entity c_addsub_v12_0_16.c_addsub_v12_0_16_lut6_legacy [\c_addsub_v12_0_16_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_fabric_legacy [\c_addsub_v12_0_16_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_legacy [\c_addsub_v12_0_16_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_viv [\c_addsub_v12_0_16_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_16.c_addsub_v12_0_16 [\c_addsub_v12_0_16(c_xdevicefami...]
+Compiling architecture pe_add_halfp_arch of entity xil_defaultlib.PE_add_halfp [pe_add_halfp_default]
+Compiling architecture rtl of entity c_addsub_v12_0_16.c_addsub_v12_0_16_lut6_legacy [\c_addsub_v12_0_16_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_fabric_legacy [\c_addsub_v12_0_16_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_legacy [\c_addsub_v12_0_16_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_viv [\c_addsub_v12_0_16_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_16.c_addsub_v12_0_16 [\c_addsub_v12_0_16(c_xdevicefami...]
+Compiling architecture pe_sub_23bit_arch of entity xil_defaultlib.PE_sub_23bit [pe_sub_23bit_default]
+Compiling module xil_defaultlib.ALU_PE
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.top_NTT
+Compiling module xil_defaultlib.KAD_NTT_mem_write
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bank64_KAD_NTT
+Compiling module xil_defaultlib.KAD_NTT_Ctrl
+Compiling module xil_defaultlib.tb_KAD_NTT_Ctrl_compare
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_KAD_NTT_Ctrl_compare_behav

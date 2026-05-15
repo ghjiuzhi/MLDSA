@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/rom_tw_INTT_NTT/sim/rom_tw_INTT_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tw_INTT_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/bank64_3/sim/bank64_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bank64_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/bank64_2/sim/bank64_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bank64_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/bank64_1/sim/bank64_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bank64_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.gen/sources_1/ip/bank64_0/bank64_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bank64_0
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_v8_4_7
+INFO: [VRFC 10-311] analyzing module bank64_0_blk_mem_gen_v8_4_7_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/ALU_PE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_PE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/ALU_mult_J_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_mult_J_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/ALU_mult_Q_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_mult_Q_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Addr_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/CSA_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSA_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/Mont_Mult_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mont_Mult_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/Mont_Reduction_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mont_Reduction_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/Mont_Mult_KAD/full_adder_KAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_KAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/rom_tw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tw
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/rtl/top_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/project_1.srcs/sources_1/imports/scr/sim/tb_top_NTT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_NTT
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/manual_xsim_ml_probe/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [E:/Project/MLDSA/ML_KAD_NTT_vvv/project_1/manual_xsim_ml_probe/glbl.v:6]
